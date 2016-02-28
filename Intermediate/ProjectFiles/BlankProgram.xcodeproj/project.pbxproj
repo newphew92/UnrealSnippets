@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA5FBC7E924FCBC071A71BC5 /* BlankProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40484434DF97237918070117 /* BlankProgram.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D54DCBD49C92D1C8CECDB02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4570C8A0BE0207D3F896EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CBA4BA9DB6223EB12D0DBA0;
+			remoteInfo = BlankProgram_Build;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40484434DF97237918070117 /* BlankProgram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = BlankProgram.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/BlankProgram/Private/BlankProgram.cpp"; sourceTree = SOURCE_ROOT; };
+		62B58973FD916F4A1ECB9F84 /* BlankProgram-Mac-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "BlankProgram-Mac-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF1EB4E659A8BF798C986A9 /* BlankProgram.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = BlankProgram.Target.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/BlankProgram/BlankProgram.Target.cs"; sourceTree = SOURCE_ROOT; };
+		81617959D2D5DF7266118747 /* BlankProgram.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = BlankProgram.Build.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/BlankProgram/BlankProgram.Build.cs"; sourceTree = SOURCE_ROOT; };
+		C0366F22C26795D946B31889 /* BlankProgram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BlankProgram.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/BlankProgram/Private/BlankProgram.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5295F6732FE8E751E7958F3B = {
+			isa = PBXGroup;
+			children = (
+				63916A708FED34617ECC633D /* Private */,
+				6EF1EB4E659A8BF798C986A9 /* BlankProgram.Target.cs */,
+				81617959D2D5DF7266118747 /* BlankProgram.Build.cs */,
+				61F536D537A34EF5158A76E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61F536D537A34EF5158A76E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62B58973FD916F4A1ECB9F84 /* BlankProgram-Mac-Debug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63916A708FED34617ECC633D /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				40484434DF97237918070117 /* BlankProgram.cpp */,
+				C0366F22C26795D946B31889 /* BlankProgram.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		9CBA4BA9DB6223EB12D0DBA0 /* BlankProgram_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 34E5DD183E93C0BF641F7AC1 /* Build configuration list for PBXLegacyTarget "BlankProgram_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
+			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
+			dependencies = (
+			);
+			name = BlankProgram_Build;
+			passBuildSettingsInEnvironment = 1;
+			productName = BlankProgram_Build;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		3A25AE43936E8041B558208E /* BlankProgram_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E84402AC9F0F091DAE93E18 /* Build configuration list for PBXNativeTarget "BlankProgram_Index" */;
+			buildPhases = (
+				984B4141FE615365BE533776 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlankProgram_Index;
+			productName = BlankProgram_Index;
+			productType = "com.apple.product-type.library.static";
+		};
+		B6CE184AC3BF97C26D740DF8 /* BlankProgram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECB6FE8F411A226E26CB04C /* Build configuration list for PBXNativeTarget "BlankProgram" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB3F22DD76C498ABD503B89E /* PBXTargetDependency */,
+			);
+			name = BlankProgram;
+			productName = BlankProgram;
+			productReference = 62B58973FD916F4A1ECB9F84 /* BlankProgram-Mac-Debug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4570C8A0BE0207D3F896EB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+			};
+			buildConfigurationList = B3DF58A45099EADCC44E99B9 /* Build configuration list for PBXProject "BlankProgram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5295F6732FE8E751E7958F3B;
+			productRefGroup = 61F536D537A34EF5158A76E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6CE184AC3BF97C26D740DF8 /* BlankProgram */,
+				9CBA4BA9DB6223EB12D0DBA0 /* BlankProgram_Build */,
+				3A25AE43936E8041B558208E /* BlankProgram_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		984B4141FE615365BE533776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5FBC7E924FCBC071A71BC5 /* BlankProgram.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB3F22DD76C498ABD503B89E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CBA4BA9DB6223EB12D0DBA0 /* BlankProgram_Build */;
+			targetProxy = 0D54DCBD49C92D1C8CECDB02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		51AB0CC57260DAC1C769C90F /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Development;
+				UE_BUILD_TARGET_NAME = BlankProgram;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		55F752F8BB58997B08E5DEE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "BlankProgram-Mac-Debug";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		6215A420FFA4A3C81E0CDBE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "BlankProgram-Mac-Debug";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		A7A5528642297C0EBDC0EB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Debug;
+				UE_BUILD_TARGET_NAME = BlankProgram;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		BC32661AAF6F57DDD06AAFFC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PROGRAM=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=1",
+					"WITH_ENGINE=0",
+					"WITH_UNREAL_DEVELOPER_TOOLS=0",
+					"WITH_COREUOBJECT=0",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=0",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"UE_PROJECT_NAME=Network",
+					"ORIGINAL_FILE_NAME=BlankProgram",
+					"BLANKPROGRAM_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"PROJECTS_API=",
+					"JSON_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public ../Build/Mac/BlankProgram/Inc/BlankProgram /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/BlankProgram /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/BlankProgram/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/BlankProgram/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects";
+				USE_HEADERMAP = NO;
+			};
+			name = Development;
+		};
+		C3625F4E680EBAEA48562C73 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = BlankProgram;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		CB48DB269F349DA22A19CB07 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = BlankProgram;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		E9AC4E57A21DCE1E4F1C425B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PROGRAM=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=1",
+					"WITH_ENGINE=0",
+					"WITH_UNREAL_DEVELOPER_TOOLS=0",
+					"WITH_COREUOBJECT=0",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=0",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"UE_PROJECT_NAME=Network",
+					"ORIGINAL_FILE_NAME=BlankProgram",
+					"BLANKPROGRAM_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"PROJECTS_API=",
+					"JSON_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public ../Build/Mac/BlankProgram/Inc/BlankProgram /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/BlankProgram /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/BlankProgram/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/BlankProgram/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34E5DD183E93C0BF641F7AC1 /* Build configuration list for PBXLegacyTarget "BlankProgram_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A5528642297C0EBDC0EB8B /* Debug */,
+				51AB0CC57260DAC1C769C90F /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		7E84402AC9F0F091DAE93E18 /* Build configuration list for PBXNativeTarget "BlankProgram_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F752F8BB58997B08E5DEE8 /* Debug */,
+				C3625F4E680EBAEA48562C73 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B3DF58A45099EADCC44E99B9 /* Build configuration list for PBXProject "BlankProgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AC4E57A21DCE1E4F1C425B /* Debug */,
+				BC32661AAF6F57DDD06AAFFC /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		EECB6FE8F411A226E26CB04C /* Build configuration list for PBXNativeTarget "BlankProgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6215A420FFA4A3C81E0CDBE3 /* Debug */,
+				CB48DB269F349DA22A19CB07 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4570C8A0BE0207D3F896EB6 /* Project object */;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>UnrealCEFSubProcess.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>90386ABD769005A8866228AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F2F3062E93B62259B212068E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>848A75192CD4213F818BE786</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

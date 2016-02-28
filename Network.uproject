@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "23419058-0041-8E79-910A-26B076585D6C",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Network",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}

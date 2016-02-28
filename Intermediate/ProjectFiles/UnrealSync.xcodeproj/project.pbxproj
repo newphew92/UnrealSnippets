@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28E8A07131D380E06BEA0FEA /* UnrealSyncMainMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55510CF7ADA456F74C81DB65 /* UnrealSyncMainMac.cpp */; };
+		7655BCFFFAEB1D983EA5A625 /* UnrealSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DACB819DB1D0C7521295E9D1 /* UnrealSync.cpp */; };
+		7CAB3DF7F01ADCE3E01C42A7 /* P4Env.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F99E492DE9A12E08904A9EF5 /* P4Env.cpp */; };
+		9C86E371975EA8C292E3C76F /* P4DataCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93D5F634E51DF3F0CCB8A6C6 /* P4DataCache.cpp */; };
+		A9D7DFA11A4FC0D61AFD83F6 /* SyncingThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E792E898B508A7511993A /* SyncingThread.cpp */; };
+		AF59C9ACE99925310D487680 /* ProcessHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE08B1ECA42B594A117B05E6 /* ProcessHelper.cpp */; };
+		AFDED5829B40D43454E341E1 /* SettingsCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5B2E800EA9A27E4D9C3D7 /* SettingsCache.cpp */; };
+		EF3252D73489E742FB429B8D /* GUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6866B928306EC3BF27BC5025 /* GUI.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20CED19AE7D345F4E68C3E0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E40705822D95A23BAF1DC80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7466A60F91FA3BB629B1AEE0;
+			remoteInfo = UnrealSync_Build;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D87D23DDBB624F17C59870E /* GUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GUI.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/GUI.h"; sourceTree = SOURCE_ROOT; };
+		28023626AE61CB79ADF58AE5 /* P4Env.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P4Env.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/P4Env.h"; sourceTree = SOURCE_ROOT; };
+		29CC2DB4895BC0E08CB577A5 /* ProcessHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProcessHelper.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/ProcessHelper.h"; sourceTree = SOURCE_ROOT; };
+		3418E7F075C374634FF63988 /* UnrealSync.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = UnrealSync.Build.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/UnrealSync.Build.cs"; sourceTree = SOURCE_ROOT; };
+		3FF5B2E800EA9A27E4D9C3D7 /* SettingsCache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SettingsCache.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/SettingsCache.cpp"; sourceTree = SOURCE_ROOT; };
+		45B79B40F4A9855242F82693 /* SyncingThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SyncingThread.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/SyncingThread.h"; sourceTree = SOURCE_ROOT; };
+		4FC5EFA5B2EF84458B4B7593 /* SettingsCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SettingsCache.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/SettingsCache.h"; sourceTree = SOURCE_ROOT; };
+		55510CF7ADA456F74C81DB65 /* UnrealSyncMainMac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UnrealSyncMainMac.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/Mac/UnrealSyncMainMac.cpp"; sourceTree = SOURCE_ROOT; };
+		58535A3B90FB966A2D226B80 /* UnrealSync.ico */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = UnrealSync.ico; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Resources/Windows/UnrealSync.ico"; sourceTree = SOURCE_ROOT; };
+		62ACFD69815D15DD10468BAA /* UnrealSync.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = UnrealSync.Target.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/UnrealSync.Target.cs"; sourceTree = SOURCE_ROOT; };
+		6866B928306EC3BF27BC5025 /* GUI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = GUI.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/GUI.cpp"; sourceTree = SOURCE_ROOT; };
+		7F1E792E898B508A7511993A /* SyncingThread.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SyncingThread.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/SyncingThread.cpp"; sourceTree = SOURCE_ROOT; };
+		90E1EF212A9540E9AE695027 /* UnrealSync.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = UnrealSync.icns; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Resources/Mac/UnrealSync.icns"; sourceTree = SOURCE_ROOT; };
+		93D5F634E51DF3F0CCB8A6C6 /* P4DataCache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = P4DataCache.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/P4DataCache.cpp"; sourceTree = SOURCE_ROOT; };
+		961587358C73E02214E30BA8 /* LabelNameProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LabelNameProvider.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/LabelNameProvider.h"; sourceTree = SOURCE_ROOT; };
+		96EF9C8384F886B34D18A1B6 /* P4DataCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P4DataCache.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/P4DataCache.h"; sourceTree = SOURCE_ROOT; };
+		A686D0FB629E93D63CCDEEBD /* UnrealSyncMainWindows.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UnrealSyncMainWindows.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/Windows/UnrealSyncMainWindows.cpp"; sourceTree = SOURCE_ROOT; };
+		ADDE35F8884515420E1EB3B8 /* UnrealSync-Mac-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "UnrealSync-Mac-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE08B1ECA42B594A117B05E6 /* ProcessHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = ProcessHelper.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/ProcessHelper.cpp"; sourceTree = SOURCE_ROOT; };
+		C14CB8440F73A59F11756628 /* UnrealSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnrealSync.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/UnrealSync.h"; sourceTree = SOURCE_ROOT; };
+		D82DB908130D1809A9ADC9D7 /* UnrealSync.rc */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = UnrealSync.rc; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Resources/Windows/UnrealSync.rc"; sourceTree = SOURCE_ROOT; };
+		DACB819DB1D0C7521295E9D1 /* UnrealSync.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UnrealSync.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/UnrealSync.cpp"; sourceTree = SOURCE_ROOT; };
+		F99E492DE9A12E08904A9EF5 /* P4Env.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = P4Env.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync/Private/P4Env.cpp"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		520F88D66EAF84DEE45FCB86 = {
+			isa = PBXGroup;
+			children = (
+				6B5F393C57492566460BB6B8 /* Private */,
+				8DB6FB3C3D46D03CF1FF640A /* Resources */,
+				62ACFD69815D15DD10468BAA /* UnrealSync.Target.cs */,
+				3418E7F075C374634FF63988 /* UnrealSync.Build.cs */,
+				8B35DF40BE03C63B59E2FE5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5379BD8DD52037E832782E6D /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				A686D0FB629E93D63CCDEEBD /* UnrealSyncMainWindows.cpp */,
+			);
+			name = Windows;
+			path = Private/Windows;
+			sourceTree = "<group>";
+		};
+		6B5F393C57492566460BB6B8 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				C62330CFC70F3F3B39135946 /* Mac */,
+				5379BD8DD52037E832782E6D /* Windows */,
+				6866B928306EC3BF27BC5025 /* GUI.cpp */,
+				1D87D23DDBB624F17C59870E /* GUI.h */,
+				961587358C73E02214E30BA8 /* LabelNameProvider.h */,
+				93D5F634E51DF3F0CCB8A6C6 /* P4DataCache.cpp */,
+				96EF9C8384F886B34D18A1B6 /* P4DataCache.h */,
+				F99E492DE9A12E08904A9EF5 /* P4Env.cpp */,
+				28023626AE61CB79ADF58AE5 /* P4Env.h */,
+				AE08B1ECA42B594A117B05E6 /* ProcessHelper.cpp */,
+				29CC2DB4895BC0E08CB577A5 /* ProcessHelper.h */,
+				3FF5B2E800EA9A27E4D9C3D7 /* SettingsCache.cpp */,
+				4FC5EFA5B2EF84458B4B7593 /* SettingsCache.h */,
+				7F1E792E898B508A7511993A /* SyncingThread.cpp */,
+				45B79B40F4A9855242F82693 /* SyncingThread.h */,
+				DACB819DB1D0C7521295E9D1 /* UnrealSync.cpp */,
+				C14CB8440F73A59F11756628 /* UnrealSync.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		89A200D6B253725806F3E9DE /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				90E1EF212A9540E9AE695027 /* UnrealSync.icns */,
+			);
+			name = Mac;
+			path = Resources/Mac;
+			sourceTree = "<group>";
+		};
+		8B35DF40BE03C63B59E2FE5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADDE35F8884515420E1EB3B8 /* UnrealSync-Mac-Debug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C979125D4CD854EF4C34111 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				58535A3B90FB966A2D226B80 /* UnrealSync.ico */,
+				D82DB908130D1809A9ADC9D7 /* UnrealSync.rc */,
+			);
+			name = Windows;
+			path = Resources/Windows;
+			sourceTree = "<group>";
+		};
+		8DB6FB3C3D46D03CF1FF640A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89A200D6B253725806F3E9DE /* Mac */,
+				8C979125D4CD854EF4C34111 /* Windows */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C62330CFC70F3F3B39135946 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				55510CF7ADA456F74C81DB65 /* UnrealSyncMainMac.cpp */,
+			);
+			name = Mac;
+			path = Private/Mac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		7466A60F91FA3BB629B1AEE0 /* UnrealSync_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = CCDAC7D4D1B6FCD95D51ABB5 /* Build configuration list for PBXLegacyTarget "UnrealSync_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
+			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
+			dependencies = (
+			);
+			name = UnrealSync_Build;
+			passBuildSettingsInEnvironment = 1;
+			productName = UnrealSync_Build;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		33100D4AC7FC8E011A192681 /* UnrealSync_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3663EC5187E2FB30542CAD /* Build configuration list for PBXNativeTarget "UnrealSync_Index" */;
+			buildPhases = (
+				99B5D8848E78F93898D50512 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnrealSync_Index;
+			productName = UnrealSync_Index;
+			productType = "com.apple.product-type.library.static";
+		};
+		5AB9011954D2BF3B789B8FCA /* UnrealSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93694FCEAE9E75AEA817AAE3 /* Build configuration list for PBXNativeTarget "UnrealSync" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+				669C5D59946809958FDD3F9D /* PBXTargetDependency */,
+			);
+			name = UnrealSync;
+			productName = UnrealSync;
+			productReference = ADDE35F8884515420E1EB3B8 /* UnrealSync-Mac-Debug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E40705822D95A23BAF1DC80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+			};
+			buildConfigurationList = EDF1EE2C23ACC6B3B446A79B /* Build configuration list for PBXProject "UnrealSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 520F88D66EAF84DEE45FCB86;
+			productRefGroup = 8B35DF40BE03C63B59E2FE5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AB9011954D2BF3B789B8FCA /* UnrealSync */,
+				7466A60F91FA3BB629B1AEE0 /* UnrealSync_Build */,
+				33100D4AC7FC8E011A192681 /* UnrealSync_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99B5D8848E78F93898D50512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3252D73489E742FB429B8D /* GUI.cpp in Sources */,
+				9C86E371975EA8C292E3C76F /* P4DataCache.cpp in Sources */,
+				7CAB3DF7F01ADCE3E01C42A7 /* P4Env.cpp in Sources */,
+				AF59C9ACE99925310D487680 /* ProcessHelper.cpp in Sources */,
+				AFDED5829B40D43454E341E1 /* SettingsCache.cpp in Sources */,
+				A9D7DFA11A4FC0D61AFD83F6 /* SyncingThread.cpp in Sources */,
+				7655BCFFFAEB1D983EA5A625 /* UnrealSync.cpp in Sources */,
+				28E8A07131D380E06BEA0FEA /* UnrealSyncMainMac.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		669C5D59946809958FDD3F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7466A60F91FA3BB629B1AEE0 /* UnrealSync_Build */;
+			targetProxy = 20CED19AE7D345F4E68C3E0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4EBACE5B46703A3114EBB808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "UnrealSync-Mac-Debug";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		5184B40B6CFE9C8E2567A1ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PROGRAM=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=1",
+					"WITH_ENGINE=0",
+					"WITH_UNREAL_DEVELOPER_TOOLS=0",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=1",
+					"WITH_PLUGIN_SUPPORT=1",
+					"USE_LOGGING_IN_SHIPPING=1",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=0",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"UE_PROJECT_NAME=Network",
+					"ORIGINAL_FILE_NAME=UnrealSync",
+					"UNREALSYNC_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=0",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"PROJECTS_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATE_API=",
+					"COREUOBJECT_API=",
+					"INPUTCORE_API=",
+					"SLATECORE_API=",
+					"STANDALONERENDERER_API=",
+					"XMLPARSER_API=",
+					"DESKTOPPLATFORM_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public ../Build/Mac/UnrealSync/Inc/UnrealSync /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/UnrealSync/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/UnrealSync/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views ../Build/Mac/UnrealSync/Inc/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject ../Build/Mac/UnrealSync/Inc/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public ../Build/Mac/UnrealSync/Inc/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets ../Build/Mac/UnrealSync/Inc/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS ../Build/Mac/UnrealSync/Inc/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/XmlParser/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser/Public ../Build/Mac/UnrealSync/Inc/XmlParser /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform/Public ../Build/Mac/UnrealSync/Inc/DesktopPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		8348B82C9295002847FB346C /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PROGRAM=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=1",
+					"WITH_ENGINE=0",
+					"WITH_UNREAL_DEVELOPER_TOOLS=0",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=1",
+					"WITH_PLUGIN_SUPPORT=1",
+					"USE_LOGGING_IN_SHIPPING=1",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=0",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"UE_PROJECT_NAME=Network",
+					"ORIGINAL_FILE_NAME=UnrealSync",
+					"UNREALSYNC_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=0",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"PROJECTS_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATE_API=",
+					"COREUOBJECT_API=",
+					"INPUTCORE_API=",
+					"SLATECORE_API=",
+					"STANDALONERENDERER_API=",
+					"XMLPARSER_API=",
+					"DESKTOPPLATFORM_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public ../Build/Mac/UnrealSync/Inc/UnrealSync /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealSync /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/UnrealSync/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/UnrealSync/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views ../Build/Mac/UnrealSync/Inc/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject ../Build/Mac/UnrealSync/Inc/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public ../Build/Mac/UnrealSync/Inc/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets ../Build/Mac/UnrealSync/Inc/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS ../Build/Mac/UnrealSync/Inc/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/XmlParser/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser/Public ../Build/Mac/UnrealSync/Inc/XmlParser /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform/Public ../Build/Mac/UnrealSync/Inc/DesktopPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform";
+				USE_HEADERMAP = NO;
+			};
+			name = Development;
+		};
+		9DE629A0EE0BA4EB4747E91D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Development;
+				UE_BUILD_TARGET_NAME = UnrealSync;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		AD2F289279EABDFE96BA62C5 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UnrealSync;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		CC85F5B0806C427011283CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "UnrealSync-Mac-Debug";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		D600506C6593EEB62FCDEF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Debug;
+				UE_BUILD_TARGET_NAME = UnrealSync;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		DBC1249ACDC7F2528562AD16 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UnrealSync;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3663EC5187E2FB30542CAD /* Build configuration list for PBXNativeTarget "UnrealSync_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBACE5B46703A3114EBB808 /* Debug */,
+				DBC1249ACDC7F2528562AD16 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		93694FCEAE9E75AEA817AAE3 /* Build configuration list for PBXNativeTarget "UnrealSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC85F5B0806C427011283CB8 /* Debug */,
+				AD2F289279EABDFE96BA62C5 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		CCDAC7D4D1B6FCD95D51ABB5 /* Build configuration list for PBXLegacyTarget "UnrealSync_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D600506C6593EEB62FCDEF3A /* Debug */,
+				9DE629A0EE0BA4EB4747E91D /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		EDF1EE2C23ACC6B3B446A79B /* Build configuration list for PBXProject "UnrealSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5184B40B6CFE9C8E2567A1ED /* Debug */,
+				8348B82C9295002847FB346C /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E40705822D95A23BAF1DC80 /* Project object */;
+}

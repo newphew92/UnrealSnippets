@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00EBBCB5F99EBFB7978A05FD /* TestDirectoryWatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DF8024DA1274A94B92BBA52 /* TestDirectoryWatcher.cpp */; };
+		56F3AC67566758D6298391F5 /* Parent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A96957D822F957F6486ECAEF /* Parent.cpp */; };
+		F5E66A6668FD4250D492689E /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC1859B94C32271CF254788 /* Main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6BFE05A97EE4585B6EC7A59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DBB7727FFF3A67C63B5B029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3A4190ADE8C7DB293373E7D;
+			remoteInfo = TestPAL_Build;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DF8024DA1274A94B92BBA52 /* TestDirectoryWatcher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = TestDirectoryWatcher.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/TestPAL/Private/TestDirectoryWatcher.cpp"; sourceTree = SOURCE_ROOT; };
+		3C369DF99F5272C9721C0DE5 /* TestPAL.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = TestPAL.Target.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/TestPAL/TestPAL.Target.cs"; sourceTree = SOURCE_ROOT; };
+		51DAF96C3A92752C2F8FF22B /* Parent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Parent.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/TestPAL/Private/Parent.h"; sourceTree = SOURCE_ROOT; };
+		88B10D7AB1CC254B3469DD9D /* TestPAL.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = TestPAL.Build.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/TestPAL/TestPAL.Build.cs"; sourceTree = SOURCE_ROOT; };
+		958BEE8BFD683627E2909FBD /* TestDirectoryWatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestDirectoryWatcher.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/TestPAL/Private/TestDirectoryWatcher.h"; sourceTree = SOURCE_ROOT; };
+		A96957D822F957F6486ECAEF /* Parent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Parent.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/TestPAL/Private/Parent.cpp"; sourceTree = SOURCE_ROOT; };
+		AAC516318FF7B56250C47BC8 /* TestPAL-Mac-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "TestPAL-Mac-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC1859B94C32271CF254788 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Main.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/TestPAL/Private/Main.cpp"; sourceTree = SOURCE_ROOT; };
+		B1E78EBDB5C156C759E28648 /* PrivatePCH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrivatePCH.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/TestPAL/Private/PrivatePCH.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5760BF37E9C872AE1630D23C /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				AFC1859B94C32271CF254788 /* Main.cpp */,
+				A96957D822F957F6486ECAEF /* Parent.cpp */,
+				51DAF96C3A92752C2F8FF22B /* Parent.h */,
+				B1E78EBDB5C156C759E28648 /* PrivatePCH.h */,
+				1DF8024DA1274A94B92BBA52 /* TestDirectoryWatcher.cpp */,
+				958BEE8BFD683627E2909FBD /* TestDirectoryWatcher.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		829A1959A0CCDDBF68DA769F = {
+			isa = PBXGroup;
+			children = (
+				5760BF37E9C872AE1630D23C /* Private */,
+				3C369DF99F5272C9721C0DE5 /* TestPAL.Target.cs */,
+				88B10D7AB1CC254B3469DD9D /* TestPAL.Build.cs */,
+				AEEFF25172F98F208A7D6004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEEFF25172F98F208A7D6004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAC516318FF7B56250C47BC8 /* TestPAL-Mac-Debug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		E3A4190ADE8C7DB293373E7D /* TestPAL_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = E4A65AF9EB29C48721664063 /* Build configuration list for PBXLegacyTarget "TestPAL_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
+			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
+			dependencies = (
+			);
+			name = TestPAL_Build;
+			passBuildSettingsInEnvironment = 1;
+			productName = TestPAL_Build;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		59B5C2135A2616F2441876F3 /* TestPAL_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53BA6296EC8C67386994CE8 /* Build configuration list for PBXNativeTarget "TestPAL_Index" */;
+			buildPhases = (
+				7159533A6180B83597C7A465 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestPAL_Index;
+			productName = TestPAL_Index;
+			productType = "com.apple.product-type.library.static";
+		};
+		93FF3FEF64A48F427AC5DF88 /* TestPAL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21C9EF43CC501F2E830AE7B /* Build configuration list for PBXNativeTarget "TestPAL" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+				749CC0EB2970E7520A108867 /* PBXTargetDependency */,
+			);
+			name = TestPAL;
+			productName = TestPAL;
+			productReference = AAC516318FF7B56250C47BC8 /* TestPAL-Mac-Debug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DBB7727FFF3A67C63B5B029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+			};
+			buildConfigurationList = C96A576C204C38CC306724B0 /* Build configuration list for PBXProject "TestPAL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 829A1959A0CCDDBF68DA769F;
+			productRefGroup = AEEFF25172F98F208A7D6004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93FF3FEF64A48F427AC5DF88 /* TestPAL */,
+				E3A4190ADE8C7DB293373E7D /* TestPAL_Build */,
+				59B5C2135A2616F2441876F3 /* TestPAL_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7159533A6180B83597C7A465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E66A6668FD4250D492689E /* Main.cpp in Sources */,
+				56F3AC67566758D6298391F5 /* Parent.cpp in Sources */,
+				00EBBCB5F99EBFB7978A05FD /* TestDirectoryWatcher.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		749CC0EB2970E7520A108867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3A4190ADE8C7DB293373E7D /* TestPAL_Build */;
+			targetProxy = B6BFE05A97EE4585B6EC7A59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DF84899BD700FB99B23E079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "TestPAL-Mac-Debug";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		26825E93A19F2AC465951E34 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PROGRAM=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=1",
+					"WITH_ENGINE=0",
+					"WITH_UNREAL_DEVELOPER_TOOLS=0",
+					"WITH_COREUOBJECT=0",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=1",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=0",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"UE_PROJECT_NAME=Network",
+					"ORIGINAL_FILE_NAME=TestPAL",
+					"TESTPAL_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=0",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"PROJECTS_API=",
+					"JSON_API=",
+					"DIRECTORYWATCHER_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public ../Build/Mac/TestPAL/Inc/TestPAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/TestPAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/TestPAL/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/TestPAL/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DirectoryWatcher/Public ../Build/Mac/TestPAL/Inc/DirectoryWatcher /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DirectoryWatcher";
+				USE_HEADERMAP = NO;
+			};
+			name = Development;
+		};
+		5AE75A36D70425053A15E747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "TestPAL-Mac-Debug";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		79A35EE8214007E74B8D7724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Debug;
+				UE_BUILD_TARGET_NAME = TestPAL;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		92D7CEB4B0D6E5CC703518DF /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = TestPAL;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		BB8C47C9052EAB55C2E4C19E /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Development;
+				UE_BUILD_TARGET_NAME = TestPAL;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		DA4DDC97D7F1C0EFF4B8BE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PROGRAM=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=1",
+					"WITH_ENGINE=0",
+					"WITH_UNREAL_DEVELOPER_TOOLS=0",
+					"WITH_COREUOBJECT=0",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=1",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=0",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"UE_PROJECT_NAME=Network",
+					"ORIGINAL_FILE_NAME=TestPAL",
+					"TESTPAL_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=0",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"PROJECTS_API=",
+					"JSON_API=",
+					"DIRECTORYWATCHER_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public ../Build/Mac/TestPAL/Inc/TestPAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/TestPAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/TestPAL/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/TestPAL/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DirectoryWatcher/Public ../Build/Mac/TestPAL/Inc/DirectoryWatcher /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DirectoryWatcher";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		E27445AC62B2BE88DA1306E5 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = TestPAL;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C21C9EF43CC501F2E830AE7B /* Build configuration list for PBXNativeTarget "TestPAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE75A36D70425053A15E747 /* Debug */,
+				92D7CEB4B0D6E5CC703518DF /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		C96A576C204C38CC306724B0 /* Build configuration list for PBXProject "TestPAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4DDC97D7F1C0EFF4B8BE30 /* Debug */,
+				26825E93A19F2AC465951E34 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		D53BA6296EC8C67386994CE8 /* Build configuration list for PBXNativeTarget "TestPAL_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF84899BD700FB99B23E079 /* Debug */,
+				E27445AC62B2BE88DA1306E5 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		E4A65AF9EB29C48721664063 /* Build configuration list for PBXLegacyTarget "TestPAL_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A35EE8214007E74B8D7724 /* Debug */,
+				BB8C47C9052EAB55C2E4C19E /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DBB7727FFF3A67C63B5B029 /* Project object */;
+}

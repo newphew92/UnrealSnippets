@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B819B8BD94DBA40D9F11FD /* UnrealLightmass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8CDF28C33C05748D9B6D19A /* UnrealLightmass.cpp */; };
+		0EECF479929CC35E538CA4CF /* LMMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87855D2649CA8A532FFEF5AF /* LMMath.cpp */; };
+		0F3BA9EAB80F03E41209E7AF /* CPUSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB9C9A27FDAD62B4EA6EC4 /* CPUSolver.cpp */; };
+		18FAA0E1A9E262C73360EB26 /* LMDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58303F7D889FCC5E00BE287C /* LMDebug.cpp */; };
+		27D27BA9D755B924CCE4C0BD /* 3DVisualizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42321409188BE2A975ADC9D1 /* 3DVisualizer.cpp */; };
+		2C7937447A9EBCDE153A7039 /* SampleVolume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6832DBA07E92CF7C4458B8B /* SampleVolume.cpp */; };
+		3EC87536CE3EF842807A4D81 /* LightmassScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEA50C801E0B1CBEC84EF927 /* LightmassScene.cpp */; };
+		4795C2942775CC7A09A949FE /* Exporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC61D93940A0E2B888177CD1 /* Exporter.cpp */; };
+		4E0BDCBDB16EAEA60134F966 /* LightmapData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD65345790E7A87264A1CE8C /* LightmapData.cpp */; };
+		5607E83AF6805A6358213EE2 /* PrecomputedVisibility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 412DCCA3EC46EBA44478F1AD /* PrecomputedVisibility.cpp */; };
+		5799D2F7CA84CD13FAC9AABB /* StaticMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66D5D9188C8B70DDF0B55B4E /* StaticMesh.cpp */; };
+		5E49465DFD55FEA1E408AA0D /* Landscape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD0E6FB9939F26B4C775EAD6 /* Landscape.cpp */; };
+		5F5660C31A6F7DAD3D50755F /* Mappings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9976024C4DCA8823D8E9C884 /* Mappings.cpp */; };
+		66E9ABF5FDD8FF2F19F18DBC /* Importer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7596F02B6DC8B68B50246830 /* Importer.cpp */; };
+		66FEB5F959A74983F9598473 /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF8EFD3865EF3768B6BF370A /* Mesh.cpp */; };
+		77DF6F93762E75AE9E33E676 /* TextureMapping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EC21140114BA347EC3C7296 /* TextureMapping.cpp */; };
+		7A74242DB0C09BA7C6AB7CB8 /* UnitTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0D3E252E3D802AB94D56785 /* UnitTest.cpp */; };
+		833FD2216E9A8F1BE3F7416D /* SFMT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CB53D527C2B62F43CEEAC7 /* SFMT.cpp */; };
+		862F19735946921F3DA0CDA4 /* FinalGather.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2FA3967B26E7BBA9D7F759D /* FinalGather.cpp */; };
+		96C237B1BEAAE47C49CF8CFA /* LightingMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4EBC0F14D1C7448E50AFFDD /* LightingMesh.cpp */; };
+		9BCA5766205617758DDC52C1 /* MonteCarlo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADB62414F4D688B59DB5F82A /* MonteCarlo.cpp */; };
+		B28DA89D5505DB3B6CD9BF68 /* LMCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF610A04EACFAEBC001B010A /* LMCore.cpp */; };
+		BAF949C08E009CE5D22CB006 /* PhotonMapping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1E9902EEF81D248B664200 /* PhotonMapping.cpp */; };
+		BBBEFEF5B7BA718BB85DA5E0 /* FluidSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 307F1032733F82209F1ADAF6 /* FluidSurface.cpp */; };
+		BF1E84E5A3D44597DC674F4D /* Cache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09478B9FEEAFEB28F2766DDF /* Cache.cpp */; };
+		C28AAB8397EF62DE7B29DEA0 /* BSP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 517F3B6F697815A1E3933B01 /* BSP.cpp */; };
+		D129EB180D86F023BF3E1C65 /* Material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3122C38D1FB0D1E5ED4E3092 /* Material.cpp */; };
+		D40E5F14A39A4917C7A2C1F5 /* VolumeDistanceField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E062A0F0E2938EBF012D10B /* VolumeDistanceField.cpp */; };
+		D41BC0751F315EF0CF4DF287 /* LightmassSwarm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D488BAF7CBE0F50B8BB15C82 /* LightmassSwarm.cpp */; };
+		DC520340754222FFED3CC8FC /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20BFFECC9C551EE237FED7DA /* stdafx.cpp */; };
+		E897E4F015762749B0A5D8F4 /* Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1FD3F36097A4AF079C85A43 /* Collision.cpp */; };
+		EDF032A95A2FCFB6B5CA7636 /* LMThreading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C13FD4CC87D7B1F55C8A0525 /* LMThreading.cpp */; };
+		F6A8C7EC27B9428BC2590F66 /* LightingSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1A9BAA8B856C82BCC50A692 /* LightingSystem.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFED5BE9B3B1975C48288AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06EB3935F342265FBC3F8173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C3F4D653187E5F95CDBCE3C;
+			remoteInfo = UnrealLightmass_Build;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010C78D191AB0757B4283886 /* Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = Win32.manifest; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Resources/Win32.manifest"; sourceTree = SOURCE_ROOT; };
+		09478B9FEEAFEB28F2766DDF /* Cache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Cache.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Cache.cpp"; sourceTree = SOURCE_ROOT; };
+		0BDB9C9A27FDAD62B4EA6EC4 /* CPUSolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CPUSolver.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver/CPUSolver.cpp"; sourceTree = SOURCE_ROOT; };
+		1761EF52D14CAE6DE0B6C1C0 /* Raster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Raster.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Raster.h"; sourceTree = SOURCE_ROOT; };
+		1ED68930CDC4CDBAE8F84CC8 /* Texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Texture.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Texture.h"; sourceTree = SOURCE_ROOT; };
+		209005EEDA1E6E3F73685EAE /* LMMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LMMath.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMMath.h"; sourceTree = SOURCE_ROOT; };
+		20BFFECC9C551EE237FED7DA /* stdafx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = stdafx.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Launch/stdafx.cpp"; sourceTree = SOURCE_ROOT; };
+		239CB261BF8B21B7F902917B /* LightmassScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LightmassScene.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/LightmassScene.h"; sourceTree = SOURCE_ROOT; };
+		27578D0855CC7B6DA63FF993 /* LMQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LMQueue.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates/LMQueue.h"; sourceTree = SOURCE_ROOT; };
+		307F1032733F82209F1ADAF6 /* FluidSurface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = FluidSurface.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/FluidSurface.cpp"; sourceTree = SOURCE_ROOT; };
+		3122C38D1FB0D1E5ED4E3092 /* Material.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Material.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Material.cpp"; sourceTree = SOURCE_ROOT; };
+		3246836F21E09BDF813BEF27 /* Importer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Importer.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Importer.h"; sourceTree = SOURCE_ROOT; };
+		3E062A0F0E2938EBF012D10B /* VolumeDistanceField.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = VolumeDistanceField.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/VolumeDistanceField.cpp"; sourceTree = SOURCE_ROOT; };
+		412DCCA3EC46EBA44478F1AD /* PrecomputedVisibility.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = PrecomputedVisibility.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/PrecomputedVisibility.cpp"; sourceTree = SOURCE_ROOT; };
+		41618096584894A48FBB04D8 /* SceneExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SceneExport.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Public/SceneExport.h"; sourceTree = SOURCE_ROOT; };
+		42321409188BE2A975ADC9D1 /* 3DVisualizer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = 3DVisualizer.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/3DVisualizer.cpp"; sourceTree = SOURCE_ROOT; };
+		42FA05783CD674C79CA38695 /* Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = Win64.manifest; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Resources/Win64.manifest"; sourceTree = SOURCE_ROOT; };
+		43CBB3C844AFA2D566831076 /* LMStats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LMStats.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMStats.h"; sourceTree = SOURCE_ROOT; };
+		45AA8B7A64C66623EDA3360C /* Cache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Cache.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Cache.h"; sourceTree = SOURCE_ROOT; };
+		479D68822F41EC5455583633 /* FluidSurface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FluidSurface.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/FluidSurface.h"; sourceTree = SOURCE_ROOT; };
+		47FE7F400944A8E8D139FB68 /* LMkDOP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LMkDOP.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMkDOP.h"; sourceTree = SOURCE_ROOT; };
+		4BBA29B48B09B494137A9A7A /* LightingMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LightingMesh.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingMesh.h"; sourceTree = SOURCE_ROOT; };
+		517F3B6F697815A1E3933B01 /* BSP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = BSP.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/BSP.cpp"; sourceTree = SOURCE_ROOT; };
+		531313A44973F30D92F7BA77 /* Debug-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Resources/Debug-Win32.manifest"; sourceTree = SOURCE_ROOT; };
+		53C9235E3B224E24BA3AA870 /* ImportExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImportExport.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Public/ImportExport.h"; sourceTree = SOURCE_ROOT; };
+		5423146E5CDF0D3E9616B539 /* Mappings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Mappings.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Mappings.h"; sourceTree = SOURCE_ROOT; };
+		56153430FE78AD891CE72952 /* Material.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Material.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Material.h"; sourceTree = SOURCE_ROOT; };
+		56422CAD47EF8F1906F119B2 /* Mersenne Prime Twister (SSE version).tps */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Mersenne Prime Twister (SSE version).tps"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/Mersenne Prime Twister (SSE version).tps"; sourceTree = SOURCE_ROOT; };
+		58303F7D889FCC5E00BE287C /* LMDebug.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LMDebug.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMDebug.cpp"; sourceTree = SOURCE_ROOT; };
+		5EC21140114BA347EC3C7296 /* TextureMapping.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = TextureMapping.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/TextureMapping.cpp"; sourceTree = SOURCE_ROOT; };
+		5FE4D79E3A35A9C7CCC4E6D4 /* FluidExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FluidExport.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Public/FluidExport.h"; sourceTree = SOURCE_ROOT; };
+		64A0745E66B79914099B0128 /* Lighting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Lighting.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Lighting.h"; sourceTree = SOURCE_ROOT; };
+		661024185946AB77A5884345 /* Debug-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Resources/Debug-Win64.manifest"; sourceTree = SOURCE_ROOT; };
+		66D5D9188C8B70DDF0B55B4E /* StaticMesh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = StaticMesh.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/StaticMesh.cpp"; sourceTree = SOURCE_ROOT; };
+		67ED05AAF4D0715FF727F4F3 /* MaterialExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MaterialExport.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Public/MaterialExport.h"; sourceTree = SOURCE_ROOT; };
+		69480268A40176A416A94B70 /* LightmassPublic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LightmassPublic.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Public/LightmassPublic.h"; sourceTree = SOURCE_ROOT; };
+		6B7AC98EDF79AEC572E606B8 /* LMMathSSE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LMMathSSE.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMMathSSE.h"; sourceTree = SOURCE_ROOT; };
+		6CA82BC0E954A7E03F8A8F97 /* resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = resource.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Resources/resource.h"; sourceTree = SOURCE_ROOT; };
+		7596F02B6DC8B68B50246830 /* Importer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Importer.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Importer.cpp"; sourceTree = SOURCE_ROOT; };
+		8149FBAFA8536024631BC5AC /* UnitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnitTest.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Launch/UnitTest.h"; sourceTree = SOURCE_ROOT; };
+		84CB53D527C2B62F43CEEAC7 /* SFMT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SFMT.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/SFMT.cpp"; sourceTree = SOURCE_ROOT; };
+		87855D2649CA8A532FFEF5AF /* LMMath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LMMath.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMMath.cpp"; sourceTree = SOURCE_ROOT; };
+		8A3CF03F547337D3A0019E19 /* BuildOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BuildOptions.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/BuildOptions.h"; sourceTree = SOURCE_ROOT; };
+		8D478477A94022EB95DF9187 /* 3DVisualizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = 3DVisualizer.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/3DVisualizer.h"; sourceTree = SOURCE_ROOT; };
+		8E0C764FB09D17A531A879F0 /* LightmapData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LightmapData.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightmapData.h"; sourceTree = SOURCE_ROOT; };
+		8F1E9902EEF81D248B664200 /* PhotonMapping.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = PhotonMapping.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/PhotonMapping.cpp"; sourceTree = SOURCE_ROOT; };
+		909B2FCA7D11109B05F56B73 /* stdafx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Launch/stdafx.h"; sourceTree = SOURCE_ROOT; };
+		9276C061B10380DB66168360 /* LMOctree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LMOctree.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMOctree.h"; sourceTree = SOURCE_ROOT; };
+		9813951E92457905106BDFF4 /* UnrealLightmass.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = UnrealLightmass.Target.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/UnrealLightmass.Target.cs"; sourceTree = SOURCE_ROOT; };
+		9976024C4DCA8823D8E9C884 /* Mappings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Mappings.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Mappings.cpp"; sourceTree = SOURCE_ROOT; };
+		9D6FF23A168B4EF612690A67 /* DefaultEngine.ini */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = DefaultEngine.ini; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Programs/UnrealLightmass/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		A61C87FBD98E61B6B4DC01B6 /* MeshExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MeshExport.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Public/MeshExport.h"; sourceTree = SOURCE_ROOT; };
+		AC61D93940A0E2B888177CD1 /* Exporter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Exporter.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Exporter.cpp"; sourceTree = SOURCE_ROOT; };
+		ADB62414F4D688B59DB5F82A /* MonteCarlo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MonteCarlo.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/MonteCarlo.cpp"; sourceTree = SOURCE_ROOT; };
+		B2FA3967B26E7BBA9D7F759D /* FinalGather.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = FinalGather.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/FinalGather.cpp"; sourceTree = SOURCE_ROOT; };
+		B76B09647D16B63FF25BB520 /* Landscape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Landscape.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Landscape.h"; sourceTree = SOURCE_ROOT; };
+		C06CBE8CF184119FD297B966 /* Collision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Collision.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Collision.h"; sourceTree = SOURCE_ROOT; };
+		C0D3E252E3D802AB94D56785 /* UnitTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UnitTest.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Launch/UnitTest.cpp"; sourceTree = SOURCE_ROOT; };
+		C13FD4CC87D7B1F55C8A0525 /* LMThreading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LMThreading.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMThreading.cpp"; sourceTree = SOURCE_ROOT; };
+		C1FD3F36097A4AF079C85A43 /* Collision.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Collision.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Collision.cpp"; sourceTree = SOURCE_ROOT; };
+		C4EBC0F14D1C7448E50AFFDD /* LightingMesh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LightingMesh.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingMesh.cpp"; sourceTree = SOURCE_ROOT; };
+		C7394D5A74298BD5A92B8D36 /* LightmassSwarm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LightmassSwarm.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/LightmassSwarm.h"; sourceTree = SOURCE_ROOT; };
+		CBC413916D5D3E2DD8715431 /* StaticMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StaticMesh.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/StaticMesh.h"; sourceTree = SOURCE_ROOT; };
+		CC1737E533FD2C7B00F4133E /* LMCollision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LMCollision.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMCollision.h"; sourceTree = SOURCE_ROOT; };
+		CD0E6FB9939F26B4C775EAD6 /* Landscape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Landscape.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Landscape.cpp"; sourceTree = SOURCE_ROOT; };
+		CF610A04EACFAEBC001B010A /* LMCore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LMCore.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/LMCore.cpp"; sourceTree = SOURCE_ROOT; };
+		D0559CD3B95C9FDB200A1E42 /* CPUSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CPUSolver.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver/CPUSolver.h"; sourceTree = SOURCE_ROOT; };
+		D0DFD3857FE80AFC91C0406F /* Mesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Mesh.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Mesh.h"; sourceTree = SOURCE_ROOT; };
+		D10FF865BE2EF3E3FE85CA48 /* Exporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Exporter.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Exporter.h"; sourceTree = SOURCE_ROOT; };
+		D14FB8F71CFDEF67BC8E78FD /* BSP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BSP.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/BSP.h"; sourceTree = SOURCE_ROOT; };
+		D1A9BAA8B856C82BCC50A692 /* LightingSystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LightingSystem.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingSystem.cpp"; sourceTree = SOURCE_ROOT; };
+		D1F47F80CC63BF78D053C1A5 /* MonteCarlo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MonteCarlo.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/MonteCarlo.h"; sourceTree = SOURCE_ROOT; };
+		D3F3150D2C0B4B79557D0705 /* LMThreading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LMThreading.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMThreading.h"; sourceTree = SOURCE_ROOT; };
+		D488BAF7CBE0F50B8BB15C82 /* LightmassSwarm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LightmassSwarm.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/LightmassSwarm.cpp"; sourceTree = SOURCE_ROOT; };
+		D8CDF28C33C05748D9B6D19A /* UnrealLightmass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UnrealLightmass.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Launch/UnrealLightmass.cpp"; sourceTree = SOURCE_ROOT; };
+		DA2B0E775694ADF1ABC3E2E2 /* LightingSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LightingSystem.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingSystem.h"; sourceTree = SOURCE_ROOT; };
+		DDAC64BC6C3E4D31BBFD06BC /* UnrealLightmass-Mac-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "UnrealLightmass-Mac-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA50C801E0B1CBEC84EF927 /* LightmassScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LightmassScene.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/LightmassScene.cpp"; sourceTree = SOURCE_ROOT; };
+		E0D3FB88A17B307B15513E39 /* Resource.rc */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = Resource.rc; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Resources/Resource.rc"; sourceTree = SOURCE_ROOT; };
+		E407BA2A1DC46CA3A685B76D /* UnrealLightmass.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = UnrealLightmass.Build.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/UnrealLightmass.Build.cs"; sourceTree = SOURCE_ROOT; };
+		EF8EFD3865EF3768B6BF370A /* Mesh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Mesh.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Mesh.cpp"; sourceTree = SOURCE_ROOT; };
+		F01E8C49F136D24D27CB83DB /* LMHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LMHelpers.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMHelpers.h"; sourceTree = SOURCE_ROOT; };
+		F1ABC1C2C786896447C240AC /* LMCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LMCore.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/LMCore.h"; sourceTree = SOURCE_ROOT; };
+		F6832DBA07E92CF7C4458B8B /* SampleVolume.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SampleVolume.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/SampleVolume.cpp"; sourceTree = SOURCE_ROOT; };
+		F9AD7201947A3923DF2C7CF6 /* LMDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LMDebug.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMDebug.h"; sourceTree = SOURCE_ROOT; };
+		FD65345790E7A87264A1CE8C /* LightmapData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LightmapData.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightmapData.cpp"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0308760B5DEA1CD995CD03A9 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				C0D3E252E3D802AB94D56785 /* UnitTest.cpp */,
+				8149FBAFA8536024631BC5AC /* UnitTest.h */,
+				D8CDF28C33C05748D9B6D19A /* UnrealLightmass.cpp */,
+				20BFFECC9C551EE237FED7DA /* stdafx.cpp */,
+				909B2FCA7D11109B05F56B73 /* stdafx.h */,
+			);
+			name = Launch;
+			path = Private/Launch;
+			sourceTree = "<group>";
+		};
+		06028184FEF23A3445305719 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				27578D0855CC7B6DA63FF993 /* LMQueue.h */,
+			);
+			name = Templates;
+			path = Private/LightmassCore/Templates;
+			sourceTree = "<group>";
+		};
+		1E5BB3956047E512E7ACAF2D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9D6FF23A168B4EF612690A67 /* DefaultEngine.ini */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		4B939CE45D1846D91F307A6A /* Lighting */ = {
+			isa = PBXGroup;
+			children = (
+				517F3B6F697815A1E3933B01 /* BSP.cpp */,
+				D14FB8F71CFDEF67BC8E78FD /* BSP.h */,
+				8A3CF03F547337D3A0019E19 /* BuildOptions.h */,
+				09478B9FEEAFEB28F2766DDF /* Cache.cpp */,
+				45AA8B7A64C66623EDA3360C /* Cache.h */,
+				C1FD3F36097A4AF079C85A43 /* Collision.cpp */,
+				C06CBE8CF184119FD297B966 /* Collision.h */,
+				B2FA3967B26E7BBA9D7F759D /* FinalGather.cpp */,
+				307F1032733F82209F1ADAF6 /* FluidSurface.cpp */,
+				479D68822F41EC5455583633 /* FluidSurface.h */,
+				CD0E6FB9939F26B4C775EAD6 /* Landscape.cpp */,
+				B76B09647D16B63FF25BB520 /* Landscape.h */,
+				64A0745E66B79914099B0128 /* Lighting.h */,
+				C4EBC0F14D1C7448E50AFFDD /* LightingMesh.cpp */,
+				4BBA29B48B09B494137A9A7A /* LightingMesh.h */,
+				D1A9BAA8B856C82BCC50A692 /* LightingSystem.cpp */,
+				DA2B0E775694ADF1ABC3E2E2 /* LightingSystem.h */,
+				FD65345790E7A87264A1CE8C /* LightmapData.cpp */,
+				8E0C764FB09D17A531A879F0 /* LightmapData.h */,
+				9976024C4DCA8823D8E9C884 /* Mappings.cpp */,
+				5423146E5CDF0D3E9616B539 /* Mappings.h */,
+				ADB62414F4D688B59DB5F82A /* MonteCarlo.cpp */,
+				D1F47F80CC63BF78D053C1A5 /* MonteCarlo.h */,
+				8F1E9902EEF81D248B664200 /* PhotonMapping.cpp */,
+				412DCCA3EC46EBA44478F1AD /* PrecomputedVisibility.cpp */,
+				1761EF52D14CAE6DE0B6C1C0 /* Raster.h */,
+				F6832DBA07E92CF7C4458B8B /* SampleVolume.cpp */,
+				66D5D9188C8B70DDF0B55B4E /* StaticMesh.cpp */,
+				CBC413916D5D3E2DD8715431 /* StaticMesh.h */,
+				1ED68930CDC4CDBAE8F84CC8 /* Texture.h */,
+				5EC21140114BA347EC3C7296 /* TextureMapping.cpp */,
+				3E062A0F0E2938EBF012D10B /* VolumeDistanceField.cpp */,
+			);
+			name = Lighting;
+			path = Private/Lighting;
+			sourceTree = "<group>";
+		};
+		5B498104B3802FBC4679BB33 = {
+			isa = PBXGroup;
+			children = (
+				1E5BB3956047E512E7ACAF2D /* Config */,
+				BB10764A56984A621844C6E5 /* Private */,
+				DE4B1307807882559BF8B850 /* Public */,
+				BAD1D701527CDE81DA29F4C3 /* Resources */,
+				9813951E92457905106BDFF4 /* UnrealLightmass.Target.cs */,
+				E407BA2A1DC46CA3A685B76D /* UnrealLightmass.Build.cs */,
+				EB1FCEA4781DB724B0B7231E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		610857FE396DC4D28D0B6910 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				58303F7D889FCC5E00BE287C /* LMDebug.cpp */,
+				F9AD7201947A3923DF2C7CF6 /* LMDebug.h */,
+				F01E8C49F136D24D27CB83DB /* LMHelpers.h */,
+				43CBB3C844AFA2D566831076 /* LMStats.h */,
+				C13FD4CC87D7B1F55C8A0525 /* LMThreading.cpp */,
+				D3F3150D2C0B4B79557D0705 /* LMThreading.h */,
+			);
+			name = Misc;
+			path = Private/LightmassCore/Misc;
+			sourceTree = "<group>";
+		};
+		8D4339FBC517B002E84CB1EA /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				CC1737E533FD2C7B00F4133E /* LMCollision.h */,
+				87855D2649CA8A532FFEF5AF /* LMMath.cpp */,
+				209005EEDA1E6E3F73685EAE /* LMMath.h */,
+				6B7AC98EDF79AEC572E606B8 /* LMMathSSE.h */,
+				9276C061B10380DB66168360 /* LMOctree.h */,
+				47FE7F400944A8E8D139FB68 /* LMkDOP.h */,
+				56422CAD47EF8F1906F119B2 /* Mersenne Prime Twister (SSE version).tps */,
+				84CB53D527C2B62F43CEEAC7 /* SFMT.cpp */,
+			);
+			name = Math;
+			path = Private/LightmassCore/Math;
+			sourceTree = "<group>";
+		};
+		91B6FB5175034E97E6E2F146 /* CPUSolver */ = {
+			isa = PBXGroup;
+			children = (
+				0BDB9C9A27FDAD62B4EA6EC4 /* CPUSolver.cpp */,
+				D0559CD3B95C9FDB200A1E42 /* CPUSolver.h */,
+			);
+			name = CPUSolver;
+			path = Private/CPUSolver;
+			sourceTree = "<group>";
+		};
+		A14DE3195811CF116F174E6C /* LightmassCore */ = {
+			isa = PBXGroup;
+			children = (
+				8D4339FBC517B002E84CB1EA /* Math */,
+				610857FE396DC4D28D0B6910 /* Misc */,
+				06028184FEF23A3445305719 /* Templates */,
+				CF610A04EACFAEBC001B010A /* LMCore.cpp */,
+				F1ABC1C2C786896447C240AC /* LMCore.h */,
+			);
+			name = LightmassCore;
+			path = Private/LightmassCore;
+			sourceTree = "<group>";
+		};
+		BAD1D701527CDE81DA29F4C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				531313A44973F30D92F7BA77 /* Debug-Win32.manifest */,
+				661024185946AB77A5884345 /* Debug-Win64.manifest */,
+				E0D3FB88A17B307B15513E39 /* Resource.rc */,
+				010C78D191AB0757B4283886 /* Win32.manifest */,
+				42FA05783CD674C79CA38695 /* Win64.manifest */,
+				6CA82BC0E954A7E03F8A8F97 /* resource.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB10764A56984A621844C6E5 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				91B6FB5175034E97E6E2F146 /* CPUSolver */,
+				D0ECF6FD7EFEECB4168047E4 /* ImportExport */,
+				0308760B5DEA1CD995CD03A9 /* Launch */,
+				4B939CE45D1846D91F307A6A /* Lighting */,
+				A14DE3195811CF116F174E6C /* LightmassCore */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		D0ECF6FD7EFEECB4168047E4 /* ImportExport */ = {
+			isa = PBXGroup;
+			children = (
+				42321409188BE2A975ADC9D1 /* 3DVisualizer.cpp */,
+				8D478477A94022EB95DF9187 /* 3DVisualizer.h */,
+				AC61D93940A0E2B888177CD1 /* Exporter.cpp */,
+				D10FF865BE2EF3E3FE85CA48 /* Exporter.h */,
+				7596F02B6DC8B68B50246830 /* Importer.cpp */,
+				3246836F21E09BDF813BEF27 /* Importer.h */,
+				DEA50C801E0B1CBEC84EF927 /* LightmassScene.cpp */,
+				239CB261BF8B21B7F902917B /* LightmassScene.h */,
+				D488BAF7CBE0F50B8BB15C82 /* LightmassSwarm.cpp */,
+				C7394D5A74298BD5A92B8D36 /* LightmassSwarm.h */,
+				3122C38D1FB0D1E5ED4E3092 /* Material.cpp */,
+				56153430FE78AD891CE72952 /* Material.h */,
+				EF8EFD3865EF3768B6BF370A /* Mesh.cpp */,
+				D0DFD3857FE80AFC91C0406F /* Mesh.h */,
+			);
+			name = ImportExport;
+			path = Private/ImportExport;
+			sourceTree = "<group>";
+		};
+		DE4B1307807882559BF8B850 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				5FE4D79E3A35A9C7CCC4E6D4 /* FluidExport.h */,
+				53C9235E3B224E24BA3AA870 /* ImportExport.h */,
+				69480268A40176A416A94B70 /* LightmassPublic.h */,
+				67ED05AAF4D0715FF727F4F3 /* MaterialExport.h */,
+				A61C87FBD98E61B6B4DC01B6 /* MeshExport.h */,
+				41618096584894A48FBB04D8 /* SceneExport.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		EB1FCEA4781DB724B0B7231E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDAC64BC6C3E4D31BBFD06BC /* UnrealLightmass-Mac-Debug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		6C3F4D653187E5F95CDBCE3C /* UnrealLightmass_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 44FA3762F78609C3950D820D /* Build configuration list for PBXLegacyTarget "UnrealLightmass_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
+			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
+			dependencies = (
+			);
+			name = UnrealLightmass_Build;
+			passBuildSettingsInEnvironment = 1;
+			productName = UnrealLightmass_Build;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		BF9D4FF3DB309E08ADABDFE5 /* UnrealLightmass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B3EC8E29A0E4EB138EE251 /* Build configuration list for PBXNativeTarget "UnrealLightmass" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1FC35FBA487A57FF6C5610 /* PBXTargetDependency */,
+			);
+			name = UnrealLightmass;
+			productName = UnrealLightmass;
+			productReference = DDAC64BC6C3E4D31BBFD06BC /* UnrealLightmass-Mac-Debug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4BEEBC11E2555C2E79F7C74 /* UnrealLightmass_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63312AC042905901DD277772 /* Build configuration list for PBXNativeTarget "UnrealLightmass_Index" */;
+			buildPhases = (
+				B6227BD1D2D1F343ED74D9A9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnrealLightmass_Index;
+			productName = UnrealLightmass_Index;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06EB3935F342265FBC3F8173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+			};
+			buildConfigurationList = 9C24DA37860C55A57EC3FEC5 /* Build configuration list for PBXProject "UnrealLightmass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B498104B3802FBC4679BB33;
+			productRefGroup = EB1FCEA4781DB724B0B7231E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF9D4FF3DB309E08ADABDFE5 /* UnrealLightmass */,
+				6C3F4D653187E5F95CDBCE3C /* UnrealLightmass_Build */,
+				E4BEEBC11E2555C2E79F7C74 /* UnrealLightmass_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6227BD1D2D1F343ED74D9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3BA9EAB80F03E41209E7AF /* CPUSolver.cpp in Sources */,
+				27D27BA9D755B924CCE4C0BD /* 3DVisualizer.cpp in Sources */,
+				4795C2942775CC7A09A949FE /* Exporter.cpp in Sources */,
+				66E9ABF5FDD8FF2F19F18DBC /* Importer.cpp in Sources */,
+				3EC87536CE3EF842807A4D81 /* LightmassScene.cpp in Sources */,
+				D41BC0751F315EF0CF4DF287 /* LightmassSwarm.cpp in Sources */,
+				D129EB180D86F023BF3E1C65 /* Material.cpp in Sources */,
+				66FEB5F959A74983F9598473 /* Mesh.cpp in Sources */,
+				7A74242DB0C09BA7C6AB7CB8 /* UnitTest.cpp in Sources */,
+				06B819B8BD94DBA40D9F11FD /* UnrealLightmass.cpp in Sources */,
+				DC520340754222FFED3CC8FC /* stdafx.cpp in Sources */,
+				C28AAB8397EF62DE7B29DEA0 /* BSP.cpp in Sources */,
+				BF1E84E5A3D44597DC674F4D /* Cache.cpp in Sources */,
+				E897E4F015762749B0A5D8F4 /* Collision.cpp in Sources */,
+				862F19735946921F3DA0CDA4 /* FinalGather.cpp in Sources */,
+				BBBEFEF5B7BA718BB85DA5E0 /* FluidSurface.cpp in Sources */,
+				5E49465DFD55FEA1E408AA0D /* Landscape.cpp in Sources */,
+				96C237B1BEAAE47C49CF8CFA /* LightingMesh.cpp in Sources */,
+				F6A8C7EC27B9428BC2590F66 /* LightingSystem.cpp in Sources */,
+				4E0BDCBDB16EAEA60134F966 /* LightmapData.cpp in Sources */,
+				5F5660C31A6F7DAD3D50755F /* Mappings.cpp in Sources */,
+				9BCA5766205617758DDC52C1 /* MonteCarlo.cpp in Sources */,
+				BAF949C08E009CE5D22CB006 /* PhotonMapping.cpp in Sources */,
+				5607E83AF6805A6358213EE2 /* PrecomputedVisibility.cpp in Sources */,
+				2C7937447A9EBCDE153A7039 /* SampleVolume.cpp in Sources */,
+				5799D2F7CA84CD13FAC9AABB /* StaticMesh.cpp in Sources */,
+				77DF6F93762E75AE9E33E676 /* TextureMapping.cpp in Sources */,
+				D40E5F14A39A4917C7A2C1F5 /* VolumeDistanceField.cpp in Sources */,
+				B28DA89D5505DB3B6CD9BF68 /* LMCore.cpp in Sources */,
+				0EECF479929CC35E538CA4CF /* LMMath.cpp in Sources */,
+				833FD2216E9A8F1BE3F7416D /* SFMT.cpp in Sources */,
+				18FAA0E1A9E262C73360EB26 /* LMDebug.cpp in Sources */,
+				EDF032A95A2FCFB6B5CA7636 /* LMThreading.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1FC35FBA487A57FF6C5610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C3F4D653187E5F95CDBCE3C /* UnrealLightmass_Build */;
+			targetProxy = BFED5BE9B3B1975C48288AB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		055EEA74857846774625E255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Debug;
+				UE_BUILD_TARGET_NAME = UnrealLightmass;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		3EB02D600BDA15A326624E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "UnrealLightmass-Mac-Debug";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		4033180FA2838157446310D3 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UnrealLightmass;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		717B14EB8BFFB60ED7159321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "UnrealLightmass-Mac-Debug";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		A49238125F36835FD41A37B0 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ALLOW_LOG_FILE=0",
+					"IS_PROGRAM=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=0",
+					"WITH_UNREAL_DEVELOPER_TOOLS=0",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=1",
+					"WITH_PLUGIN_SUPPORT=1",
+					"USE_LOGGING_IN_SHIPPING=1",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=0",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UnrealLightmass",
+					"UNREALLIGHTMASS_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=0",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"SWARMINTERFACE_API=",
+					"PROJECTS_API=",
+					"JSON_API=",
+					"NETWORKING_API=",
+					"SOCKETS_PACKAGE=1",
+					"SOCKETS_API=",
+					"MESSAGING_API=",
+					"UDPMESSAGING_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Launch /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Types /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Public ../Build/Mac/UnrealLightmass/Inc/UnrealLightmass /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject ../Build/Mac/UnrealLightmass/Inc/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/zlib/zlib-1.2.5/Inc /Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/zlib /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/SwarmInterface/Public ../Build/Mac/UnrealLightmass/Inc/SwarmInterface /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/SwarmInterface /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/UnrealLightmass/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/UnrealLightmass/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Networking/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Networking/Public/Common /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Networking/Public/Interfaces /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Networking/Public/Interfaces/IPv4 /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Networking/Public/Interfaces/Steam ../Build/Mac/UnrealLightmass/Inc/Networking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets/Public ../Build/Mac/UnrealLightmass/Inc/Sockets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Networking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public/Helpers ../Build/Mac/UnrealLightmass/Inc/Messaging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/UnrealLightmass/Inc/UdpMessaging /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging";
+				USE_HEADERMAP = NO;
+			};
+			name = Development;
+		};
+		C122AB3C0FC42C2368A74B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ALLOW_LOG_FILE=0",
+					"IS_PROGRAM=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=0",
+					"WITH_UNREAL_DEVELOPER_TOOLS=0",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=1",
+					"WITH_PLUGIN_SUPPORT=1",
+					"USE_LOGGING_IN_SHIPPING=1",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=0",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UnrealLightmass",
+					"UNREALLIGHTMASS_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=0",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"SWARMINTERFACE_API=",
+					"PROJECTS_API=",
+					"JSON_API=",
+					"NETWORKING_API=",
+					"SOCKETS_PACKAGE=1",
+					"SOCKETS_API=",
+					"MESSAGING_API=",
+					"UDPMESSAGING_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Launch /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/ImportExport /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/Lighting /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Types /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass/Public ../Build/Mac/UnrealLightmass/Inc/UnrealLightmass /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealLightmass /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject ../Build/Mac/UnrealLightmass/Inc/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/zlib/zlib-1.2.5/Inc /Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/zlib /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/SwarmInterface/Public ../Build/Mac/UnrealLightmass/Inc/SwarmInterface /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/SwarmInterface /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/UnrealLightmass/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/UnrealLightmass/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Networking/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Networking/Public/Common /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Networking/Public/Interfaces /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Networking/Public/Interfaces/IPv4 /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Networking/Public/Interfaces/Steam ../Build/Mac/UnrealLightmass/Inc/Networking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets/Public ../Build/Mac/UnrealLightmass/Inc/Sockets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Networking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public/Helpers ../Build/Mac/UnrealLightmass/Inc/Messaging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/UnrealLightmass/Inc/UdpMessaging /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		C5291827AB3FB9EFCBC8D0F2 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Development;
+				UE_BUILD_TARGET_NAME = UnrealLightmass;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		DAB79EF061D42019CED7EF8F /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UnrealLightmass;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44FA3762F78609C3950D820D /* Build configuration list for PBXLegacyTarget "UnrealLightmass_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				055EEA74857846774625E255 /* Debug */,
+				C5291827AB3FB9EFCBC8D0F2 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		63312AC042905901DD277772 /* Build configuration list for PBXNativeTarget "UnrealLightmass_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717B14EB8BFFB60ED7159321 /* Debug */,
+				4033180FA2838157446310D3 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		65B3EC8E29A0E4EB138EE251 /* Build configuration list for PBXNativeTarget "UnrealLightmass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB02D600BDA15A326624E91 /* Debug */,
+				DAB79EF061D42019CED7EF8F /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		9C24DA37860C55A57EC3FEC5 /* Build configuration list for PBXProject "UnrealLightmass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C122AB3C0FC42C2368A74B66 /* Debug */,
+				A49238125F36835FD41A37B0 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06EB3935F342265FBC3F8173 /* Project object */;
+}
