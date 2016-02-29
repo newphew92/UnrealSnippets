@@ -1,0 +1,8 @@
+{
+	"ObjectInstance1":
+	{
+		"SomeBool": true,
+		"SomeString": "test.json",
+		"SomeNumber": 32
+	}
+}

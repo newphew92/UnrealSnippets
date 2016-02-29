@@ -9,9 +9,8 @@ class NETWORK_API jsonHelper
 {
 public:
 	static TSharedPtr<FJsonObject> loadJsonObject(const FString& FilePath);
-	TSharedRef<TJsonReader<>> JsonReader;
-	TSharedPtr<FJsonObject> JsonObject;
 
-	static bool setJsonObject(const FString& FilePath);
 
+
+	static bool setJsonObject(const FString& fileName);
 };

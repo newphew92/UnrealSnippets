@@ -5,7 +5,7 @@
 #include "NetworkCharacter.h"
 #include "MyGameState.h"
 #include "Engine.h"
-
+#include "jsonHelper.h"
 ANetworkGameMode::ANetworkGameMode(const FObjectInitializer& ObjectInitializer)
 : Super(ObjectInitializer)
 {
@@ -20,6 +20,7 @@ ANetworkGameMode::ANetworkGameMode(const FObjectInitializer& ObjectInitializer)
 
 void ANetworkGameMode::AddScore(int32 Amount)
 {
+		jsonHelper::setJsonObject("test.json");
     GetGameState<AMyGameState>()->Score += Amount;
     GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::FromInt(GetGameState<AMyGameState>()->Score));
 }
