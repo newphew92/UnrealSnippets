@@ -7,7 +7,8 @@ public class Network : ModuleRules
 	public Network(TargetInfo Target)
 	{
 		//added Json and JsonUtilities in this list -Terrence
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore","Json", "JsonUtilities" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore","Json", "JsonUtilities", "HTTP" });
 		// PublicDependencyModuleNames.AddRange(new string[] { "Json","JsonUtilities" });
+		PrivateIncludePathModuleNames.AddRange(new string[] { "HTTP" });
 	}
 }

@@ -1,8 +1,5 @@
 {
-	"ObjectInstance1":
-	{
-		"SomeBool": true,
-		"SomeString": "test.json",
-		"SomeNumber": 32
-	}
+	"SomeBool": true,
+	"SomeString": "test.json",
+	"SomNumber": 32
 }
