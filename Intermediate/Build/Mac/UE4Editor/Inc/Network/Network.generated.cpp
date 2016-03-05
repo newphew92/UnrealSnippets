@@ -38,6 +38,10 @@ void EmptyLinkFunctionForGeneratedCodeNetwork() {}
 	{
 	}
 	IMPLEMENT_CLASS(ANetworkGameMode, 13074942);
+	void ASaveFlag::StaticRegisterNativesASaveFlag()
+	{
+	}
+	IMPLEMENT_CLASS(ASaveFlag, 631653107);
 FName NETWORK_MyServerFunc = FName(TEXT("MyServerFunc"));
 FName NETWORK_UpdateScore = FName(TEXT("UpdateScore"));
 #if USE_COMPILED_IN_NATIVES
@@ -63,6 +67,8 @@ FName NETWORK_UpdateScore = FName(TEXT("UpdateScore"));
 	NETWORK_API class UClass* Z_Construct_UClass_ANetworkCharacter();
 	NETWORK_API class UClass* Z_Construct_UClass_ANetworkGameMode_NoRegister();
 	NETWORK_API class UClass* Z_Construct_UClass_ANetworkGameMode();
+	NETWORK_API class UClass* Z_Construct_UClass_ASaveFlag_NoRegister();
+	NETWORK_API class UClass* Z_Construct_UClass_ASaveFlag();
 	NETWORK_API class UPackage* Z_Construct_UPackage_Network();
 	UFunction* Z_Construct_UFunction_AFlag_OnOverlapBegin()
 	{
@@ -293,6 +299,37 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ANetworkGameMode(Z_Construct_UClass_ANetworkGameMode, TEXT("ANetworkGameMode"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ANetworkGameMode);
+	UClass* Z_Construct_UClass_ASaveFlag_NoRegister()
+	{
+		return ASaveFlag::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ASaveFlag()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage_Network();
+			OuterClass = ASaveFlag::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("SaveFlag.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("SaveFlag.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ASaveFlag(Z_Construct_UClass_ASaveFlag, TEXT("ASaveFlag"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ASaveFlag);
 	UPackage* Z_Construct_UPackage_Network()
 	{
 		static UPackage* ReturnPackage = NULL;
@@ -301,8 +338,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Network")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xF41C12DF;
-			Guid.B = 0x283EABCD;
+			Guid.A = 0x667BC67C;
+			Guid.B = 0xB27065D0;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

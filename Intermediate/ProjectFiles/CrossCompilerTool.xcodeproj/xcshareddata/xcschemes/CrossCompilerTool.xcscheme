@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "55CDD11CB9E23790B7209C20"
+               BlueprintIdentifier = "1522A4F68E2DBAF959B45CB0"
                BuildableName = "CrossCompilerTool.app"
                BlueprintName = "CrossCompilerTool"
                ReferencedContainer = "container:CrossCompilerTool.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "55CDD11CB9E23790B7209C20"
+               BlueprintIdentifier = "1522A4F68E2DBAF959B45CB0"
                BuildableName = "CrossCompilerTool.app"
                BlueprintName = "CrossCompilerTool"
                ReferencedContainer = "container:CrossCompilerTool.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "55CDD11CB9E23790B7209C20"
+               BlueprintIdentifier = "1522A4F68E2DBAF959B45CB0"
                BuildableName = "CrossCompilerTool.app"
                BlueprintName = "CrossCompilerTool"
                ReferencedContainer = "container:CrossCompilerTool.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "55CDD11CB9E23790B7209C20"
+               BlueprintIdentifier = "1522A4F68E2DBAF959B45CB0"
                BuildableName = "CrossCompilerTool.app"
                BlueprintName = "CrossCompilerTool"
                ReferencedContainer = "container:CrossCompilerTool.xcodeproj">

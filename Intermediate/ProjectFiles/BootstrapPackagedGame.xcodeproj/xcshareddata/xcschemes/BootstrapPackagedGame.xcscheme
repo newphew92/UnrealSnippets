@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3EBA7E372C6304ED1948F4A0"
+               BlueprintIdentifier = "7C0FAB8E07785C020F2738AE"
                BuildableName = "BootstrapPackagedGame.app"
                BlueprintName = "BootstrapPackagedGame"
                ReferencedContainer = "container:BootstrapPackagedGame.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3EBA7E372C6304ED1948F4A0"
+               BlueprintIdentifier = "7C0FAB8E07785C020F2738AE"
                BuildableName = "BootstrapPackagedGame.app"
                BlueprintName = "BootstrapPackagedGame"
                ReferencedContainer = "container:BootstrapPackagedGame.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3EBA7E372C6304ED1948F4A0"
+               BlueprintIdentifier = "7C0FAB8E07785C020F2738AE"
                BuildableName = "BootstrapPackagedGame.app"
                BlueprintName = "BootstrapPackagedGame"
                ReferencedContainer = "container:BootstrapPackagedGame.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3EBA7E372C6304ED1948F4A0"
+               BlueprintIdentifier = "7C0FAB8E07785C020F2738AE"
                BuildableName = "BootstrapPackagedGame.app"
                BlueprintName = "BootstrapPackagedGame"
                ReferencedContainer = "container:BootstrapPackagedGame.xcodeproj">

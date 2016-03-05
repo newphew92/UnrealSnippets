@@ -7,134 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91E8188CBE6533141A380822 /* UnrealFileServer.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = C5A99586FCD14D108B1245CE /* UnrealFileServer.Target.cs */; };
+		7050C7D16C21E1EB00D9C463 /* UnrealFileServer.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = B6D3E8C515B43F8D871E2008 /* UnrealFileServer.Build.cs */; };
 		E52D2DFD9EDD29687F50B907 /* UnrealFileServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDE1F6A50DFE78027B6604D3 /* UnrealFileServer.cpp */; };
+		56584BC641FE6F522FBEEB3F /* UnrealFileServer.h in Sources */ = {isa = PBXBuildFile; fileRef = F4E34D22B05BE3651AE0C734 /* UnrealFileServer.h */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E5FD51CAC48F1AC5E43375B5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 826337AD000E805C3647AE21 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D1972CB11AEFEDCCCEEEDAE;
-			remoteInfo = UnrealFileServer_Build;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		8070BA895F63AACB9044016B /* UnrealFileServer-Mac-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "UnrealFileServer-Mac-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6D3E8C515B43F8D871E2008 /* UnrealFileServer.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = UnrealFileServer.Build.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealFileServer/UnrealFileServer.Build.cs"; sourceTree = SOURCE_ROOT; };
-		C5A99586FCD14D108B1245CE /* UnrealFileServer.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = UnrealFileServer.Target.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealFileServer/UnrealFileServer.Target.cs"; sourceTree = SOURCE_ROOT; };
-		F4E34D22B05BE3651AE0C734 /* UnrealFileServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnrealFileServer.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealFileServer/Private/UnrealFileServer.h"; sourceTree = SOURCE_ROOT; };
-		FDE1F6A50DFE78027B6604D3 /* UnrealFileServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UnrealFileServer.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealFileServer/Private/UnrealFileServer.cpp"; sourceTree = SOURCE_ROOT; };
+		C5A99586FCD14D108B1245CE /* UnrealFileServer.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "UnrealFileServer.Target.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealFileServer/UnrealFileServer.Target.cs"; sourceTree = SOURCE_ROOT; };
+		B6D3E8C515B43F8D871E2008 /* UnrealFileServer.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "UnrealFileServer.Build.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealFileServer/UnrealFileServer.Build.cs"; sourceTree = SOURCE_ROOT; };
+		FDE1F6A50DFE78027B6604D3 /* UnrealFileServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "UnrealFileServer.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealFileServer/Private/UnrealFileServer.cpp"; sourceTree = SOURCE_ROOT; };
+		F4E34D22B05BE3651AE0C734 /* UnrealFileServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UnrealFileServer.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealFileServer/Private/UnrealFileServer.h"; sourceTree = SOURCE_ROOT; };
+		1C4EB4353498E892820BFFCB /* UnrealFileServer */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = UnrealFileServer; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXGroup section */
-		2E0DBE514851A911F0666EC5 = {
-			isa = PBXGroup;
-			children = (
-				ABEFA54D981943BD1F2FE0B8 /* Private */,
-				C5A99586FCD14D108B1245CE /* UnrealFileServer.Target.cs */,
-				B6D3E8C515B43F8D871E2008 /* UnrealFileServer.Build.cs */,
-				5639A0EC65E073D59F92B926 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		5639A0EC65E073D59F92B926 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8070BA895F63AACB9044016B /* UnrealFileServer-Mac-Debug.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		ABEFA54D981943BD1F2FE0B8 /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				FDE1F6A50DFE78027B6604D3 /* UnrealFileServer.cpp */,
-				F4E34D22B05BE3651AE0C734 /* UnrealFileServer.h */,
-			);
-			path = Private;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXLegacyTarget section */
-		8D1972CB11AEFEDCCCEEEDAE /* UnrealFileServer_Build */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 8A93E14794E243F2EA30E32B /* Build configuration list for PBXLegacyTarget "UnrealFileServer_Build" */;
-			buildPhases = (
-			);
-			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
-			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
-			dependencies = (
-			);
-			name = UnrealFileServer_Build;
-			passBuildSettingsInEnvironment = 1;
-			productName = UnrealFileServer_Build;
-		};
-/* End PBXLegacyTarget section */
-
-/* Begin PBXNativeTarget section */
-		1DF031F0298DE7A1FBE63CAA /* UnrealFileServer_Index */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1C4EB4353498E892820BFFCB /* Build configuration list for PBXNativeTarget "UnrealFileServer_Index" */;
-			buildPhases = (
-				E5A98B36585A744A38F07FF3 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = UnrealFileServer_Index;
-			productName = UnrealFileServer_Index;
-			productType = "com.apple.product-type.library.static";
-		};
-		7A396C27CB747D0EA48B3F52 /* UnrealFileServer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B02666D3ABDB5EA5D6AEA827 /* Build configuration list for PBXNativeTarget "UnrealFileServer" */;
-			buildPhases = (
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2560E6639BD8799054D35978 /* PBXTargetDependency */,
-			);
-			name = UnrealFileServer;
-			productName = UnrealFileServer;
-			productReference = 8070BA895F63AACB9044016B /* UnrealFileServer-Mac-Debug.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		826337AD000E805C3647AE21 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "Epic Games, Inc.";
-			};
-			buildConfigurationList = 7C0EB33F064CB3A456372A46 /* Build configuration list for PBXProject "UnrealFileServer" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 2E0DBE514851A911F0666EC5;
-			productRefGroup = 5639A0EC65E073D59F92B926 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				7A396C27CB747D0EA48B3F52 /* UnrealFileServer */,
-				8D1972CB11AEFEDCCCEEEDAE /* UnrealFileServer_Build */,
-				1DF031F0298DE7A1FBE63CAA /* UnrealFileServer_Index */,
-			);
-		};
-/* End PBXProject section */
-
 /* Begin PBXSourcesBuildPhase section */
-		E5A98B36585A744A38F07FF3 /* Sources */ = {
+		CB8E370362A386F7C0BF8A92 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -144,26 +32,140 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXContainerItemProxy section */
+		1DF031F0298DE7A1FBE63CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5A98B36585A744A38F07FF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 826337AD000E805C3647AE21;
+			remoteInfo = "UnrealFileServer_Build";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXTargetDependency section */
-		2560E6639BD8799054D35978 /* PBXTargetDependency */ = {
+		8A93E14794E243F2EA30E32B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D1972CB11AEFEDCCCEEEDAE /* UnrealFileServer_Build */;
-			targetProxy = E5FD51CAC48F1AC5E43375B5 /* PBXContainerItemProxy */;
+			target = 826337AD000E805C3647AE21 /* UnrealFileServer_Build */;
+			targetProxy = 1DF031F0298DE7A1FBE63CAA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXGroup section */
+		ABC63E76C354A69B54986C9E = {
+			isa = PBXGroup;
+			children = (
+				9A2380FF8DB6233ABF9D70F6 /* Private */,
+				C5A99586FCD14D108B1245CE /* UnrealFileServer.Target.cs */,
+				B6D3E8C515B43F8D871E2008 /* UnrealFileServer.Build.cs */,
+				C572B896F2238C65BAAD9C36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A2380FF8DB6233ABF9D70F6 = {
+			isa = PBXGroup;
+			children = (
+				FDE1F6A50DFE78027B6604D3 /* UnrealFileServer.cpp */,
+				F4E34D22B05BE3651AE0C734 /* UnrealFileServer.h */,
+			);
+			name = "Private";
+			path = "Private";
+			sourceTree = "<group>";
+		};
+		C572B896F2238C65BAAD9C36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C4EB4353498E892820BFFCB /* UnrealFileServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		826337AD000E805C3647AE21 /* UnrealFileServer_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 7C0EB33F064CB3A456372A46 /* Build configuration list for PBXLegacyTarget "UnrealFileServer_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
+			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
+			dependencies = (
+			);
+			name = "UnrealFileServer_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealFileServer_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		8070BA895F63AACB9044016B /* UnrealFileServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D1972CB11AEFEDCCCEEEDAE /* Build configuration list for PBXNativeTarget "UnrealFileServer" */;
+			buildPhases = (
+			);
+			dependencies = (
+				8A93E14794E243F2EA30E32B /* PBXTargetDependency */,
+			);
+			name = "UnrealFileServer";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealFileServer";
+			productReference = "1C4EB4353498E892820BFFCB";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		2E0DBE514851A911F0666EC5 /* UnrealFileServer_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5639A0EC65E073D59F92B926 /* Build configuration list for PBXNativeTarget "UnrealFileServer_Index" */;
+			buildPhases = (
+				CB8E370362A386F7C0BF8A92 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealFileServer_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealFileServer_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5A98B36585A744A38F07FF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+			};
+			buildConfigurationList = 502E14E59E9C3015A0EDE9CC /* Build configuration list for PBXProject "UnrealFileServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = ABC63E76C354A69B54986C9E;
+			productRefGroup = C572B896F2238C65BAAD9C36;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			8070BA895F63AACB9044016B /* UnrealFileServer */,
+			826337AD000E805C3647AE21 /* UnrealFileServer_Build */,
+			2E0DBE514851A911F0666EC5 /* UnrealFileServer_Index */,
+			);
+		};
+/* End PBXProject section */
+
 /* Begin XCBuildConfiguration section */
-		1BFE87E44AE49FB8C2761F2B /* Development */ = {
+		1BFE87E44AE49FB8C2761F2B /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"IS_PROGRAM=1",
-					UNICODE,
-					_UNICODE,
-					__UNREAL__,
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
 					"IS_MONOLITHIC=1",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -199,183 +201,292 @@
 					"JSON_API=",
 					"MONOLITHIC_BUILD=1",
 				);
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				HEADER_SEARCH_PATHS = "";
-				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public ../Build/Mac/UnrealFileServer/Inc/UnrealFileServer /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealFileServer /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DirectoryWatcher/Public ../Build/Mac/UnrealFileServer/Inc/DirectoryWatcher /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFileSystem/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFileSystem/Public/Interfaces /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Interfaces ../Build/Mac/UnrealFileServer/Inc/NetworkFileSystem /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets/Public ../Build/Mac/UnrealFileServer/Inc/Sockets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFileSystem /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile/Public ../Build/Mac/UnrealFileServer/Inc/SandboxFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/UnrealFileServer/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/UnrealFileServer/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects";
-				USE_HEADERMAP = NO;
-			};
-			name = Development;
-		};
-		1CA339B01274DD06E7267AF3 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				SUPPORTED_PLATFORMS = macosx;
-				UE_BUILD_TARGET_CONFIG = Development;
-				UE_BUILD_TARGET_NAME = UnrealFileServer;
-				VALID_ARCHS = x86_64;
-			};
-			name = Development;
-		};
-		502E14E59E9C3015A0EDE9CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"IS_PROGRAM=1",
-					UNICODE,
-					_UNICODE,
-					__UNREAL__,
-					"IS_MONOLITHIC=1",
-					"WITH_ENGINE=0",
-					"WITH_UNREAL_DEVELOPER_TOOLS=0",
-					"WITH_COREUOBJECT=0",
-					"USE_STATS_WITHOUT_ENGINE=0",
-					"WITH_PLUGIN_SUPPORT=0",
-					"USE_LOGGING_IN_SHIPPING=1",
-					"UE_BUILD_MINIMAL=0",
-					"WITH_EDITOR=0",
-					"WITH_SERVER_CODE=1",
-					"UBT_COMPILED_PLATFORM=Mac",
-					"PLATFORM_MAC=1",
-					"PLATFORM_APPLE=1",
-					"WITH_TTS=0",
-					"WITH_SPEECH_RECOGNITION=0",
-					"WITH_DATABASE_SUPPORT=0",
-					"NDEBUG=1",
-					"UE_BUILD_DEVELOPMENT=1",
-					"UE_PROJECT_NAME=Network",
-					"ORIGINAL_FILE_NAME=UnrealFileServer",
-					"UNREALFILESERVER_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_STEAMWORKS=0",
-					"WITH_DIRECTXMATH=0",
-					"CORE_API=",
-					"DIRECTORYWATCHER_API=",
-					"ENABLE_HTTP_FOR_NFS=1",
-					"NETWORKFILESYSTEM_API=",
-					"SOCKETS_PACKAGE=1",
-					"SOCKETS_API=",
-					"SANDBOXFILE_API=",
-					"PROJECTS_API=",
-					"JSON_API=",
-					"MONOLITHIC_BUILD=1",
+				HEADER_SEARCH_PATHS = (
 				);
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
+					"../Build/Mac/UnrealFileServer/Inc/UnrealFileServer",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealFileServer",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DirectoryWatcher/Public",
+					"../Build/Mac/UnrealFileServer/Inc/DirectoryWatcher",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DirectoryWatcher",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFileSystem/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFileSystem/Public/Interfaces",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Interfaces",
+					"../Build/Mac/UnrealFileServer/Inc/NetworkFileSystem",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets/Public",
+					"../Build/Mac/UnrealFileServer/Inc/Sockets",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFileSystem",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile/Public",
+					"../Build/Mac/UnrealFileServer/Inc/SandboxFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"../Build/Mac/UnrealFileServer/Inc/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
+					"../Build/Mac/UnrealFileServer/Inc/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
+				);
 				ONLY_ACTIVE_ARCH = YES;
-				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public ../Build/Mac/UnrealFileServer/Inc/UnrealFileServer /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealFileServer /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DirectoryWatcher/Public ../Build/Mac/UnrealFileServer/Inc/DirectoryWatcher /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFileSystem/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFileSystem/Public/Interfaces /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Interfaces ../Build/Mac/UnrealFileServer/Inc/NetworkFileSystem /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets/Public ../Build/Mac/UnrealFileServer/Inc/Sockets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFileSystem /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile/Public ../Build/Mac/UnrealFileServer/Inc/SandboxFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/UnrealFileServer/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/UnrealFileServer/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
 				USE_HEADERMAP = NO;
 			};
-			name = Debug;
+			name = "Debug";
 		};
-		9CA81AD60DE474556F0C1FC8 /* Development */ = {
+		8009963CAD8B68135352C7A7 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = UnrealFileServer;
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PROGRAM=1",
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
+					"IS_MONOLITHIC=1",
+					"WITH_ENGINE=0",
+					"WITH_UNREAL_DEVELOPER_TOOLS=0",
+					"WITH_COREUOBJECT=0",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=1",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=0",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"UE_PROJECT_NAME=Network",
+					"ORIGINAL_FILE_NAME=UnrealFileServer",
+					"UNREALFILESERVER_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=0",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"DIRECTORYWATCHER_API=",
+					"ENABLE_HTTP_FOR_NFS=1",
+					"NETWORKFILESYSTEM_API=",
+					"SOCKETS_PACKAGE=1",
+					"SOCKETS_API=",
+					"SANDBOXFILE_API=",
+					"PROJECTS_API=",
+					"JSON_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
+					"../Build/Mac/UnrealFileServer/Inc/UnrealFileServer",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealFileServer",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DirectoryWatcher/Public",
+					"../Build/Mac/UnrealFileServer/Inc/DirectoryWatcher",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DirectoryWatcher",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFileSystem/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFileSystem/Public/Interfaces",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Interfaces",
+					"../Build/Mac/UnrealFileServer/Inc/NetworkFileSystem",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets/Public",
+					"../Build/Mac/UnrealFileServer/Inc/Sockets",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFileSystem",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile/Public",
+					"../Build/Mac/UnrealFileServer/Inc/SandboxFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"../Build/Mac/UnrealFileServer/Inc/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
+					"../Build/Mac/UnrealFileServer/Inc/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
 			};
-			name = Development;
+			name = "Development";
 		};
-		ABC63E76C354A69B54986C9E /* Debug */ = {
+		E39A237C608312FE2907AA34 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
 				PRODUCT_NAME = "UnrealFileServer-Mac-Debug";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Debug;
-		};
-		C572B896F2238C65BAAD9C36 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				SUPPORTED_PLATFORMS = macosx;
-				UE_BUILD_TARGET_CONFIG = Debug;
-				UE_BUILD_TARGET_NAME = UnrealFileServer;
-				VALID_ARCHS = x86_64;
-			};
-			name = Debug;
-		};
-		CB8E370362A386F7C0BF8A92 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		ABEFA54D981943BD1F2FE0B8 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealFileServer";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		1CA339B01274DD06E7267AF3 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				UE_BUILD_TARGET_NAME = "UnrealFileServer";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		683BF1459354C51083702F08 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				UE_BUILD_TARGET_NAME = "UnrealFileServer";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		9CA81AD60DE474556F0C1FC8 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
 				PRODUCT_NAME = "UnrealFileServer-Mac-Debug";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Debug;
-		};
-		E39A237C608312FE2907AA34 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = UnrealFileServer;
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
 			};
-			name = Development;
+			name = "Debug";
+		};
+		DDA1595CBD66A049E1732B1E /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealFileServer";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C4EB4353498E892820BFFCB /* Build configuration list for PBXNativeTarget "UnrealFileServer_Index" */ = {
+		502E14E59E9C3015A0EDE9CC /* Build configuration list for PBXProject "UnrealFileServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB8E370362A386F7C0BF8A92 /* Debug */,
-				9CA81AD60DE474556F0C1FC8 /* Development */,
+				1BFE87E44AE49FB8C2761F2B /* "Debug" */,
+				8009963CAD8B68135352C7A7 /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		7C0EB33F064CB3A456372A46 /* Build configuration list for PBXProject "UnrealFileServer" */ = {
+		7C0EB33F064CB3A456372A46 /* Build configuration list for PBXLegacyTarget "UnrealFileServer_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				502E14E59E9C3015A0EDE9CC /* Debug */,
-				1BFE87E44AE49FB8C2761F2B /* Development */,
+				1CA339B01274DD06E7267AF3 /* "Debug" */,
+				683BF1459354C51083702F08 /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		8A93E14794E243F2EA30E32B /* Build configuration list for PBXLegacyTarget "UnrealFileServer_Build" */ = {
+		8D1972CB11AEFEDCCCEEEDAE /* Build configuration list for PBXNativeTarget "UnrealFileServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C572B896F2238C65BAAD9C36 /* Debug */,
-				1CA339B01274DD06E7267AF3 /* Development */,
+				E39A237C608312FE2907AA34 /* "Debug" */,
+				ABEFA54D981943BD1F2FE0B8 /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		B02666D3ABDB5EA5D6AEA827 /* Build configuration list for PBXNativeTarget "UnrealFileServer" */ = {
+		5639A0EC65E073D59F92B926 /* Build configuration list for PBXNativeTarget "UnrealFileServer_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABC63E76C354A69B54986C9E /* Debug */,
-				E39A237C608312FE2907AA34 /* Development */,
+				9CA81AD60DE474556F0C1FC8 /* "Debug" */,
+				DDA1595CBD66A049E1732B1E /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 826337AD000E805C3647AE21 /* Project object */;
+	rootObject = E5A98B36585A744A38F07FF3 /* Project object */;
 }

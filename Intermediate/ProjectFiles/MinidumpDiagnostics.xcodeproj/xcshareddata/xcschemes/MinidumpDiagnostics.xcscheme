@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE5C8FB64613F772901C5AE2"
+               BlueprintIdentifier = "48F1F0519EC7AAFBD37E5E18"
                BuildableName = "MinidumpDiagnostics.app"
                BlueprintName = "MinidumpDiagnostics"
                ReferencedContainer = "container:MinidumpDiagnostics.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE5C8FB64613F772901C5AE2"
+               BlueprintIdentifier = "48F1F0519EC7AAFBD37E5E18"
                BuildableName = "MinidumpDiagnostics.app"
                BlueprintName = "MinidumpDiagnostics"
                ReferencedContainer = "container:MinidumpDiagnostics.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE5C8FB64613F772901C5AE2"
+               BlueprintIdentifier = "48F1F0519EC7AAFBD37E5E18"
                BuildableName = "MinidumpDiagnostics.app"
                BlueprintName = "MinidumpDiagnostics"
                ReferencedContainer = "container:MinidumpDiagnostics.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE5C8FB64613F772901C5AE2"
+               BlueprintIdentifier = "48F1F0519EC7AAFBD37E5E18"
                BuildableName = "MinidumpDiagnostics.app"
                BlueprintName = "MinidumpDiagnostics"
                ReferencedContainer = "container:MinidumpDiagnostics.xcodeproj">

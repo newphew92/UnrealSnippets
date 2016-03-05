@@ -17,3 +17,6 @@
 #ifndef NETWORK_NetworkGameMode_generated_h
 	#include "NetworkGameMode.h"
 #endif
+#ifndef NETWORK_SaveFlag_generated_h
+	#include "SaveFlag.h"
+#endif

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4AA7E174C62DEFDAFA4FEDB"
+               BlueprintIdentifier = "BA4FCB09320AD1C28585B626"
                BuildableName = "ShaderCompileWorker.app"
                BlueprintName = "ShaderCompileWorker"
                ReferencedContainer = "container:ShaderCompileWorker.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4AA7E174C62DEFDAFA4FEDB"
+               BlueprintIdentifier = "BA4FCB09320AD1C28585B626"
                BuildableName = "ShaderCompileWorker.app"
                BlueprintName = "ShaderCompileWorker"
                ReferencedContainer = "container:ShaderCompileWorker.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4AA7E174C62DEFDAFA4FEDB"
+               BlueprintIdentifier = "BA4FCB09320AD1C28585B626"
                BuildableName = "ShaderCompileWorker.app"
                BlueprintName = "ShaderCompileWorker"
                ReferencedContainer = "container:ShaderCompileWorker.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4AA7E174C62DEFDAFA4FEDB"
+               BlueprintIdentifier = "BA4FCB09320AD1C28585B626"
                BuildableName = "ShaderCompileWorker.app"
                BlueprintName = "ShaderCompileWorker"
                ReferencedContainer = "container:ShaderCompileWorker.xcodeproj">

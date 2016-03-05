@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5AB9011954D2BF3B789B8FCA"
+               BlueprintIdentifier = "ADDE35F8884515420E1EB3B8"
                BuildableName = "UnrealSync.app"
                BlueprintName = "UnrealSync"
                ReferencedContainer = "container:UnrealSync.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5AB9011954D2BF3B789B8FCA"
+               BlueprintIdentifier = "ADDE35F8884515420E1EB3B8"
                BuildableName = "UnrealSync.app"
                BlueprintName = "UnrealSync"
                ReferencedContainer = "container:UnrealSync.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5AB9011954D2BF3B789B8FCA"
+               BlueprintIdentifier = "ADDE35F8884515420E1EB3B8"
                BuildableName = "UnrealSync.app"
                BlueprintName = "UnrealSync"
                ReferencedContainer = "container:UnrealSync.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5AB9011954D2BF3B789B8FCA"
+               BlueprintIdentifier = "ADDE35F8884515420E1EB3B8"
                BuildableName = "UnrealSync.app"
                BlueprintName = "UnrealSync"
                ReferencedContainer = "container:UnrealSync.xcodeproj">

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "90386ABD769005A8866228AA"
+               BlueprintIdentifier = "B0C2D345FC6F9F5FE369CAEF"
                BuildableName = "UnrealCEFSubProcess.app"
                BlueprintName = "UnrealCEFSubProcess"
                ReferencedContainer = "container:UnrealCEFSubProcess.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "90386ABD769005A8866228AA"
+               BlueprintIdentifier = "B0C2D345FC6F9F5FE369CAEF"
                BuildableName = "UnrealCEFSubProcess.app"
                BlueprintName = "UnrealCEFSubProcess"
                ReferencedContainer = "container:UnrealCEFSubProcess.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "90386ABD769005A8866228AA"
+               BlueprintIdentifier = "B0C2D345FC6F9F5FE369CAEF"
                BuildableName = "UnrealCEFSubProcess.app"
                BlueprintName = "UnrealCEFSubProcess"
                ReferencedContainer = "container:UnrealCEFSubProcess.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "90386ABD769005A8866228AA"
+               BlueprintIdentifier = "B0C2D345FC6F9F5FE369CAEF"
                BuildableName = "UnrealCEFSubProcess.app"
                BlueprintName = "UnrealCEFSubProcess"
                ReferencedContainer = "container:UnrealCEFSubProcess.xcodeproj">

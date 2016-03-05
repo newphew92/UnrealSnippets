@@ -7,137 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4108A182EEF75578C2E82BC9 /* CrossCompilerUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29A4B26E6570853FECDCC008 /* CrossCompilerUtils.cpp */; };
+		24EDCC7DA8ED33C0F2D72993 /* CrossCompilerTool.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = CEDBC2E8B849B360A801E011 /* CrossCompilerTool.Target.cs */; };
+		D535F636594DF688CCED364E /* CrossCompilerTool.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = F0C0DA1ABEBDD1495ED875A3 /* CrossCompilerTool.Build.cs */; };
 		56B945579C4BBA43D1526E44 /* CrossCompilerTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91CC7BC9A7DCE97E4EDDF65D /* CrossCompilerTool.cpp */; };
+		2CD322159163ECFDBF52E09F /* CrossCompilerTool.h in Sources */ = {isa = PBXBuildFile; fileRef = 089FEC8133F27C9D519588F2 /* CrossCompilerTool.h */; };
+		4108A182EEF75578C2E82BC9 /* CrossCompilerUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29A4B26E6570853FECDCC008 /* CrossCompilerUtils.cpp */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		12EAEF64AE938871F44A0ED9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6FA026578BE7B5DBF73268AD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 728C50BDEB031035125DAB0D;
-			remoteInfo = CrossCompilerTool_Build;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		089FEC8133F27C9D519588F2 /* CrossCompilerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CrossCompilerTool.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrossCompilerTool/Private/CrossCompilerTool.h"; sourceTree = SOURCE_ROOT; };
-		1522A4F68E2DBAF959B45CB0 /* CrossCompilerTool-Mac-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "CrossCompilerTool-Mac-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		29A4B26E6570853FECDCC008 /* CrossCompilerUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CrossCompilerUtils.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrossCompilerTool/Private/CrossCompilerUtils.cpp"; sourceTree = SOURCE_ROOT; };
-		91CC7BC9A7DCE97E4EDDF65D /* CrossCompilerTool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CrossCompilerTool.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrossCompilerTool/Private/CrossCompilerTool.cpp"; sourceTree = SOURCE_ROOT; };
-		CEDBC2E8B849B360A801E011 /* CrossCompilerTool.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = CrossCompilerTool.Target.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrossCompilerTool/CrossCompilerTool.Target.cs"; sourceTree = SOURCE_ROOT; };
-		F0C0DA1ABEBDD1495ED875A3 /* CrossCompilerTool.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = CrossCompilerTool.Build.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrossCompilerTool/CrossCompilerTool.Build.cs"; sourceTree = SOURCE_ROOT; };
+		CEDBC2E8B849B360A801E011 /* CrossCompilerTool.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "CrossCompilerTool.Target.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrossCompilerTool/CrossCompilerTool.Target.cs"; sourceTree = SOURCE_ROOT; };
+		F0C0DA1ABEBDD1495ED875A3 /* CrossCompilerTool.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "CrossCompilerTool.Build.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrossCompilerTool/CrossCompilerTool.Build.cs"; sourceTree = SOURCE_ROOT; };
+		91CC7BC9A7DCE97E4EDDF65D /* CrossCompilerTool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "CrossCompilerTool.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrossCompilerTool/Private/CrossCompilerTool.cpp"; sourceTree = SOURCE_ROOT; };
+		089FEC8133F27C9D519588F2 /* CrossCompilerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CrossCompilerTool.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrossCompilerTool/Private/CrossCompilerTool.h"; sourceTree = SOURCE_ROOT; };
+		29A4B26E6570853FECDCC008 /* CrossCompilerUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "CrossCompilerUtils.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrossCompilerTool/Private/CrossCompilerUtils.cpp"; sourceTree = SOURCE_ROOT; };
+		43CA86F13AD8C7B87796B431 /* CrossCompilerTool */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CrossCompilerTool; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXGroup section */
-		459CD2A688162B1062D8F70B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1522A4F68E2DBAF959B45CB0 /* CrossCompilerTool-Mac-Debug.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		49AD9C5376843F9AA672E3F0 /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				91CC7BC9A7DCE97E4EDDF65D /* CrossCompilerTool.cpp */,
-				089FEC8133F27C9D519588F2 /* CrossCompilerTool.h */,
-				29A4B26E6570853FECDCC008 /* CrossCompilerUtils.cpp */,
-			);
-			path = Private;
-			sourceTree = "<group>";
-		};
-		7C373A21CEDCA6BE89D8728F = {
-			isa = PBXGroup;
-			children = (
-				49AD9C5376843F9AA672E3F0 /* Private */,
-				CEDBC2E8B849B360A801E011 /* CrossCompilerTool.Target.cs */,
-				F0C0DA1ABEBDD1495ED875A3 /* CrossCompilerTool.Build.cs */,
-				459CD2A688162B1062D8F70B /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXLegacyTarget section */
-		728C50BDEB031035125DAB0D /* CrossCompilerTool_Build */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 425CBD19D3022874FA96951D /* Build configuration list for PBXLegacyTarget "CrossCompilerTool_Build" */;
-			buildPhases = (
-			);
-			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
-			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
-			dependencies = (
-			);
-			name = CrossCompilerTool_Build;
-			passBuildSettingsInEnvironment = 1;
-			productName = CrossCompilerTool_Build;
-		};
-/* End PBXLegacyTarget section */
-
-/* Begin PBXNativeTarget section */
-		553D0AE2306BF45D8D3EF222 /* CrossCompilerTool_Index */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 43CA86F13AD8C7B87796B431 /* Build configuration list for PBXNativeTarget "CrossCompilerTool_Index" */;
-			buildPhases = (
-				D3214F2917B0C7D4CA1DDB54 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CrossCompilerTool_Index;
-			productName = CrossCompilerTool_Index;
-			productType = "com.apple.product-type.library.static";
-		};
-		55CDD11CB9E23790B7209C20 /* CrossCompilerTool */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2077AABDF731C16CAC5C731D /* Build configuration list for PBXNativeTarget "CrossCompilerTool" */;
-			buildPhases = (
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BF0870AA40F934980FEA654D /* PBXTargetDependency */,
-			);
-			name = CrossCompilerTool;
-			productName = CrossCompilerTool;
-			productReference = 1522A4F68E2DBAF959B45CB0 /* CrossCompilerTool-Mac-Debug.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		6FA026578BE7B5DBF73268AD /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "Epic Games, Inc.";
-			};
-			buildConfigurationList = F92E05A6684D7F036A9BD608 /* Build configuration list for PBXProject "CrossCompilerTool" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 7C373A21CEDCA6BE89D8728F;
-			productRefGroup = 459CD2A688162B1062D8F70B /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				55CDD11CB9E23790B7209C20 /* CrossCompilerTool */,
-				728C50BDEB031035125DAB0D /* CrossCompilerTool_Build */,
-				553D0AE2306BF45D8D3EF222 /* CrossCompilerTool_Index */,
-			);
-		};
-/* End PBXProject section */
-
 /* Begin PBXSourcesBuildPhase section */
-		D3214F2917B0C7D4CA1DDB54 /* Sources */ = {
+		081085B8B4D74F5CC183AE3E = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -148,54 +35,141 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXContainerItemProxy section */
+		553D0AE2306BF45D8D3EF222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3214F2917B0C7D4CA1DDB54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FA026578BE7B5DBF73268AD;
+			remoteInfo = "CrossCompilerTool_Build";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXTargetDependency section */
-		BF0870AA40F934980FEA654D /* PBXTargetDependency */ = {
+		425CBD19D3022874FA96951D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 728C50BDEB031035125DAB0D /* CrossCompilerTool_Build */;
-			targetProxy = 12EAEF64AE938871F44A0ED9 /* PBXContainerItemProxy */;
+			target = 6FA026578BE7B5DBF73268AD /* CrossCompilerTool_Build */;
+			targetProxy = 553D0AE2306BF45D8D3EF222 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXGroup section */
+		7BD87A536FC5A6A33F2F4EAC = {
+			isa = PBXGroup;
+			children = (
+				1BFFD98629FB50C40DEE0D14 /* Private */,
+				CEDBC2E8B849B360A801E011 /* CrossCompilerTool.Target.cs */,
+				F0C0DA1ABEBDD1495ED875A3 /* CrossCompilerTool.Build.cs */,
+				8C7CA7D9119EC528C07DFAF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BFFD98629FB50C40DEE0D14 = {
+			isa = PBXGroup;
+			children = (
+				91CC7BC9A7DCE97E4EDDF65D /* CrossCompilerTool.cpp */,
+				089FEC8133F27C9D519588F2 /* CrossCompilerTool.h */,
+				29A4B26E6570853FECDCC008 /* CrossCompilerUtils.cpp */,
+			);
+			name = "Private";
+			path = "Private";
+			sourceTree = "<group>";
+		};
+		8C7CA7D9119EC528C07DFAF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43CA86F13AD8C7B87796B431 /* CrossCompilerTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		6FA026578BE7B5DBF73268AD /* CrossCompilerTool_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = F92E05A6684D7F036A9BD608 /* Build configuration list for PBXLegacyTarget "CrossCompilerTool_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
+			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
+			dependencies = (
+			);
+			name = "CrossCompilerTool_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "CrossCompilerTool_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		1522A4F68E2DBAF959B45CB0 /* CrossCompilerTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 728C50BDEB031035125DAB0D /* Build configuration list for PBXNativeTarget "CrossCompilerTool" */;
+			buildPhases = (
+			);
+			dependencies = (
+				425CBD19D3022874FA96951D /* PBXTargetDependency */,
+			);
+			name = "CrossCompilerTool";
+			passBuildSettingsInEnvironment = 1;
+			productName = "CrossCompilerTool";
+			productReference = "43CA86F13AD8C7B87796B431";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		7C373A21CEDCA6BE89D8728F /* CrossCompilerTool_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459CD2A688162B1062D8F70B /* Build configuration list for PBXNativeTarget "CrossCompilerTool_Index" */;
+			buildPhases = (
+				081085B8B4D74F5CC183AE3E /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "CrossCompilerTool_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "CrossCompilerTool_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3214F2917B0C7D4CA1DDB54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+			};
+			buildConfigurationList = AC940D1A8BAA2320BB7660CC /* Build configuration list for PBXProject "CrossCompilerTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 7BD87A536FC5A6A33F2F4EAC;
+			productRefGroup = 8C7CA7D9119EC528C07DFAF4;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			1522A4F68E2DBAF959B45CB0 /* CrossCompilerTool */,
+			6FA026578BE7B5DBF73268AD /* CrossCompilerTool_Build */,
+			7C373A21CEDCA6BE89D8728F /* CrossCompilerTool_Index */,
+			);
+		};
+/* End PBXProject section */
+
 /* Begin XCBuildConfiguration section */
-		034A0F1DB1380BFDDE854A5F /* Development */ = {
+		357364047737157C45618E0E /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = CrossCompilerTool;
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Development;
-		};
-		081085B8B4D74F5CC183AE3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "CrossCompilerTool-Mac-Debug";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Debug;
-		};
-		357364047737157C45618E0E /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"IS_PROGRAM=1",
-					UNICODE,
-					_UNICODE,
-					__UNREAL__,
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
 					"IS_MONOLITHIC=1",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -232,156 +206,315 @@
 					"RENDERCORE_API=",
 					"MONOLITHIC_BUILD=1",
 				);
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib";
-				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/iOS/MetalShaderFormat/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderFormatOpenGL/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderCompilerCommon/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public ../Build/Mac/CrossCompilerTool/Inc/CrossCompilerTool /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrossCompilerTool /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/CrossCompilerTool/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/CrossCompilerTool/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderCompilerCommon/Public ../Build/Mac/CrossCompilerTool/Inc/ShaderCompilerCommon /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderCompilerCommon /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/MetalRHI/Public ../Build/Mac/CrossCompilerTool/Inc/MetalShaderFormat /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/iOS/MetalShaderFormat ../Build/Mac/CrossCompilerTool/Inc/ShaderFormatOpenGL /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderFormatOpenGL /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderPreprocessor/Public ../Build/Mac/CrossCompilerTool/Inc/ShaderPreprocessor /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderPreprocessor /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore/Public ../Build/Mac/CrossCompilerTool/Inc/ShaderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI/Public ../Build/Mac/CrossCompilerTool/Inc/RHI /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore/Public ../Build/Mac/CrossCompilerTool/Inc/RenderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/hlslcc";
-				USE_HEADERMAP = NO;
-			};
-			name = Development;
-		};
-		39C0B088687EAFA78276B46A /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = CrossCompilerTool;
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Development;
-		};
-		40EEEE67E0F1EA09CE68A39D /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				SUPPORTED_PLATFORMS = macosx;
-				UE_BUILD_TARGET_CONFIG = Development;
-				UE_BUILD_TARGET_NAME = CrossCompilerTool;
-				VALID_ARCHS = x86_64;
-			};
-			name = Development;
-		};
-		7BD87A536FC5A6A33F2F4EAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "CrossCompilerTool-Mac-Debug";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Debug;
-		};
-		8C7CA7D9119EC528C07DFAF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				SUPPORTED_PLATFORMS = macosx;
-				UE_BUILD_TARGET_CONFIG = Debug;
-				UE_BUILD_TARGET_NAME = CrossCompilerTool;
-				VALID_ARCHS = x86_64;
-			};
-			name = Debug;
-		};
-		AC940D1A8BAA2320BB7660CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"IS_PROGRAM=1",
-					UNICODE,
-					_UNICODE,
-					__UNREAL__,
-					"IS_MONOLITHIC=1",
-					"WITH_ENGINE=0",
-					"WITH_UNREAL_DEVELOPER_TOOLS=0",
-					"WITH_COREUOBJECT=0",
-					"USE_STATS_WITHOUT_ENGINE=0",
-					"WITH_PLUGIN_SUPPORT=0",
-					"USE_LOGGING_IN_SHIPPING=1",
-					"UE_BUILD_MINIMAL=0",
-					"WITH_EDITOR=0",
-					"WITH_SERVER_CODE=1",
-					"UBT_COMPILED_PLATFORM=Mac",
-					"PLATFORM_MAC=1",
-					"PLATFORM_APPLE=1",
-					"WITH_TTS=0",
-					"WITH_SPEECH_RECOGNITION=0",
-					"WITH_DATABASE_SUPPORT=0",
-					"NDEBUG=1",
-					"UE_BUILD_DEVELOPMENT=1",
-					"UE_PROJECT_NAME=Network",
-					"ORIGINAL_FILE_NAME=CrossCompilerTool",
-					"CROSSCOMPILERTOOL_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_STEAMWORKS=0",
-					"WITH_DIRECTXMATH=0",
-					"CORE_API=",
-					"PROJECTS_API=",
-					"JSON_API=",
-					"SHADERCOMPILERCOMMON_API=",
-					"METALSHADERFORMAT_API=",
-					"SHADERFORMATOPENGL_API=",
-					"SHADERPREPROCESSOR_API=",
-					"SHADERCORE_API=",
-					"RHI_API=",
-					"RENDERCORE_API=",
-					"MONOLITHIC_BUILD=1",
+				HEADER_SEARCH_PATHS = (
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
 				);
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib";
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/iOS/MetalShaderFormat/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderFormatOpenGL/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderCompilerCommon/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
+					"../Build/Mac/CrossCompilerTool/Inc/CrossCompilerTool",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrossCompilerTool",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"../Build/Mac/CrossCompilerTool/Inc/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
+					"../Build/Mac/CrossCompilerTool/Inc/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"../Build/Mac/CrossCompilerTool/Inc/ShaderCompilerCommon",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderCompilerCommon",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/MetalRHI/Public",
+					"../Build/Mac/CrossCompilerTool/Inc/MetalShaderFormat",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/iOS/MetalShaderFormat",
+					"../Build/Mac/CrossCompilerTool/Inc/ShaderFormatOpenGL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderFormatOpenGL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderPreprocessor/Public",
+					"../Build/Mac/CrossCompilerTool/Inc/ShaderPreprocessor",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderPreprocessor",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore/Public",
+					"../Build/Mac/CrossCompilerTool/Inc/ShaderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI/Public",
+					"../Build/Mac/CrossCompilerTool/Inc/RHI",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore/Public",
+					"../Build/Mac/CrossCompilerTool/Inc/RenderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/hlslcc",
+				);
 				ONLY_ACTIVE_ARCH = YES;
-				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/iOS/MetalShaderFormat/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderFormatOpenGL/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderCompilerCommon/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public ../Build/Mac/CrossCompilerTool/Inc/CrossCompilerTool /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrossCompilerTool /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/CrossCompilerTool/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/CrossCompilerTool/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderCompilerCommon/Public ../Build/Mac/CrossCompilerTool/Inc/ShaderCompilerCommon /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderCompilerCommon /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/MetalRHI/Public ../Build/Mac/CrossCompilerTool/Inc/MetalShaderFormat /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/iOS/MetalShaderFormat ../Build/Mac/CrossCompilerTool/Inc/ShaderFormatOpenGL /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderFormatOpenGL /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderPreprocessor/Public ../Build/Mac/CrossCompilerTool/Inc/ShaderPreprocessor /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderPreprocessor /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore/Public ../Build/Mac/CrossCompilerTool/Inc/ShaderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI/Public ../Build/Mac/CrossCompilerTool/Inc/RHI /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore/Public ../Build/Mac/CrossCompilerTool/Inc/RenderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/hlslcc";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
 				USE_HEADERMAP = NO;
 			};
-			name = Debug;
+			name = "Debug";
+		};
+		C731AB8977B05FAF2905C489 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PROGRAM=1",
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
+					"IS_MONOLITHIC=1",
+					"WITH_ENGINE=0",
+					"WITH_UNREAL_DEVELOPER_TOOLS=0",
+					"WITH_COREUOBJECT=0",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=1",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=0",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"UE_PROJECT_NAME=Network",
+					"ORIGINAL_FILE_NAME=CrossCompilerTool",
+					"CROSSCOMPILERTOOL_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=0",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"PROJECTS_API=",
+					"JSON_API=",
+					"SHADERCOMPILERCOMMON_API=",
+					"METALSHADERFORMAT_API=",
+					"SHADERFORMATOPENGL_API=",
+					"SHADERPREPROCESSOR_API=",
+					"SHADERCORE_API=",
+					"RHI_API=",
+					"RENDERCORE_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/iOS/MetalShaderFormat/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderFormatOpenGL/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderCompilerCommon/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
+					"../Build/Mac/CrossCompilerTool/Inc/CrossCompilerTool",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrossCompilerTool",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"../Build/Mac/CrossCompilerTool/Inc/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
+					"../Build/Mac/CrossCompilerTool/Inc/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"../Build/Mac/CrossCompilerTool/Inc/ShaderCompilerCommon",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderCompilerCommon",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/MetalRHI/Public",
+					"../Build/Mac/CrossCompilerTool/Inc/MetalShaderFormat",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/iOS/MetalShaderFormat",
+					"../Build/Mac/CrossCompilerTool/Inc/ShaderFormatOpenGL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderFormatOpenGL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderPreprocessor/Public",
+					"../Build/Mac/CrossCompilerTool/Inc/ShaderPreprocessor",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ShaderPreprocessor",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore/Public",
+					"../Build/Mac/CrossCompilerTool/Inc/ShaderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI/Public",
+					"../Build/Mac/CrossCompilerTool/Inc/RHI",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore/Public",
+					"../Build/Mac/CrossCompilerTool/Inc/RenderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/hlslcc",
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		034A0F1DB1380BFDDE854A5F /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrossCompilerTool-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		49AD9C5376843F9AA672E3F0 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrossCompilerTool";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		40EEEE67E0F1EA09CE68A39D /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				UE_BUILD_TARGET_NAME = "CrossCompilerTool";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		87839460D6A3DCC93984A0AE /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				UE_BUILD_TARGET_NAME = "CrossCompilerTool";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		39C0B088687EAFA78276B46A /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrossCompilerTool-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		4561921D09F37434FB273FBB /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrossCompilerTool";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2077AABDF731C16CAC5C731D /* Build configuration list for PBXNativeTarget "CrossCompilerTool" */ = {
+		AC940D1A8BAA2320BB7660CC /* Build configuration list for PBXProject "CrossCompilerTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7BD87A536FC5A6A33F2F4EAC /* Debug */,
-				034A0F1DB1380BFDDE854A5F /* Development */,
+				357364047737157C45618E0E /* "Debug" */,
+				C731AB8977B05FAF2905C489 /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		425CBD19D3022874FA96951D /* Build configuration list for PBXLegacyTarget "CrossCompilerTool_Build" */ = {
+		F92E05A6684D7F036A9BD608 /* Build configuration list for PBXLegacyTarget "CrossCompilerTool_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C7CA7D9119EC528C07DFAF4 /* Debug */,
-				40EEEE67E0F1EA09CE68A39D /* Development */,
+				40EEEE67E0F1EA09CE68A39D /* "Debug" */,
+				87839460D6A3DCC93984A0AE /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		43CA86F13AD8C7B87796B431 /* Build configuration list for PBXNativeTarget "CrossCompilerTool_Index" */ = {
+		728C50BDEB031035125DAB0D /* Build configuration list for PBXNativeTarget "CrossCompilerTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				081085B8B4D74F5CC183AE3E /* Debug */,
-				39C0B088687EAFA78276B46A /* Development */,
+				034A0F1DB1380BFDDE854A5F /* "Debug" */,
+				49AD9C5376843F9AA672E3F0 /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		F92E05A6684D7F036A9BD608 /* Build configuration list for PBXProject "CrossCompilerTool" */ = {
+		459CD2A688162B1062D8F70B /* Build configuration list for PBXNativeTarget "CrossCompilerTool_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC940D1A8BAA2320BB7660CC /* Debug */,
-				357364047737157C45618E0E /* Development */,
+				39C0B088687EAFA78276B46A /* "Debug" */,
+				4561921D09F37434FB273FBB /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6FA026578BE7B5DBF73268AD /* Project object */;
+	rootObject = D3214F2917B0C7D4CA1DDB54 /* Project object */;
 }

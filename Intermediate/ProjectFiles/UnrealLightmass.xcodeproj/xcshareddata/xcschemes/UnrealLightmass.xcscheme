@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF9D4FF3DB309E08ADABDFE5"
+               BlueprintIdentifier = "DDAC64BC6C3E4D31BBFD06BC"
                BuildableName = "UnrealLightmass.app"
                BlueprintName = "UnrealLightmass"
                ReferencedContainer = "container:UnrealLightmass.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF9D4FF3DB309E08ADABDFE5"
+               BlueprintIdentifier = "DDAC64BC6C3E4D31BBFD06BC"
                BuildableName = "UnrealLightmass.app"
                BlueprintName = "UnrealLightmass"
                ReferencedContainer = "container:UnrealLightmass.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF9D4FF3DB309E08ADABDFE5"
+               BlueprintIdentifier = "DDAC64BC6C3E4D31BBFD06BC"
                BuildableName = "UnrealLightmass.app"
                BlueprintName = "UnrealLightmass"
                ReferencedContainer = "container:UnrealLightmass.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF9D4FF3DB309E08ADABDFE5"
+               BlueprintIdentifier = "DDAC64BC6C3E4D31BBFD06BC"
                BuildableName = "UnrealLightmass.app"
                BlueprintName = "UnrealLightmass"
                ReferencedContainer = "container:UnrealLightmass.xcodeproj">

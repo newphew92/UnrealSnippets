@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7A396C27CB747D0EA48B3F52"
+               BlueprintIdentifier = "8070BA895F63AACB9044016B"
                BuildableName = "UnrealFileServer.app"
                BlueprintName = "UnrealFileServer"
                ReferencedContainer = "container:UnrealFileServer.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7A396C27CB747D0EA48B3F52"
+               BlueprintIdentifier = "8070BA895F63AACB9044016B"
                BuildableName = "UnrealFileServer.app"
                BlueprintName = "UnrealFileServer"
                ReferencedContainer = "container:UnrealFileServer.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7A396C27CB747D0EA48B3F52"
+               BlueprintIdentifier = "8070BA895F63AACB9044016B"
                BuildableName = "UnrealFileServer.app"
                BlueprintName = "UnrealFileServer"
                ReferencedContainer = "container:UnrealFileServer.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7A396C27CB747D0EA48B3F52"
+               BlueprintIdentifier = "8070BA895F63AACB9044016B"
                BuildableName = "UnrealFileServer.app"
                BlueprintName = "UnrealFileServer"
                ReferencedContainer = "container:UnrealFileServer.xcodeproj">

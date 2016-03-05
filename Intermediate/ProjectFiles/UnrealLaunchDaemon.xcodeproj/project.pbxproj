@@ -6,173 +6,39 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		1BFFD98629FB50C40DEE0D14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4F589C82B8B2C55D17C95AF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 71DE921EC04A608A5F9E0209;
-			remoteInfo = UnrealLaunchDaemon_Build;
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		34DF79E2EDFE67416BEF77BF /* UnrealLaunchDaemon.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6BB943E2C40AE476452D4EE3 /* UnrealLaunchDaemon.Target.cs */; };
+		EF684B5B60590B964A2FD489 /* UnrealLaunchDaemon.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = C16A0FC8FC67DD207322588F /* UnrealLaunchDaemon.Build.cs */; };
+		400E37E00F49066547999286 /* UnrealLaunchDaemon.uproject in Sources */ = {isa = PBXBuildFile; fileRef = ABFA1869DC947EF9CF28ACFB /* UnrealLaunchDaemon.uproject */; };
+		61BD4284FEA094CD10BC1A51 /* UnrealLaunchDaemon-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 212B8700296E4128D8881C02 /* UnrealLaunchDaemon-Info.plist */; };
+		4F7343DFA45EBF17623C7E52 /* LaunchDaemonMessageHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 078166A604C476EFE0C647B1 /* LaunchDaemonMessageHandler.cpp */; };
+		0D7ED061E68322D9A040358A /* LaunchDaemonMessageHandler.h in Sources */ = {isa = PBXBuildFile; fileRef = 5CB529B1FD02EFE4AC34F9A7 /* LaunchDaemonMessageHandler.h */; };
+		089B2313122D21882C92D125 /* UnrealLaunchDaemon.h in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D30DE1AA5B1C74BDB4A4F /* UnrealLaunchDaemon.h */; };
+		9BC4F1DDD66304D88428594B /* UnrealLaunchDaemonApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F0EC6731EAC5ECAE303239F /* UnrealLaunchDaemonApp.cpp */; };
+		D111CA0682325C2C51D4774E /* UnrealLaunchDaemonApp.h in Sources */ = {isa = PBXBuildFile; fileRef = 3B44B2C98DF9A16504E57E0B /* UnrealLaunchDaemonApp.h */; };
+		DF3EA89E7C7F6B98A1520CC4 /* IOSLaunchDaemonAppMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98FE5552CC2CFA8B967838DA /* IOSLaunchDaemonAppMain.cpp */; };
+		FA953CEA62BD9BEC93BE2744 /* IOSLaunchDaemonView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89BDAFD169DFACE837ED308F /* IOSLaunchDaemonView.cpp */; };
+		A34E99D7EAF3756606CEA4E7 /* IOSLaunchDaemonView.h in Sources */ = {isa = PBXBuildFile; fileRef = 438136E3B72031D9D611C90E /* IOSLaunchDaemonView.h */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		078166A604C476EFE0C647B1 /* LaunchDaemonMessageHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LaunchDaemonMessageHandler.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/LaunchDaemonMessageHandler.cpp"; sourceTree = SOURCE_ROOT; };
+		6BB943E2C40AE476452D4EE3 /* UnrealLaunchDaemon.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "UnrealLaunchDaemon.Target.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/UnrealLaunchDaemon.Target.cs"; sourceTree = SOURCE_ROOT; };
+		C16A0FC8FC67DD207322588F /* UnrealLaunchDaemon.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "UnrealLaunchDaemon.Build.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/UnrealLaunchDaemon.Build.cs"; sourceTree = SOURCE_ROOT; };
+		ABFA1869DC947EF9CF28ACFB /* UnrealLaunchDaemon.uproject */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "UnrealLaunchDaemon.uproject"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/UnrealLaunchDaemon.uproject"; sourceTree = SOURCE_ROOT; };
 		212B8700296E4128D8881C02 /* UnrealLaunchDaemon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "UnrealLaunchDaemon-Info.plist"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Build/IOS/UnrealLaunchDaemon-Info.plist"; sourceTree = SOURCE_ROOT; };
-		3B44B2C98DF9A16504E57E0B /* UnrealLaunchDaemonApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnrealLaunchDaemonApp.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/UnrealLaunchDaemonApp.h"; sourceTree = SOURCE_ROOT; };
-		438136E3B72031D9D611C90E /* IOSLaunchDaemonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IOSLaunchDaemonView.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/IOS/IOSLaunchDaemonView.h"; sourceTree = SOURCE_ROOT; };
-		5CB529B1FD02EFE4AC34F9A7 /* LaunchDaemonMessageHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LaunchDaemonMessageHandler.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/LaunchDaemonMessageHandler.h"; sourceTree = SOURCE_ROOT; };
-		5F0EC6731EAC5ECAE303239F /* UnrealLaunchDaemonApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UnrealLaunchDaemonApp.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/UnrealLaunchDaemonApp.cpp"; sourceTree = SOURCE_ROOT; };
-		6BB943E2C40AE476452D4EE3 /* UnrealLaunchDaemon.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = UnrealLaunchDaemon.Target.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/UnrealLaunchDaemon.Target.cs"; sourceTree = SOURCE_ROOT; };
-		89BDAFD169DFACE837ED308F /* IOSLaunchDaemonView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = IOSLaunchDaemonView.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/IOS/IOSLaunchDaemonView.cpp"; sourceTree = SOURCE_ROOT; };
-		8E5D30DE1AA5B1C74BDB4A4F /* UnrealLaunchDaemon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnrealLaunchDaemon.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/UnrealLaunchDaemon.h"; sourceTree = SOURCE_ROOT; };
-		98FE5552CC2CFA8B967838DA /* IOSLaunchDaemonAppMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = IOSLaunchDaemonAppMain.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/IOS/IOSLaunchDaemonAppMain.cpp"; sourceTree = SOURCE_ROOT; };
-		ABFA1869DC947EF9CF28ACFB /* UnrealLaunchDaemon.uproject */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = UnrealLaunchDaemon.uproject; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/UnrealLaunchDaemon.uproject"; sourceTree = SOURCE_ROOT; };
-		C16A0FC8FC67DD207322588F /* UnrealLaunchDaemon.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = UnrealLaunchDaemon.Build.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/UnrealLaunchDaemon.Build.cs"; sourceTree = SOURCE_ROOT; };
-		F12191B2FDAFF56043D97E7A /* UnrealLaunchDaemon-Mac-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "UnrealLaunchDaemon-Mac-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		078166A604C476EFE0C647B1 /* LaunchDaemonMessageHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "LaunchDaemonMessageHandler.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/LaunchDaemonMessageHandler.cpp"; sourceTree = SOURCE_ROOT; };
+		5CB529B1FD02EFE4AC34F9A7 /* LaunchDaemonMessageHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LaunchDaemonMessageHandler.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/LaunchDaemonMessageHandler.h"; sourceTree = SOURCE_ROOT; };
+		8E5D30DE1AA5B1C74BDB4A4F /* UnrealLaunchDaemon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UnrealLaunchDaemon.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/UnrealLaunchDaemon.h"; sourceTree = SOURCE_ROOT; };
+		5F0EC6731EAC5ECAE303239F /* UnrealLaunchDaemonApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "UnrealLaunchDaemonApp.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/UnrealLaunchDaemonApp.cpp"; sourceTree = SOURCE_ROOT; };
+		3B44B2C98DF9A16504E57E0B /* UnrealLaunchDaemonApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UnrealLaunchDaemonApp.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/UnrealLaunchDaemonApp.h"; sourceTree = SOURCE_ROOT; };
+		98FE5552CC2CFA8B967838DA /* IOSLaunchDaemonAppMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "IOSLaunchDaemonAppMain.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/IOS/IOSLaunchDaemonAppMain.cpp"; sourceTree = SOURCE_ROOT; };
+		89BDAFD169DFACE837ED308F /* IOSLaunchDaemonView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "IOSLaunchDaemonView.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/IOS/IOSLaunchDaemonView.cpp"; sourceTree = SOURCE_ROOT; };
+		438136E3B72031D9D611C90E /* IOSLaunchDaemonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IOSLaunchDaemonView.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/IOS/IOSLaunchDaemonView.h"; sourceTree = SOURCE_ROOT; };
+		693103C28D82B4521F88980F /* UnrealLaunchDaemon */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = UnrealLaunchDaemon; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXGroup section */
-		17E816F532BF79EC9C53D0CB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F12191B2FDAFF56043D97E7A /* UnrealLaunchDaemon-Mac-Debug.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1904247E36F149CE8C876144 /* IOS */ = {
-			isa = PBXGroup;
-			children = (
-				212B8700296E4128D8881C02 /* UnrealLaunchDaemon-Info.plist */,
-			);
-			name = IOS;
-			path = Build/IOS;
-			sourceTree = "<group>";
-		};
-		2633F60D58CD0FFE569C38C8 /* Build */ = {
-			isa = PBXGroup;
-			children = (
-				1904247E36F149CE8C876144 /* IOS */,
-			);
-			path = Build;
-			sourceTree = "<group>";
-		};
-		4D72FED0657629F5187CC2EB /* IOS */ = {
-			isa = PBXGroup;
-			children = (
-				98FE5552CC2CFA8B967838DA /* IOSLaunchDaemonAppMain.cpp */,
-				89BDAFD169DFACE837ED308F /* IOSLaunchDaemonView.cpp */,
-				438136E3B72031D9D611C90E /* IOSLaunchDaemonView.h */,
-			);
-			name = IOS;
-			path = Private/IOS;
-			sourceTree = "<group>";
-		};
-		77EB65CB67B9F5017848F9D0 = {
-			isa = PBXGroup;
-			children = (
-				2633F60D58CD0FFE569C38C8 /* Build */,
-				FF4606FFE9A827C3487F437C /* Private */,
-				6BB943E2C40AE476452D4EE3 /* UnrealLaunchDaemon.Target.cs */,
-				C16A0FC8FC67DD207322588F /* UnrealLaunchDaemon.Build.cs */,
-				ABFA1869DC947EF9CF28ACFB /* UnrealLaunchDaemon.uproject */,
-				17E816F532BF79EC9C53D0CB /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		FF4606FFE9A827C3487F437C /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				4D72FED0657629F5187CC2EB /* IOS */,
-				078166A604C476EFE0C647B1 /* LaunchDaemonMessageHandler.cpp */,
-				5CB529B1FD02EFE4AC34F9A7 /* LaunchDaemonMessageHandler.h */,
-				8E5D30DE1AA5B1C74BDB4A4F /* UnrealLaunchDaemon.h */,
-				5F0EC6731EAC5ECAE303239F /* UnrealLaunchDaemonApp.cpp */,
-				3B44B2C98DF9A16504E57E0B /* UnrealLaunchDaemonApp.h */,
-			);
-			path = Private;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXLegacyTarget section */
-		71DE921EC04A608A5F9E0209 /* UnrealLaunchDaemon_Build */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 1AEE0BFFD67BAEF34E1C0C15 /* Build configuration list for PBXLegacyTarget "UnrealLaunchDaemon_Build" */;
-			buildPhases = (
-			);
-			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
-			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
-			dependencies = (
-			);
-			name = UnrealLaunchDaemon_Build;
-			passBuildSettingsInEnvironment = 1;
-			productName = UnrealLaunchDaemon_Build;
-		};
-/* End PBXLegacyTarget section */
-
-/* Begin PBXNativeTarget section */
-		87839460D6A3DCC93984A0AE /* UnrealLaunchDaemon */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4561921D09F37434FB273FBB /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon" */;
-			buildPhases = (
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E15B31FE371AC3554DBB01F3 /* PBXTargetDependency */,
-			);
-			name = UnrealLaunchDaemon;
-			productName = UnrealLaunchDaemon;
-			productReference = F12191B2FDAFF56043D97E7A /* UnrealLaunchDaemon-Mac-Debug.app */;
-			productType = "com.apple.product-type.application";
-		};
-		8910589EC5A1B042815E144A /* UnrealLaunchDaemon_Index */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 693103C28D82B4521F88980F /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon_Index" */;
-			buildPhases = (
-				BDF6645FFFDD35E45FE45040 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = UnrealLaunchDaemon_Index;
-			productName = UnrealLaunchDaemon_Index;
-			productType = "com.apple.product-type.library.static";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		A4F589C82B8B2C55D17C95AF /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "Epic Games, Inc.";
-			};
-			buildConfigurationList = F2C1C5BEEEC088BBDAC096A5 /* Build configuration list for PBXProject "UnrealLaunchDaemon" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 77EB65CB67B9F5017848F9D0;
-			productRefGroup = 17E816F532BF79EC9C53D0CB /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				87839460D6A3DCC93984A0AE /* UnrealLaunchDaemon */,
-				71DE921EC04A608A5F9E0209 /* UnrealLaunchDaemon_Build */,
-				8910589EC5A1B042815E144A /* UnrealLaunchDaemon_Index */,
-			);
-		};
-/* End PBXProject section */
-
 /* Begin PBXSourcesBuildPhase section */
-		BDF6645FFFDD35E45FE45040 /* Sources */ = {
+		D26065071C2703C84F5EB56D = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -181,26 +47,175 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXContainerItemProxy section */
+		8910589EC5A1B042815E144A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF6645FFFDD35E45FE45040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F589C82B8B2C55D17C95AF;
+			remoteInfo = "UnrealLaunchDaemon_Build";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXTargetDependency section */
-		E15B31FE371AC3554DBB01F3 /* PBXTargetDependency */ = {
+		1AEE0BFFD67BAEF34E1C0C15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 71DE921EC04A608A5F9E0209 /* UnrealLaunchDaemon_Build */;
-			targetProxy = 1BFFD98629FB50C40DEE0D14 /* PBXContainerItemProxy */;
+			target = A4F589C82B8B2C55D17C95AF /* UnrealLaunchDaemon_Build */;
+			targetProxy = 8910589EC5A1B042815E144A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXGroup section */
+		A992881A47A909231A990E71 = {
+			isa = PBXGroup;
+			children = (
+				BC2B67E06DA44D9ED2B20D12 /* Build */,
+				F27868155D6C2B82831B43BE /* Private */,
+				6BB943E2C40AE476452D4EE3 /* UnrealLaunchDaemon.Target.cs */,
+				C16A0FC8FC67DD207322588F /* UnrealLaunchDaemon.Build.cs */,
+				ABFA1869DC947EF9CF28ACFB /* UnrealLaunchDaemon.uproject */,
+				5496019B1315713397D5CFD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC2B67E06DA44D9ED2B20D12 = {
+			isa = PBXGroup;
+			children = (
+				C60F14AD75757F9AC1A831C4 /* IOS */,
+			);
+			name = "Build";
+			path = "Build";
+			sourceTree = "<group>";
+		};
+		C60F14AD75757F9AC1A831C4 = {
+			isa = PBXGroup;
+			children = (
+				212B8700296E4128D8881C02 /* UnrealLaunchDaemon-Info.plist */,
+			);
+			name = "IOS";
+			path = "Build/IOS";
+			sourceTree = "<group>";
+		};
+		F27868155D6C2B82831B43BE = {
+			isa = PBXGroup;
+			children = (
+				414656A431A4A99A64EC0956 /* IOS */,
+				078166A604C476EFE0C647B1 /* LaunchDaemonMessageHandler.cpp */,
+				5CB529B1FD02EFE4AC34F9A7 /* LaunchDaemonMessageHandler.h */,
+				8E5D30DE1AA5B1C74BDB4A4F /* UnrealLaunchDaemon.h */,
+				5F0EC6731EAC5ECAE303239F /* UnrealLaunchDaemonApp.cpp */,
+				3B44B2C98DF9A16504E57E0B /* UnrealLaunchDaemonApp.h */,
+			);
+			name = "Private";
+			path = "Private";
+			sourceTree = "<group>";
+		};
+		414656A431A4A99A64EC0956 = {
+			isa = PBXGroup;
+			children = (
+				98FE5552CC2CFA8B967838DA /* IOSLaunchDaemonAppMain.cpp */,
+				89BDAFD169DFACE837ED308F /* IOSLaunchDaemonView.cpp */,
+				438136E3B72031D9D611C90E /* IOSLaunchDaemonView.h */,
+			);
+			name = "IOS";
+			path = "Private/IOS";
+			sourceTree = "<group>";
+		};
+		5496019B1315713397D5CFD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				693103C28D82B4521F88980F /* UnrealLaunchDaemon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A4F589C82B8B2C55D17C95AF /* UnrealLaunchDaemon_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = F2C1C5BEEEC088BBDAC096A5 /* Build configuration list for PBXLegacyTarget "UnrealLaunchDaemon_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
+			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
+			dependencies = (
+			);
+			name = "UnrealLaunchDaemon_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealLaunchDaemon_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		F12191B2FDAFF56043D97E7A /* UnrealLaunchDaemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71DE921EC04A608A5F9E0209 /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1AEE0BFFD67BAEF34E1C0C15 /* PBXTargetDependency */,
+			);
+			name = "UnrealLaunchDaemon";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealLaunchDaemon";
+			productReference = "693103C28D82B4521F88980F";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		77EB65CB67B9F5017848F9D0 /* UnrealLaunchDaemon_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E816F532BF79EC9C53D0CB /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon_Index" */;
+			buildPhases = (
+				D26065071C2703C84F5EB56D /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealLaunchDaemon_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealLaunchDaemon_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF6645FFFDD35E45FE45040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+			};
+			buildConfigurationList = 2560ED18869437A9C8F4A606 /* Build configuration list for PBXProject "UnrealLaunchDaemon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = A992881A47A909231A990E71;
+			productRefGroup = 5496019B1315713397D5CFD2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			F12191B2FDAFF56043D97E7A /* UnrealLaunchDaemon */,
+			A4F589C82B8B2C55D17C95AF /* UnrealLaunchDaemon_Build */,
+			77EB65CB67B9F5017848F9D0 /* UnrealLaunchDaemon_Index */,
+			);
+		};
+/* End PBXProject section */
+
 /* Begin XCBuildConfiguration section */
-		2560ED18869437A9C8F4A606 /* Debug */ = {
+		541A9CB5DA2D268C527BC3F0 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"IS_PROGRAM=1",
-					UNICODE,
-					_UNICODE,
-					__UNREAL__,
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
 					"IS_MONOLITHIC=1",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -244,35 +259,151 @@
 					"UDPMESSAGING_API=",
 					"MONOLITHIC_BUILD=1",
 				);
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/UnrealLaunchDaemon",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Interfaces",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFile/Public",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/NetworkFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/StreamingFile/Public",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/StreamingFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets/Public",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/Sockets",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/StreamingFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/Slate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/CoreUObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/InputCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/SlateCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Classes",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Interfaces",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/EditorStyle",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/StandaloneRenderer",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Classes",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Public",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/LaunchDaemonMessages",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/LaunchDaemonMessages",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public/Deprecated",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public/Helpers",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/Messaging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/UnrealLaunchDaemon/Inc/UdpMessaging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging",
+				);
 				ONLY_ACTIVE_ARCH = YES;
-				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public ../Build/Mac/UnrealLaunchDaemon/Inc/UnrealLaunchDaemon /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Interfaces /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFile/Public ../Build/Mac/UnrealLaunchDaemon/Inc/NetworkFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/UnrealLaunchDaemon/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/UnrealLaunchDaemon/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/StreamingFile/Public ../Build/Mac/UnrealLaunchDaemon/Inc/StreamingFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets/Public ../Build/Mac/UnrealLaunchDaemon/Inc/Sockets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/StreamingFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views ../Build/Mac/UnrealLaunchDaemon/Inc/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject ../Build/Mac/UnrealLaunchDaemon/Inc/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public ../Build/Mac/UnrealLaunchDaemon/Inc/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets ../Build/Mac/UnrealLaunchDaemon/Inc/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Interfaces ../Build/Mac/UnrealLaunchDaemon/Inc/EditorStyle /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS ../Build/Mac/UnrealLaunchDaemon/Inc/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Public ../Build/Mac/UnrealLaunchDaemon/Inc/LaunchDaemonMessages /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/LaunchDaemonMessages /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public/Helpers ../Build/Mac/UnrealLaunchDaemon/Inc/Messaging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/UnrealLaunchDaemon/Inc/UdpMessaging /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging";
-				USE_HEADERMAP = NO;
-			};
-			name = Debug;
-		};
-		430107F2954522F6E19446F9 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				SUPPORTED_PLATFORMS = "macosx iphoneos";
-				UE_BUILD_TARGET_CONFIG = Development;
-				UE_BUILD_TARGET_NAME = UnrealLaunchDaemon;
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-			};
-			name = Development;
-		};
-		541A9CB5DA2D268C527BC3F0 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		915145DCEFE1AA9DD1B672D9 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"IS_PROGRAM=1",
-					UNICODE,
-					_UNICODE,
-					__UNREAL__,
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
 					"IS_MONOLITHIC=1",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -316,163 +447,302 @@
 					"UDPMESSAGING_API=",
 					"MONOLITHIC_BUILD=1",
 				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/UnrealLaunchDaemon",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Interfaces",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFile/Public",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/NetworkFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/StreamingFile/Public",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/StreamingFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets/Public",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/Sockets",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/StreamingFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/Slate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/CoreUObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/InputCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/SlateCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Classes",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Interfaces",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/EditorStyle",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/StandaloneRenderer",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Classes",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Public",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/LaunchDaemonMessages",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/LaunchDaemonMessages",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public/Deprecated",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public/Helpers",
+					"../Build/Mac/UnrealLaunchDaemon/Inc/Messaging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/UnrealLaunchDaemon/Inc/UdpMessaging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging",
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				HEADER_SEARCH_PATHS = "";
-				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public ../Build/Mac/UnrealLaunchDaemon/Inc/UnrealLaunchDaemon /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/IOS/UnrealLaunchDaemon /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Interfaces /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFile/Public ../Build/Mac/UnrealLaunchDaemon/Inc/NetworkFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/NetworkFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/UnrealLaunchDaemon/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/UnrealLaunchDaemon/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/StreamingFile/Public ../Build/Mac/UnrealLaunchDaemon/Inc/StreamingFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets/Public ../Build/Mac/UnrealLaunchDaemon/Inc/Sockets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Sockets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/StreamingFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views ../Build/Mac/UnrealLaunchDaemon/Inc/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject ../Build/Mac/UnrealLaunchDaemon/Inc/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public ../Build/Mac/UnrealLaunchDaemon/Inc/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets ../Build/Mac/UnrealLaunchDaemon/Inc/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Interfaces ../Build/Mac/UnrealLaunchDaemon/Inc/EditorStyle /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS ../Build/Mac/UnrealLaunchDaemon/Inc/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Public ../Build/Mac/UnrealLaunchDaemon/Inc/LaunchDaemonMessages /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/IOS/LaunchDaemonMessages /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging/Public/Helpers ../Build/Mac/UnrealLaunchDaemon/Inc/Messaging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/UnrealLaunchDaemon/Inc/UdpMessaging /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging";
 				USE_HEADERMAP = NO;
 			};
-			name = Development;
+			name = "Development";
 		};
-		5496019B1315713397D5CFD2 /* Debug */ = {
+		929C95B283726ED4C2B648E6 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SUPPORTED_PLATFORMS = "macosx iphoneos";
-				UE_BUILD_TARGET_CONFIG = Debug;
-				UE_BUILD_TARGET_NAME = UnrealLaunchDaemon;
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-			};
-			name = Debug;
-		};
-		79BB5869AF437F579D75757F /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/IOS/Payload";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/Mac/UnrealLaunchDaemon-Info.plist";
-				INFOPLIST_OUTPUT_FORMAT = xml;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				"PRODUCT_NAME[sdk=iphoneos*]" = UnrealLaunchDaemon;
-				"PRODUCT_NAME[sdk=macosx*]" = UnrealLaunchDaemon;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				"SDKROOT[arch=x86_64]" = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-			};
-			name = Development;
-		};
-		929C95B283726ED4C2B648E6 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/IOS/Payload";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/Mac/UnrealLaunchDaemon-Info.plist";
-				INFOPLIST_OUTPUT_FORMAT = xml;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				"PRODUCT_NAME[sdk=iphoneos*]" = UnrealLaunchDaemon;
-				"PRODUCT_NAME[sdk=macosx*]" = UnrealLaunchDaemon;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				"SDKROOT[arch=x86_64]" = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-			};
-			name = Development;
-		};
-		A992881A47A909231A990E71 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/IOS/Payload";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/Mac/UnrealLaunchDaemon-Mac-Debug-Info.plist";
-				INFOPLIST_OUTPUT_FORMAT = xml;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				"PRODUCT_NAME[sdk=iphoneos*]" = UnrealLaunchDaemon;
 				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-Mac-Debug";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				"SDKROOT[arch=x86_64]" = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-			};
-			name = Debug;
-		};
-		D26065071C2703C84F5EB56D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/IOS/Payload";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				"SDKROOT[arch=x86_64]" = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/Mac/UnrealLaunchDaemon-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/Mac/UnrealLaunchDaemon-Mac-Debug-Info.plist";
-				INFOPLIST_OUTPUT_FORMAT = xml;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				"PRODUCT_NAME[sdk=iphoneos*]" = UnrealLaunchDaemon;
-				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-Mac-Debug";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				"SDKROOT[arch=x86_64]" = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
 			};
-			name = Debug;
+			name = "Debug";
+		};
+		2633F60D58CD0FFE569C38C8 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon";
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				"SDKROOT[arch=x86_64]" = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/Mac/UnrealLaunchDaemon-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		430107F2954522F6E19446F9 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_NAME = "UnrealLaunchDaemon";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		1904247E36F149CE8C876144 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_NAME = "UnrealLaunchDaemon";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		79BB5869AF437F579D75757F /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-Mac-Debug";
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				"SDKROOT[arch=x86_64]" = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/Mac/UnrealLaunchDaemon-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		FF4606FFE9A827C3487F437C /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon";
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				"SDKROOT[arch=x86_64]" = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/Mac/UnrealLaunchDaemon-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1AEE0BFFD67BAEF34E1C0C15 /* Build configuration list for PBXLegacyTarget "UnrealLaunchDaemon_Build" */ = {
+		2560ED18869437A9C8F4A606 /* Build configuration list for PBXProject "UnrealLaunchDaemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5496019B1315713397D5CFD2 /* Debug */,
-				430107F2954522F6E19446F9 /* Development */,
+				541A9CB5DA2D268C527BC3F0 /* "Debug" */,
+				915145DCEFE1AA9DD1B672D9 /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		4561921D09F37434FB273FBB /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon" */ = {
+		F2C1C5BEEEC088BBDAC096A5 /* Build configuration list for PBXLegacyTarget "UnrealLaunchDaemon_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A992881A47A909231A990E71 /* Debug */,
-				929C95B283726ED4C2B648E6 /* Development */,
+				430107F2954522F6E19446F9 /* "Debug" */,
+				1904247E36F149CE8C876144 /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		693103C28D82B4521F88980F /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon_Index" */ = {
+		71DE921EC04A608A5F9E0209 /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D26065071C2703C84F5EB56D /* Debug */,
-				79BB5869AF437F579D75757F /* Development */,
+				929C95B283726ED4C2B648E6 /* "Debug" */,
+				2633F60D58CD0FFE569C38C8 /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		F2C1C5BEEEC088BBDAC096A5 /* Build configuration list for PBXProject "UnrealLaunchDaemon" */ = {
+		17E816F532BF79EC9C53D0CB /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2560ED18869437A9C8F4A606 /* Debug */,
-				541A9CB5DA2D268C527BC3F0 /* Development */,
+				79BB5869AF437F579D75757F /* "Debug" */,
+				FF4606FFE9A827C3487F437C /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A4F589C82B8B2C55D17C95AF /* Project object */;
+	rootObject = BDF6645FFFDD35E45FE45040 /* Project object */;
 }

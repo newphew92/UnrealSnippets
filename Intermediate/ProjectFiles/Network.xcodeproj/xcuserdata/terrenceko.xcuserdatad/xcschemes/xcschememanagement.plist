@@ -7,22 +7,22 @@
 		<key>Network.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>25</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>55CDD11CB9E23790B7209C20</key>
+		<key>A256A40CC4C09C63B55065FD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>728C50BDEB031035125DAB0D</key>
+		<key>EC149D6C1F9E4E23026C7BD0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>553D0AE2306BF45D8D3EF222</key>
+		<key>EDF46A8C2038D5FB7C76760C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

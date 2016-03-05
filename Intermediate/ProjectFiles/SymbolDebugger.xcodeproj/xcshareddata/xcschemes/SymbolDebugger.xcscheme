@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F684ABB3B70B5F91F5591E84"
+               BlueprintIdentifier = "33D35162E098B00AE6DF1661"
                BuildableName = "SymbolDebugger.app"
                BlueprintName = "SymbolDebugger"
                ReferencedContainer = "container:SymbolDebugger.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F684ABB3B70B5F91F5591E84"
+               BlueprintIdentifier = "33D35162E098B00AE6DF1661"
                BuildableName = "SymbolDebugger.app"
                BlueprintName = "SymbolDebugger"
                ReferencedContainer = "container:SymbolDebugger.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F684ABB3B70B5F91F5591E84"
+               BlueprintIdentifier = "33D35162E098B00AE6DF1661"
                BuildableName = "SymbolDebugger.app"
                BlueprintName = "SymbolDebugger"
                ReferencedContainer = "container:SymbolDebugger.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F684ABB3B70B5F91F5591E84"
+               BlueprintIdentifier = "33D35162E098B00AE6DF1661"
                BuildableName = "SymbolDebugger.app"
                BlueprintName = "SymbolDebugger"
                ReferencedContainer = "container:SymbolDebugger.xcodeproj">

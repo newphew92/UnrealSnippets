@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "55CDD11CB9E23790B7209C20"
+               BlueprintIdentifier = "A256A40CC4C09C63B55065FD"
                BuildableName = "Network.app"
                BlueprintName = "Network"
                ReferencedContainer = "container:Network.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "55CDD11CB9E23790B7209C20"
+               BlueprintIdentifier = "A256A40CC4C09C63B55065FD"
                BuildableName = "Network.app"
                BlueprintName = "Network"
                ReferencedContainer = "container:Network.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "55CDD11CB9E23790B7209C20"
+               BlueprintIdentifier = "A256A40CC4C09C63B55065FD"
                BuildableName = "Network.app"
                BlueprintName = "Network"
                ReferencedContainer = "container:Network.xcodeproj">
@@ -80,7 +80,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "55CDD11CB9E23790B7209C20"
+               BlueprintIdentifier = "A256A40CC4C09C63B55065FD"
                BuildableName = "Network.app"
                BlueprintName = "Network"
                ReferencedContainer = "container:Network.xcodeproj">

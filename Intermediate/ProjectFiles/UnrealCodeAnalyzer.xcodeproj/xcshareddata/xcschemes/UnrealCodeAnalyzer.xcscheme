@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF53627BB6850B4AA67F95D0"
+               BlueprintIdentifier = "6738F62C5E1B50D62B96508A"
                BuildableName = "UnrealCodeAnalyzer.app"
                BlueprintName = "UnrealCodeAnalyzer"
                ReferencedContainer = "container:UnrealCodeAnalyzer.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF53627BB6850B4AA67F95D0"
+               BlueprintIdentifier = "6738F62C5E1B50D62B96508A"
                BuildableName = "UnrealCodeAnalyzer.app"
                BlueprintName = "UnrealCodeAnalyzer"
                ReferencedContainer = "container:UnrealCodeAnalyzer.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF53627BB6850B4AA67F95D0"
+               BlueprintIdentifier = "6738F62C5E1B50D62B96508A"
                BuildableName = "UnrealCodeAnalyzer.app"
                BlueprintName = "UnrealCodeAnalyzer"
                ReferencedContainer = "container:UnrealCodeAnalyzer.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF53627BB6850B4AA67F95D0"
+               BlueprintIdentifier = "6738F62C5E1B50D62B96508A"
                BuildableName = "UnrealCodeAnalyzer.app"
                BlueprintName = "UnrealCodeAnalyzer"
                ReferencedContainer = "container:UnrealCodeAnalyzer.xcodeproj">

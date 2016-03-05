@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3EB06D740B45DD5A4F3E6A4E"
+               BlueprintIdentifier = "90544CC469DAFB337FE83EF5"
                BuildableName = "ParallelExecutor.app"
                BlueprintName = "ParallelExecutor"
                ReferencedContainer = "container:ParallelExecutor.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3EB06D740B45DD5A4F3E6A4E"
+               BlueprintIdentifier = "90544CC469DAFB337FE83EF5"
                BuildableName = "ParallelExecutor.app"
                BlueprintName = "ParallelExecutor"
                ReferencedContainer = "container:ParallelExecutor.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3EB06D740B45DD5A4F3E6A4E"
+               BlueprintIdentifier = "90544CC469DAFB337FE83EF5"
                BuildableName = "ParallelExecutor.app"
                BlueprintName = "ParallelExecutor"
                ReferencedContainer = "container:ParallelExecutor.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3EB06D740B45DD5A4F3E6A4E"
+               BlueprintIdentifier = "90544CC469DAFB337FE83EF5"
                BuildableName = "ParallelExecutor.app"
                BlueprintName = "ParallelExecutor"
                ReferencedContainer = "container:ParallelExecutor.xcodeproj">

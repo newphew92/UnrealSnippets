@@ -7,154 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F919015D20EF5B59B390E02 /* DsymExporterMainMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D8B510EF4B48F98693FCE8B /* DsymExporterMainMac.cpp */; };
+		0C85F79A3782A2230DBB49C9 /* DsymExporter.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 7451D3F36FE827DF64027CFE /* DsymExporter.Target.cs */; };
+		7D2921B7CB4FA20D65AD4713 /* DsymExporter.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 23C3019F49C13EBA18C88DE8 /* DsymExporter.Build.cs */; };
 		A8C93117BB56B892848A5AC1 /* DsymExporterApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1BD9AB62B9782963922BFF3 /* DsymExporterApp.cpp */; };
+		1F919015D20EF5B59B390E02 /* DsymExporterMainMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D8B510EF4B48F98693FCE8B /* DsymExporterMainMac.cpp */; };
+		26878E8146F7AE86093DF729 /* DsymExporterApp.h in Sources */ = {isa = PBXBuildFile; fileRef = C6A2BF7694A42697AF9899A0 /* DsymExporterApp.h */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		414656A431A4A99A64EC0956 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BE0C156242E6852A855F79FF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3C384165878A8EABCC566B2E;
-			remoteInfo = DsymExporter_Build;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		1D8B510EF4B48F98693FCE8B /* DsymExporterMainMac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = DsymExporterMainMac.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter/Private/Mac/DsymExporterMainMac.cpp"; sourceTree = SOURCE_ROOT; };
-		23C3019F49C13EBA18C88DE8 /* DsymExporter.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = DsymExporter.Build.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter/DsymExporter.Build.cs"; sourceTree = SOURCE_ROOT; };
-		627B7FA3FD272913F9A2EDF4 /* DsymExporter-Mac-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "DsymExporter-Mac-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7451D3F36FE827DF64027CFE /* DsymExporter.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = DsymExporter.Target.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter/DsymExporter.Target.cs"; sourceTree = SOURCE_ROOT; };
-		C6A2BF7694A42697AF9899A0 /* DsymExporterApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DsymExporterApp.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter/Public/DsymExporterApp.h"; sourceTree = SOURCE_ROOT; };
-		D1BD9AB62B9782963922BFF3 /* DsymExporterApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = DsymExporterApp.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter/Private/DsymExporterApp.cpp"; sourceTree = SOURCE_ROOT; };
+		7451D3F36FE827DF64027CFE /* DsymExporter.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "DsymExporter.Target.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter/DsymExporter.Target.cs"; sourceTree = SOURCE_ROOT; };
+		23C3019F49C13EBA18C88DE8 /* DsymExporter.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "DsymExporter.Build.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter/DsymExporter.Build.cs"; sourceTree = SOURCE_ROOT; };
+		D1BD9AB62B9782963922BFF3 /* DsymExporterApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "DsymExporterApp.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter/Private/DsymExporterApp.cpp"; sourceTree = SOURCE_ROOT; };
+		1D8B510EF4B48F98693FCE8B /* DsymExporterMainMac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "DsymExporterMainMac.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter/Private/Mac/DsymExporterMainMac.cpp"; sourceTree = SOURCE_ROOT; };
+		C6A2BF7694A42697AF9899A0 /* DsymExporterApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DsymExporterApp.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter/Public/DsymExporterApp.h"; sourceTree = SOURCE_ROOT; };
+		634313DA5E5D8A0B10518322 /* DsymExporter */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = DsymExporter; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXGroup section */
-		10844CBA1BEF5F0996EFF5FD /* Public */ = {
-			isa = PBXGroup;
-			children = (
-				C6A2BF7694A42697AF9899A0 /* DsymExporterApp.h */,
-			);
-			path = Public;
-			sourceTree = "<group>";
-		};
-		1A615C72DC3D7404CA14D52C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				627B7FA3FD272913F9A2EDF4 /* DsymExporter-Mac-Debug.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1B92E069DBC942B861B14D4C /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				6C9E41BF170B7DC5D6F73492 /* Mac */,
-				D1BD9AB62B9782963922BFF3 /* DsymExporterApp.cpp */,
-			);
-			path = Private;
-			sourceTree = "<group>";
-		};
-		6C9E41BF170B7DC5D6F73492 /* Mac */ = {
-			isa = PBXGroup;
-			children = (
-				1D8B510EF4B48F98693FCE8B /* DsymExporterMainMac.cpp */,
-			);
-			name = Mac;
-			path = Private/Mac;
-			sourceTree = "<group>";
-		};
-		8385A71187A7D19B04639DE5 = {
-			isa = PBXGroup;
-			children = (
-				1B92E069DBC942B861B14D4C /* Private */,
-				10844CBA1BEF5F0996EFF5FD /* Public */,
-				7451D3F36FE827DF64027CFE /* DsymExporter.Target.cs */,
-				23C3019F49C13EBA18C88DE8 /* DsymExporter.Build.cs */,
-				1A615C72DC3D7404CA14D52C /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXLegacyTarget section */
-		3C384165878A8EABCC566B2E /* DsymExporter_Build */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 1FDB681DFE965F066F11B3E1 /* Build configuration list for PBXLegacyTarget "DsymExporter_Build" */;
-			buildPhases = (
-			);
-			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
-			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
-			dependencies = (
-			);
-			name = DsymExporter_Build;
-			passBuildSettingsInEnvironment = 1;
-			productName = DsymExporter_Build;
-		};
-/* End PBXLegacyTarget section */
-
-/* Begin PBXNativeTarget section */
-		BC2B67E06DA44D9ED2B20D12 /* DsymExporter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C60F14AD75757F9AC1A831C4 /* Build configuration list for PBXNativeTarget "DsymExporter" */;
-			buildPhases = (
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F27868155D6C2B82831B43BE /* PBXTargetDependency */,
-			);
-			name = DsymExporter;
-			productName = DsymExporter;
-			productReference = 627B7FA3FD272913F9A2EDF4 /* DsymExporter-Mac-Debug.app */;
-			productType = "com.apple.product-type.application";
-		};
-		EC88855CF12FC49F596167F9 /* DsymExporter_Index */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 634313DA5E5D8A0B10518322 /* Build configuration list for PBXNativeTarget "DsymExporter_Index" */;
-			buildPhases = (
-				A4ED79437BC5AE4F525ADFBD /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DsymExporter_Index;
-			productName = DsymExporter_Index;
-			productType = "com.apple.product-type.library.static";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		BE0C156242E6852A855F79FF /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "Epic Games, Inc.";
-			};
-			buildConfigurationList = 0431B99C92CCD5BD736FB9BA /* Build configuration list for PBXProject "DsymExporter" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 8385A71187A7D19B04639DE5;
-			productRefGroup = 1A615C72DC3D7404CA14D52C /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				BC2B67E06DA44D9ED2B20D12 /* DsymExporter */,
-				3C384165878A8EABCC566B2E /* DsymExporter_Build */,
-				EC88855CF12FC49F596167F9 /* DsymExporter_Index */,
-			);
-		};
-/* End PBXProject section */
-
 /* Begin PBXSourcesBuildPhase section */
-		A4ED79437BC5AE4F525ADFBD /* Sources */ = {
+		999677EC193497CF6B48D219 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,46 +35,159 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXContainerItemProxy section */
+		EC88855CF12FC49F596167F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4ED79437BC5AE4F525ADFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0C156242E6852A855F79FF;
+			remoteInfo = "DsymExporter_Build";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXTargetDependency section */
-		F27868155D6C2B82831B43BE /* PBXTargetDependency */ = {
+		1FDB681DFE965F066F11B3E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3C384165878A8EABCC566B2E /* DsymExporter_Build */;
-			targetProxy = 414656A431A4A99A64EC0956 /* PBXContainerItemProxy */;
+			target = BE0C156242E6852A855F79FF /* DsymExporter_Build */;
+			targetProxy = EC88855CF12FC49F596167F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXGroup section */
+		7062E136FBB5F06EAF7B6D99 = {
+			isa = PBXGroup;
+			children = (
+				C02A54D0729990235E4D5856 /* Private */,
+				575F8F60FA9F8FD04851FAF1 /* Public */,
+				7451D3F36FE827DF64027CFE /* DsymExporter.Target.cs */,
+				23C3019F49C13EBA18C88DE8 /* DsymExporter.Build.cs */,
+				2E8E1F3EB44D92BF819E3368 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C02A54D0729990235E4D5856 = {
+			isa = PBXGroup;
+			children = (
+				7D889C715244B67DA8432F1E /* Mac */,
+				D1BD9AB62B9782963922BFF3 /* DsymExporterApp.cpp */,
+			);
+			name = "Private";
+			path = "Private";
+			sourceTree = "<group>";
+		};
+		7D889C715244B67DA8432F1E = {
+			isa = PBXGroup;
+			children = (
+				1D8B510EF4B48F98693FCE8B /* DsymExporterMainMac.cpp */,
+			);
+			name = "Mac";
+			path = "Private/Mac";
+			sourceTree = "<group>";
+		};
+		575F8F60FA9F8FD04851FAF1 = {
+			isa = PBXGroup;
+			children = (
+				C6A2BF7694A42697AF9899A0 /* DsymExporterApp.h */,
+			);
+			name = "Public";
+			path = "Public";
+			sourceTree = "<group>";
+		};
+		2E8E1F3EB44D92BF819E3368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634313DA5E5D8A0B10518322 /* DsymExporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		BE0C156242E6852A855F79FF /* DsymExporter_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 0431B99C92CCD5BD736FB9BA /* Build configuration list for PBXLegacyTarget "DsymExporter_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
+			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
+			dependencies = (
+			);
+			name = "DsymExporter_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DsymExporter_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		627B7FA3FD272913F9A2EDF4 /* DsymExporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C384165878A8EABCC566B2E /* Build configuration list for PBXNativeTarget "DsymExporter" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1FDB681DFE965F066F11B3E1 /* PBXTargetDependency */,
+			);
+			name = "DsymExporter";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DsymExporter";
+			productReference = "634313DA5E5D8A0B10518322";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		8385A71187A7D19B04639DE5 /* DsymExporter_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A615C72DC3D7404CA14D52C /* Build configuration list for PBXNativeTarget "DsymExporter_Index" */;
+			buildPhases = (
+				999677EC193497CF6B48D219 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "DsymExporter_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DsymExporter_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4ED79437BC5AE4F525ADFBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+			};
+			buildConfigurationList = 3E74A3DD8DDEFAA194D48230 /* Build configuration list for PBXProject "DsymExporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 7062E136FBB5F06EAF7B6D99;
+			productRefGroup = 2E8E1F3EB44D92BF819E3368;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			627B7FA3FD272913F9A2EDF4 /* DsymExporter */,
+			BE0C156242E6852A855F79FF /* DsymExporter_Build */,
+			8385A71187A7D19B04639DE5 /* DsymExporter_Index */,
+			);
+		};
+/* End PBXProject section */
+
 /* Begin XCBuildConfiguration section */
-		2E8E1F3EB44D92BF819E3368 /* Debug */ = {
+		E478549D6A700EC30609AFFE /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SUPPORTED_PLATFORMS = macosx;
-				UE_BUILD_TARGET_CONFIG = Debug;
-				UE_BUILD_TARGET_NAME = DsymExporter;
-				VALID_ARCHS = x86_64;
-			};
-			name = Debug;
-		};
-		3E03557BE39D2EE5BB065A3B /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				SUPPORTED_PLATFORMS = macosx;
-				UE_BUILD_TARGET_CONFIG = Development;
-				UE_BUILD_TARGET_NAME = DsymExporter;
-				VALID_ARCHS = x86_64;
-			};
-			name = Development;
-		};
-		3E74A3DD8DDEFAA194D48230 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"IS_PROGRAM=1",
-					UNICODE,
-					_UNICODE,
-					__UNREAL__,
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
 					"IS_MONOLITHIC=1",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -236,67 +219,72 @@
 					"PROFILERSERVICE_API=",
 					"MONOLITHIC_BUILD=1",
 				);
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter/Public",
+					"../Build/Mac/DsymExporter/Inc/DsymExporter",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"../Build/Mac/DsymExporter/Inc/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
+					"../Build/Mac/DsymExporter/Inc/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public/Android",
+					"../Build/Mac/DsymExporter/Inc/Launch",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public/Interfaces",
+					"../Build/Mac/DsymExporter/Inc/ProfilerService",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch",
+				);
 				ONLY_ACTIVE_ARCH = YES;
-				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter/Public ../Build/Mac/DsymExporter/Inc/DsymExporter /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/DsymExporter/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/DsymExporter/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public/Android ../Build/Mac/DsymExporter/Inc/Launch /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public/Interfaces ../Build/Mac/DsymExporter/Inc/ProfilerService /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch";
-				USE_HEADERMAP = NO;
-			};
-			name = Debug;
-		};
-		7062E136FBB5F06EAF7B6D99 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "DsymExporter-Mac-Debug";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Debug;
-		};
-		999677EC193497CF6B48D219 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "DsymExporter-Mac-Debug";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Debug;
-		};
-		BEBBED4742C2AFD12F789C64 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = DsymExporter;
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Development;
-		};
-		E478549D6A700EC30609AFFE /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		46508DA99901EA6BDCEF5E66 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"IS_PROGRAM=1",
-					UNICODE,
-					_UNICODE,
-					__UNREAL__,
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
 					"IS_MONOLITHIC=1",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -328,67 +316,179 @@
 					"PROFILERSERVICE_API=",
 					"MONOLITHIC_BUILD=1",
 				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter/Public",
+					"../Build/Mac/DsymExporter/Inc/DsymExporter",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"../Build/Mac/DsymExporter/Inc/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
+					"../Build/Mac/DsymExporter/Inc/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public/Android",
+					"../Build/Mac/DsymExporter/Inc/Launch",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public/Interfaces",
+					"../Build/Mac/DsymExporter/Inc/ProfilerService",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch",
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				HEADER_SEARCH_PATHS = "";
-				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter/Public ../Build/Mac/DsymExporter/Inc/DsymExporter /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/Mac/DsymExporter /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/DsymExporter/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/DsymExporter/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public/Android ../Build/Mac/DsymExporter/Inc/Launch /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public/Interfaces ../Build/Mac/DsymExporter/Inc/ProfilerService /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch";
 				USE_HEADERMAP = NO;
 			};
-			name = Development;
+			name = "Development";
 		};
-		F9F55510906F6190E7782D5D /* Development */ = {
+		BEBBED4742C2AFD12F789C64 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DsymExporter-Mac-Debug";
 				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = DsymExporter;
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
 			};
-			name = Development;
+			name = "Debug";
+		};
+		1B92E069DBC942B861B14D4C /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DsymExporter";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		3E03557BE39D2EE5BB065A3B /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				UE_BUILD_TARGET_NAME = "DsymExporter";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		6C9E41BF170B7DC5D6F73492 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				UE_BUILD_TARGET_NAME = "DsymExporter";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		F9F55510906F6190E7782D5D /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DsymExporter-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		10844CBA1BEF5F0996EFF5FD /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DsymExporter";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0431B99C92CCD5BD736FB9BA /* Build configuration list for PBXProject "DsymExporter" */ = {
+		3E74A3DD8DDEFAA194D48230 /* Build configuration list for PBXProject "DsymExporter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E74A3DD8DDEFAA194D48230 /* Debug */,
-				E478549D6A700EC30609AFFE /* Development */,
+				E478549D6A700EC30609AFFE /* "Debug" */,
+				46508DA99901EA6BDCEF5E66 /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		1FDB681DFE965F066F11B3E1 /* Build configuration list for PBXLegacyTarget "DsymExporter_Build" */ = {
+		0431B99C92CCD5BD736FB9BA /* Build configuration list for PBXLegacyTarget "DsymExporter_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E8E1F3EB44D92BF819E3368 /* Debug */,
-				3E03557BE39D2EE5BB065A3B /* Development */,
+				3E03557BE39D2EE5BB065A3B /* "Debug" */,
+				6C9E41BF170B7DC5D6F73492 /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		634313DA5E5D8A0B10518322 /* Build configuration list for PBXNativeTarget "DsymExporter_Index" */ = {
+		3C384165878A8EABCC566B2E /* Build configuration list for PBXNativeTarget "DsymExporter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				999677EC193497CF6B48D219 /* Debug */,
-				F9F55510906F6190E7782D5D /* Development */,
+				BEBBED4742C2AFD12F789C64 /* "Debug" */,
+				1B92E069DBC942B861B14D4C /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		C60F14AD75757F9AC1A831C4 /* Build configuration list for PBXNativeTarget "DsymExporter" */ = {
+		1A615C72DC3D7404CA14D52C /* Build configuration list for PBXNativeTarget "DsymExporter_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7062E136FBB5F06EAF7B6D99 /* Debug */,
-				BEBBED4742C2AFD12F789C64 /* Development */,
+				F9F55510906F6190E7782D5D /* "Debug" */,
+				10844CBA1BEF5F0996EFF5FD /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BE0C156242E6852A855F79FF /* Project object */;
+	rootObject = A4ED79437BC5AE4F525ADFBD /* Project object */;
 }

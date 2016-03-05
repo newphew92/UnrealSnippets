@@ -7,165 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F91B96676B8D1CAE7497519 /* Consumer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 361FD357BA44B0298228D7B9 /* Consumer.cpp */; };
-		39000B08008608F7BAFF7933 /* MacroCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46DB26C3B82D78937BEE6FA1 /* MacroCallback.cpp */; };
-		A83F7CAD6EFCFD418AC71706 /* UnrealCodeAnalyzerPCH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B7097FC48AFE8D43CBC3FA3 /* UnrealCodeAnalyzerPCH.cpp */; };
-		B7BC0C91B858ED38B7A480A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2991870867074C0F8054F51D /* main.cpp */; };
-		BA62D3670723604B906A57A1 /* Visitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4567F46EDB0DA7B11F82AB2E /* Visitor.cpp */; };
+		A48FF156056899A121A71EAE /* UnrealCodeAnalyzer.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 44E255181EFDFEA6C22E41F5 /* UnrealCodeAnalyzer.Target.cs */; };
+		B22E8E72E0FC7A0351DD5750 /* UnrealCodeAnalyzer.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 009C6A93B9553E7EEDA725D4 /* UnrealCodeAnalyzer.Build.cs */; };
 		C6D2276E6964E24AF83A4FB9 /* Action.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E22E35ACC486306C03FCEADE /* Action.cpp */; };
+		F8502EC276A17F0B09B9AB0D /* Action.h in Sources */ = {isa = PBXBuildFile; fileRef = D40B99EDFB0D57C64CB0B08B /* Action.h */; };
+		1F91B96676B8D1CAE7497519 /* Consumer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 361FD357BA44B0298228D7B9 /* Consumer.cpp */; };
+		EC4271F6A4249148A0A2A3E5 /* Consumer.h in Sources */ = {isa = PBXBuildFile; fileRef = E7189450E7E0258B9580B7DC /* Consumer.h */; };
+		39000B08008608F7BAFF7933 /* MacroCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46DB26C3B82D78937BEE6FA1 /* MacroCallback.cpp */; };
+		B05F41A1024C246C8B95BCA4 /* MacroCallback.h in Sources */ = {isa = PBXBuildFile; fileRef = 1889471999AC2AE79F600A0C /* MacroCallback.h */; };
+		BA62D3670723604B906A57A1 /* Visitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4567F46EDB0DA7B11F82AB2E /* Visitor.cpp */; };
+		E65FFACFC388024F5435E79F /* Visitor.h in Sources */ = {isa = PBXBuildFile; fileRef = 78BD6568347113AE31A5D432 /* Visitor.h */; };
+		B7BC0C91B858ED38B7A480A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2991870867074C0F8054F51D /* main.cpp */; };
+		A83F7CAD6EFCFD418AC71706 /* UnrealCodeAnalyzerPCH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B7097FC48AFE8D43CBC3FA3 /* UnrealCodeAnalyzerPCH.cpp */; };
+		E90B462958C5B263C7EEE979 /* UnrealCodeAnalyzerPCH.h in Sources */ = {isa = PBXBuildFile; fileRef = DB3FC9BAA63F1E617A818CF6 /* UnrealCodeAnalyzerPCH.h */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		EAE7A77836B8BAD558DA567E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5EEAA6D823FFB4C8517BAD38 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E7FAC72E46D544825C54B9AD;
-			remoteInfo = UnrealCodeAnalyzer_Build;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		009C6A93B9553E7EEDA725D4 /* UnrealCodeAnalyzer.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = UnrealCodeAnalyzer.Build.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/UnrealCodeAnalyzer.Build.cs"; sourceTree = SOURCE_ROOT; };
-		1889471999AC2AE79F600A0C /* MacroCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MacroCallback.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/MacroCallback.h"; sourceTree = SOURCE_ROOT; };
-		2991870867074C0F8054F51D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = main.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/main.cpp"; sourceTree = SOURCE_ROOT; };
-		361FD357BA44B0298228D7B9 /* Consumer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Consumer.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Consumer.cpp"; sourceTree = SOURCE_ROOT; };
-		44E255181EFDFEA6C22E41F5 /* UnrealCodeAnalyzer.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = UnrealCodeAnalyzer.Target.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/UnrealCodeAnalyzer.Target.cs"; sourceTree = SOURCE_ROOT; };
-		4567F46EDB0DA7B11F82AB2E /* Visitor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Visitor.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Visitor.cpp"; sourceTree = SOURCE_ROOT; };
-		46DB26C3B82D78937BEE6FA1 /* MacroCallback.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MacroCallback.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/MacroCallback.cpp"; sourceTree = SOURCE_ROOT; };
-		6738F62C5E1B50D62B96508A /* UnrealCodeAnalyzer-Mac-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "UnrealCodeAnalyzer-Mac-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		78BD6568347113AE31A5D432 /* Visitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Visitor.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Visitor.h"; sourceTree = SOURCE_ROOT; };
-		7B7097FC48AFE8D43CBC3FA3 /* UnrealCodeAnalyzerPCH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UnrealCodeAnalyzerPCH.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Public/UnrealCodeAnalyzerPCH.cpp"; sourceTree = SOURCE_ROOT; };
-		D40B99EDFB0D57C64CB0B08B /* Action.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Action.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Action.h"; sourceTree = SOURCE_ROOT; };
-		DB3FC9BAA63F1E617A818CF6 /* UnrealCodeAnalyzerPCH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnrealCodeAnalyzerPCH.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Public/UnrealCodeAnalyzerPCH.h"; sourceTree = SOURCE_ROOT; };
-		E22E35ACC486306C03FCEADE /* Action.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Action.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Action.cpp"; sourceTree = SOURCE_ROOT; };
-		E7189450E7E0258B9580B7DC /* Consumer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Consumer.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Consumer.h"; sourceTree = SOURCE_ROOT; };
+		44E255181EFDFEA6C22E41F5 /* UnrealCodeAnalyzer.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "UnrealCodeAnalyzer.Target.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/UnrealCodeAnalyzer.Target.cs"; sourceTree = SOURCE_ROOT; };
+		009C6A93B9553E7EEDA725D4 /* UnrealCodeAnalyzer.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "UnrealCodeAnalyzer.Build.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/UnrealCodeAnalyzer.Build.cs"; sourceTree = SOURCE_ROOT; };
+		E22E35ACC486306C03FCEADE /* Action.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "Action.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Action.cpp"; sourceTree = SOURCE_ROOT; };
+		D40B99EDFB0D57C64CB0B08B /* Action.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Action.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Action.h"; sourceTree = SOURCE_ROOT; };
+		361FD357BA44B0298228D7B9 /* Consumer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "Consumer.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Consumer.cpp"; sourceTree = SOURCE_ROOT; };
+		E7189450E7E0258B9580B7DC /* Consumer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Consumer.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Consumer.h"; sourceTree = SOURCE_ROOT; };
+		46DB26C3B82D78937BEE6FA1 /* MacroCallback.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "MacroCallback.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/MacroCallback.cpp"; sourceTree = SOURCE_ROOT; };
+		1889471999AC2AE79F600A0C /* MacroCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MacroCallback.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/MacroCallback.h"; sourceTree = SOURCE_ROOT; };
+		4567F46EDB0DA7B11F82AB2E /* Visitor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "Visitor.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Visitor.cpp"; sourceTree = SOURCE_ROOT; };
+		78BD6568347113AE31A5D432 /* Visitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Visitor.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Visitor.h"; sourceTree = SOURCE_ROOT; };
+		2991870867074C0F8054F51D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "main.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Private/main.cpp"; sourceTree = SOURCE_ROOT; };
+		7B7097FC48AFE8D43CBC3FA3 /* UnrealCodeAnalyzerPCH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "UnrealCodeAnalyzerPCH.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Public/UnrealCodeAnalyzerPCH.cpp"; sourceTree = SOURCE_ROOT; };
+		DB3FC9BAA63F1E617A818CF6 /* UnrealCodeAnalyzerPCH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UnrealCodeAnalyzerPCH.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Public/UnrealCodeAnalyzerPCH.h"; sourceTree = SOURCE_ROOT; };
+		F18B8F8295D421137E481909 /* UnrealCodeAnalyzer */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = UnrealCodeAnalyzer; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXGroup section */
-		4E5D55D3B151241C3E419EBE /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				E22E35ACC486306C03FCEADE /* Action.cpp */,
-				D40B99EDFB0D57C64CB0B08B /* Action.h */,
-				361FD357BA44B0298228D7B9 /* Consumer.cpp */,
-				E7189450E7E0258B9580B7DC /* Consumer.h */,
-				46DB26C3B82D78937BEE6FA1 /* MacroCallback.cpp */,
-				1889471999AC2AE79F600A0C /* MacroCallback.h */,
-				4567F46EDB0DA7B11F82AB2E /* Visitor.cpp */,
-				78BD6568347113AE31A5D432 /* Visitor.h */,
-				2991870867074C0F8054F51D /* main.cpp */,
-			);
-			path = Private;
-			sourceTree = "<group>";
-		};
-		50238626DBE6436665BD0981 /* Public */ = {
-			isa = PBXGroup;
-			children = (
-				7B7097FC48AFE8D43CBC3FA3 /* UnrealCodeAnalyzerPCH.cpp */,
-				DB3FC9BAA63F1E617A818CF6 /* UnrealCodeAnalyzerPCH.h */,
-			);
-			path = Public;
-			sourceTree = "<group>";
-		};
-		AA4A309769C8EA75DD560EC2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6738F62C5E1B50D62B96508A /* UnrealCodeAnalyzer-Mac-Debug.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C3F1BA01FD95CD38F35712CE = {
-			isa = PBXGroup;
-			children = (
-				4E5D55D3B151241C3E419EBE /* Private */,
-				50238626DBE6436665BD0981 /* Public */,
-				44E255181EFDFEA6C22E41F5 /* UnrealCodeAnalyzer.Target.cs */,
-				009C6A93B9553E7EEDA725D4 /* UnrealCodeAnalyzer.Build.cs */,
-				AA4A309769C8EA75DD560EC2 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXLegacyTarget section */
-		E7FAC72E46D544825C54B9AD /* UnrealCodeAnalyzer_Build */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 1254BC662F527350D51EA84B /* Build configuration list for PBXLegacyTarget "UnrealCodeAnalyzer_Build" */;
-			buildPhases = (
-			);
-			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
-			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
-			dependencies = (
-			);
-			name = UnrealCodeAnalyzer_Build;
-			passBuildSettingsInEnvironment = 1;
-			productName = UnrealCodeAnalyzer_Build;
-		};
-/* End PBXLegacyTarget section */
-
-/* Begin PBXNativeTarget section */
-		810D6170B8512353961D903C /* UnrealCodeAnalyzer_Index */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F18B8F8295D421137E481909 /* Build configuration list for PBXNativeTarget "UnrealCodeAnalyzer_Index" */;
-			buildPhases = (
-				0A16E217322445DD75031431 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = UnrealCodeAnalyzer_Index;
-			productName = UnrealCodeAnalyzer_Index;
-			productType = "com.apple.product-type.library.static";
-		};
-		BF53627BB6850B4AA67F95D0 /* UnrealCodeAnalyzer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B83A2A494BACDF31EE928CB /* Build configuration list for PBXNativeTarget "UnrealCodeAnalyzer" */;
-			buildPhases = (
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2B2C9D10837739BF8C09274E /* PBXTargetDependency */,
-			);
-			name = UnrealCodeAnalyzer;
-			productName = UnrealCodeAnalyzer;
-			productReference = 6738F62C5E1B50D62B96508A /* UnrealCodeAnalyzer-Mac-Debug.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		5EEAA6D823FFB4C8517BAD38 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "Epic Games, Inc.";
-			};
-			buildConfigurationList = 74D3C90B316616F5C48075A3 /* Build configuration list for PBXProject "UnrealCodeAnalyzer" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = C3F1BA01FD95CD38F35712CE;
-			productRefGroup = AA4A309769C8EA75DD560EC2 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				BF53627BB6850B4AA67F95D0 /* UnrealCodeAnalyzer */,
-				E7FAC72E46D544825C54B9AD /* UnrealCodeAnalyzer_Build */,
-				810D6170B8512353961D903C /* UnrealCodeAnalyzer_Index */,
-			);
-		};
-/* End PBXProject section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0A16E217322445DD75031431 /* Sources */ = {
+		FC2EC86812F1010FB4FBE2B3 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -180,50 +55,158 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXContainerItemProxy section */
+		810D6170B8512353961D903C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A16E217322445DD75031431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EEAA6D823FFB4C8517BAD38;
+			remoteInfo = "UnrealCodeAnalyzer_Build";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXTargetDependency section */
-		2B2C9D10837739BF8C09274E /* PBXTargetDependency */ = {
+		1254BC662F527350D51EA84B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E7FAC72E46D544825C54B9AD /* UnrealCodeAnalyzer_Build */;
-			targetProxy = EAE7A77836B8BAD558DA567E /* PBXContainerItemProxy */;
+			target = 5EEAA6D823FFB4C8517BAD38 /* UnrealCodeAnalyzer_Build */;
+			targetProxy = 810D6170B8512353961D903C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXGroup section */
+		357F8CFB96FFC66CE3F8F7E7 = {
+			isa = PBXGroup;
+			children = (
+				2560E6639BD8799054D35978 /* Private */,
+				E5FD51CAC48F1AC5E43375B5 /* Public */,
+				44E255181EFDFEA6C22E41F5 /* UnrealCodeAnalyzer.Target.cs */,
+				009C6A93B9553E7EEDA725D4 /* UnrealCodeAnalyzer.Build.cs */,
+				B3B505CF123459A635FF52B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2560E6639BD8799054D35978 = {
+			isa = PBXGroup;
+			children = (
+				E22E35ACC486306C03FCEADE /* Action.cpp */,
+				D40B99EDFB0D57C64CB0B08B /* Action.h */,
+				361FD357BA44B0298228D7B9 /* Consumer.cpp */,
+				E7189450E7E0258B9580B7DC /* Consumer.h */,
+				46DB26C3B82D78937BEE6FA1 /* MacroCallback.cpp */,
+				1889471999AC2AE79F600A0C /* MacroCallback.h */,
+				4567F46EDB0DA7B11F82AB2E /* Visitor.cpp */,
+				78BD6568347113AE31A5D432 /* Visitor.h */,
+				2991870867074C0F8054F51D /* main.cpp */,
+			);
+			name = "Private";
+			path = "Private";
+			sourceTree = "<group>";
+		};
+		E5FD51CAC48F1AC5E43375B5 = {
+			isa = PBXGroup;
+			children = (
+				7B7097FC48AFE8D43CBC3FA3 /* UnrealCodeAnalyzerPCH.cpp */,
+				DB3FC9BAA63F1E617A818CF6 /* UnrealCodeAnalyzerPCH.h */,
+			);
+			name = "Public";
+			path = "Public";
+			sourceTree = "<group>";
+		};
+		B3B505CF123459A635FF52B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F18B8F8295D421137E481909 /* UnrealCodeAnalyzer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		5EEAA6D823FFB4C8517BAD38 /* UnrealCodeAnalyzer_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 74D3C90B316616F5C48075A3 /* Build configuration list for PBXLegacyTarget "UnrealCodeAnalyzer_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
+			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
+			dependencies = (
+			);
+			name = "UnrealCodeAnalyzer_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealCodeAnalyzer_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		6738F62C5E1B50D62B96508A /* UnrealCodeAnalyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7FAC72E46D544825C54B9AD /* Build configuration list for PBXNativeTarget "UnrealCodeAnalyzer" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1254BC662F527350D51EA84B /* PBXTargetDependency */,
+			);
+			name = "UnrealCodeAnalyzer";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealCodeAnalyzer";
+			productReference = "F18B8F8295D421137E481909";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		C3F1BA01FD95CD38F35712CE /* UnrealCodeAnalyzer_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4A309769C8EA75DD560EC2 /* Build configuration list for PBXNativeTarget "UnrealCodeAnalyzer_Index" */;
+			buildPhases = (
+				FC2EC86812F1010FB4FBE2B3 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealCodeAnalyzer_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealCodeAnalyzer_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A16E217322445DD75031431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+			};
+			buildConfigurationList = 44B2CBBCAD75441CC1FB61E6 /* Build configuration list for PBXProject "UnrealCodeAnalyzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 357F8CFB96FFC66CE3F8F7E7;
+			productRefGroup = B3B505CF123459A635FF52B6;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			6738F62C5E1B50D62B96508A /* UnrealCodeAnalyzer */,
+			5EEAA6D823FFB4C8517BAD38 /* UnrealCodeAnalyzer_Build */,
+			C3F1BA01FD95CD38F35712CE /* UnrealCodeAnalyzer_Index */,
+			);
+		};
+/* End PBXProject section */
+
 /* Begin XCBuildConfiguration section */
-		357F8CFB96FFC66CE3F8F7E7 /* Debug */ = {
+		984947753CA84E4CBBE409F7 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "UnrealCodeAnalyzer-Mac-Debug";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Debug;
-		};
-		365E5AF1F6E732B7D35236C8 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				SUPPORTED_PLATFORMS = macosx;
-				UE_BUILD_TARGET_CONFIG = Development;
-				UE_BUILD_TARGET_NAME = UnrealCodeAnalyzer;
-				VALID_ARCHS = x86_64;
-			};
-			name = Development;
-		};
-		44B2CBBCAD75441CC1FB61E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"IS_PROGRAM=1",
-					UNICODE,
-					_UNICODE,
-					__UNREAL__,
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
 					"IS_MONOLITHIC=1",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -253,39 +236,67 @@
 					"JSON_API=",
 					"MONOLITHIC_BUILD=1",
 				);
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/llvm/3.5.0/include",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Public",
+					"../Build/Mac/UnrealCodeAnalyzer/Inc/UnrealCodeAnalyzer",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"../Build/Mac/UnrealCodeAnalyzer/Inc/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
+					"../Build/Mac/UnrealCodeAnalyzer/Inc/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/llvm",
+				);
 				ONLY_ACTIVE_ARCH = YES;
-				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/llvm/3.5.0/include /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Public ../Build/Mac/UnrealCodeAnalyzer/Inc/UnrealCodeAnalyzer /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/UnrealCodeAnalyzer/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/UnrealCodeAnalyzer/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer /Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/llvm";
-				USE_HEADERMAP = NO;
-			};
-			name = Debug;
-		};
-		6F750A8CA1BAB0362CD6FF68 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = UnrealCodeAnalyzer;
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Development;
-		};
-		984947753CA84E4CBBE409F7 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		E7756DF94BAB86C24ADF3EDE /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"IS_PROGRAM=1",
-					UNICODE,
-					_UNICODE,
-					__UNREAL__,
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
 					"IS_MONOLITHIC=1",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -315,91 +326,174 @@
 					"JSON_API=",
 					"MONOLITHIC_BUILD=1",
 				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/llvm/3.5.0/include",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Public",
+					"../Build/Mac/UnrealCodeAnalyzer/Inc/UnrealCodeAnalyzer",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"../Build/Mac/UnrealCodeAnalyzer/Inc/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
+					"../Build/Mac/UnrealCodeAnalyzer/Inc/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/llvm",
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				HEADER_SEARCH_PATHS = "";
-				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/llvm/3.5.0/include /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer/Public ../Build/Mac/UnrealCodeAnalyzer/Inc/UnrealCodeAnalyzer /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/UnrealCodeAnalyzer/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/UnrealCodeAnalyzer/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/UnrealCodeAnalyzer /Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/llvm";
 				USE_HEADERMAP = NO;
 			};
-			name = Development;
+			name = "Development";
 		};
-		B3B505CF123459A635FF52B6 /* Debug */ = {
+		6F750A8CA1BAB0362CD6FF68 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SUPPORTED_PLATFORMS = macosx;
-				UE_BUILD_TARGET_CONFIG = Debug;
-				UE_BUILD_TARGET_NAME = UnrealCodeAnalyzer;
-				VALID_ARCHS = x86_64;
-			};
-			name = Debug;
-		};
-		EDE3698DB006FA1824D0F89C /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = UnrealCodeAnalyzer;
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Development;
-		};
-		FC2EC86812F1010FB4FBE2B3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
 				PRODUCT_NAME = "UnrealCodeAnalyzer-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
 			};
-			name = Debug;
+			name = "Debug";
+		};
+		4E5D55D3B151241C3E419EBE /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealCodeAnalyzer";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		365E5AF1F6E732B7D35236C8 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				UE_BUILD_TARGET_NAME = "UnrealCodeAnalyzer";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		50238626DBE6436665BD0981 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				UE_BUILD_TARGET_NAME = "UnrealCodeAnalyzer";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		EDE3698DB006FA1824D0F89C /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealCodeAnalyzer-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		7A396C27CB747D0EA48B3F52 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealCodeAnalyzer";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1254BC662F527350D51EA84B /* Build configuration list for PBXLegacyTarget "UnrealCodeAnalyzer_Build" */ = {
+		44B2CBBCAD75441CC1FB61E6 /* Build configuration list for PBXProject "UnrealCodeAnalyzer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3B505CF123459A635FF52B6 /* Debug */,
-				365E5AF1F6E732B7D35236C8 /* Development */,
+				984947753CA84E4CBBE409F7 /* "Debug" */,
+				E7756DF94BAB86C24ADF3EDE /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		74D3C90B316616F5C48075A3 /* Build configuration list for PBXProject "UnrealCodeAnalyzer" */ = {
+		74D3C90B316616F5C48075A3 /* Build configuration list for PBXLegacyTarget "UnrealCodeAnalyzer_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44B2CBBCAD75441CC1FB61E6 /* Debug */,
-				984947753CA84E4CBBE409F7 /* Development */,
+				365E5AF1F6E732B7D35236C8 /* "Debug" */,
+				50238626DBE6436665BD0981 /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		8B83A2A494BACDF31EE928CB /* Build configuration list for PBXNativeTarget "UnrealCodeAnalyzer" */ = {
+		E7FAC72E46D544825C54B9AD /* Build configuration list for PBXNativeTarget "UnrealCodeAnalyzer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				357F8CFB96FFC66CE3F8F7E7 /* Debug */,
-				6F750A8CA1BAB0362CD6FF68 /* Development */,
+				6F750A8CA1BAB0362CD6FF68 /* "Debug" */,
+				4E5D55D3B151241C3E419EBE /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		F18B8F8295D421137E481909 /* Build configuration list for PBXNativeTarget "UnrealCodeAnalyzer_Index" */ = {
+		AA4A309769C8EA75DD560EC2 /* Build configuration list for PBXNativeTarget "UnrealCodeAnalyzer_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC2EC86812F1010FB4FBE2B3 /* Debug */,
-				EDE3698DB006FA1824D0F89C /* Development */,
+				EDE3698DB006FA1824D0F89C /* "Debug" */,
+				7A396C27CB747D0EA48B3F52 /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5EEAA6D823FFB4C8517BAD38 /* Project object */;
+	rootObject = 0A16E217322445DD75031431 /* Project object */;
 }

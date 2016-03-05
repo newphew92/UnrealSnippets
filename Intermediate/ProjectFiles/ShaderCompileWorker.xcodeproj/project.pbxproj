@@ -7,162 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0FC12E428EF8C903657EC6 /* ShaderCompileWorker.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = DB6DB93C6B0703BD9DDA4180 /* ShaderCompileWorker.Target.cs */; };
+		7D3ECA0EAD522BB2E589DF22 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 69F5B3D28B2F4A9008C1302C /* DefaultEngine.ini */; };
+		53F7282078316CEB936ED0E5 /* ShaderCompileWorker.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = F1CAEBCE86242302F19B22B6 /* ShaderCompileWorker.Build.cs */; };
 		6BF6AB830629BD3B6A00C4AB /* ShaderCompileWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9C291F649835E01894B1658 /* ShaderCompileWorker.cpp */; };
+		3200F841287FCEB8D572B482 /* Debug-Win32.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 85E8E56AB1957BF1053FD4C3 /* Debug-Win32.manifest */; };
+		932DB96E3D212C20DF535106 /* Debug-Win64.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 307B12EB310CD6870D0F7061 /* Debug-Win64.manifest */; };
+		9EF34FF4CF2552F22B35AEFB /* Resource.rc in Sources */ = {isa = PBXBuildFile; fileRef = C6607AB44594A33297DE3936 /* Resource.rc */; };
+		828FBFF9694CB583BC57CF49 /* Win32.manifest in Sources */ = {isa = PBXBuildFile; fileRef = D13850B9015EDAFBCC1625D1 /* Win32.manifest */; };
+		912241796B3EC9BFBA197140 /* Win64.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 665989DF7F2A3F6E9031E20D /* Win64.manifest */; };
+		44EA3139043D696B6AED6747 /* resource.h in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C187D8E108EB7C61052A8 /* resource.h */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4BEE7DACF519547654EE15D0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8B91F6D6DF42159C34D4AA13 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 97ABC04757032981101CD662;
-			remoteInfo = ShaderCompileWorker_Build;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0A3C187D8E108EB7C61052A8 /* resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = resource.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/Resources/resource.h"; sourceTree = SOURCE_ROOT; };
-		307B12EB310CD6870D0F7061 /* Debug-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/Resources/Debug-Win64.manifest"; sourceTree = SOURCE_ROOT; };
-		665989DF7F2A3F6E9031E20D /* Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = Win64.manifest; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/Resources/Win64.manifest"; sourceTree = SOURCE_ROOT; };
-		69F5B3D28B2F4A9008C1302C /* DefaultEngine.ini */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = DefaultEngine.ini; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Programs/ShaderCompileWorker/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		DB6DB93C6B0703BD9DDA4180 /* ShaderCompileWorker.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "ShaderCompileWorker.Target.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/ShaderCompileWorker.Target.cs"; sourceTree = SOURCE_ROOT; };
+		69F5B3D28B2F4A9008C1302C /* DefaultEngine.ini */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Programs/ShaderCompileWorker/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		F1CAEBCE86242302F19B22B6 /* ShaderCompileWorker.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "ShaderCompileWorker.Build.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/ShaderCompileWorker.Build.cs"; sourceTree = SOURCE_ROOT; };
+		F9C291F649835E01894B1658 /* ShaderCompileWorker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "ShaderCompileWorker.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/Private/ShaderCompileWorker.cpp"; sourceTree = SOURCE_ROOT; };
 		85E8E56AB1957BF1053FD4C3 /* Debug-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/Resources/Debug-Win32.manifest"; sourceTree = SOURCE_ROOT; };
-		BA4FCB09320AD1C28585B626 /* ShaderCompileWorker-Mac-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "ShaderCompileWorker-Mac-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6607AB44594A33297DE3936 /* Resource.rc */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = Resource.rc; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/Resources/Resource.rc"; sourceTree = SOURCE_ROOT; };
-		D13850B9015EDAFBCC1625D1 /* Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = Win32.manifest; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/Resources/Win32.manifest"; sourceTree = SOURCE_ROOT; };
-		DB6DB93C6B0703BD9DDA4180 /* ShaderCompileWorker.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = ShaderCompileWorker.Target.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/ShaderCompileWorker.Target.cs"; sourceTree = SOURCE_ROOT; };
-		F1CAEBCE86242302F19B22B6 /* ShaderCompileWorker.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = ShaderCompileWorker.Build.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/ShaderCompileWorker.Build.cs"; sourceTree = SOURCE_ROOT; };
-		F9C291F649835E01894B1658 /* ShaderCompileWorker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = ShaderCompileWorker.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/Private/ShaderCompileWorker.cpp"; sourceTree = SOURCE_ROOT; };
+		307B12EB310CD6870D0F7061 /* Debug-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/Resources/Debug-Win64.manifest"; sourceTree = SOURCE_ROOT; };
+		C6607AB44594A33297DE3936 /* Resource.rc */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Resource.rc"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/Resources/Resource.rc"; sourceTree = SOURCE_ROOT; };
+		D13850B9015EDAFBCC1625D1 /* Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/Resources/Win32.manifest"; sourceTree = SOURCE_ROOT; };
+		665989DF7F2A3F6E9031E20D /* Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/Resources/Win64.manifest"; sourceTree = SOURCE_ROOT; };
+		0A3C187D8E108EB7C61052A8 /* resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "resource.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker/Resources/resource.h"; sourceTree = SOURCE_ROOT; };
+		590D1E50C593BF9E7869EB23 /* ShaderCompileWorker */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = ShaderCompileWorker; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXGroup section */
-		6F06C0984BDA266C0C705E4A /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				F9C291F649835E01894B1658 /* ShaderCompileWorker.cpp */,
-			);
-			path = Private;
-			sourceTree = "<group>";
-		};
-		8A8B9E4C729A85A1F34D0F2C /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				69F5B3D28B2F4A9008C1302C /* DefaultEngine.ini */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
-		9054AE7D3BD9733258A41C57 = {
-			isa = PBXGroup;
-			children = (
-				8A8B9E4C729A85A1F34D0F2C /* Config */,
-				6F06C0984BDA266C0C705E4A /* Private */,
-				A26D8860A8D38DBD5C401184 /* Resources */,
-				DB6DB93C6B0703BD9DDA4180 /* ShaderCompileWorker.Target.cs */,
-				F1CAEBCE86242302F19B22B6 /* ShaderCompileWorker.Build.cs */,
-				BDA3E6F640781585630A1544 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		A26D8860A8D38DBD5C401184 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				85E8E56AB1957BF1053FD4C3 /* Debug-Win32.manifest */,
-				307B12EB310CD6870D0F7061 /* Debug-Win64.manifest */,
-				C6607AB44594A33297DE3936 /* Resource.rc */,
-				D13850B9015EDAFBCC1625D1 /* Win32.manifest */,
-				665989DF7F2A3F6E9031E20D /* Win64.manifest */,
-				0A3C187D8E108EB7C61052A8 /* resource.h */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		BDA3E6F640781585630A1544 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BA4FCB09320AD1C28585B626 /* ShaderCompileWorker-Mac-Debug.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXLegacyTarget section */
-		97ABC04757032981101CD662 /* ShaderCompileWorker_Build */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 1D0E7E40CCAEA57310FA77EC /* Build configuration list for PBXLegacyTarget "ShaderCompileWorker_Build" */;
-			buildPhases = (
-			);
-			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
-			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
-			dependencies = (
-			);
-			name = ShaderCompileWorker_Build;
-			passBuildSettingsInEnvironment = 1;
-			productName = ShaderCompileWorker_Build;
-		};
-/* End PBXLegacyTarget section */
-
-/* Begin PBXNativeTarget section */
-		9C43C8A7E8B379C538561549 /* ShaderCompileWorker_Index */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 590D1E50C593BF9E7869EB23 /* Build configuration list for PBXNativeTarget "ShaderCompileWorker_Index" */;
-			buildPhases = (
-				FA62FB6840242A56A937468A /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ShaderCompileWorker_Index;
-			productName = ShaderCompileWorker_Index;
-			productType = "com.apple.product-type.library.static";
-		};
-		E4AA7E174C62DEFDAFA4FEDB /* ShaderCompileWorker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B871B22509BBB745A2125F9 /* Build configuration list for PBXNativeTarget "ShaderCompileWorker" */;
-			buildPhases = (
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6126CB323C684DFAB2BA76FE /* PBXTargetDependency */,
-			);
-			name = ShaderCompileWorker;
-			productName = ShaderCompileWorker;
-			productReference = BA4FCB09320AD1C28585B626 /* ShaderCompileWorker-Mac-Debug.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		8B91F6D6DF42159C34D4AA13 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "Epic Games, Inc.";
-			};
-			buildConfigurationList = 3B81985DA21029C6F835E7BE /* Build configuration list for PBXProject "ShaderCompileWorker" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 9054AE7D3BD9733258A41C57;
-			productRefGroup = BDA3E6F640781585630A1544 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				E4AA7E174C62DEFDAFA4FEDB /* ShaderCompileWorker */,
-				97ABC04757032981101CD662 /* ShaderCompileWorker_Build */,
-				9C43C8A7E8B379C538561549 /* ShaderCompileWorker_Index */,
-			);
-		};
-/* End PBXProject section */
-
 /* Begin PBXSourcesBuildPhase section */
-		FA62FB6840242A56A937468A /* Sources */ = {
+		17BA24EA4E7EDFB9C2FC3D0D = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -172,94 +44,166 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXContainerItemProxy section */
+		9C43C8A7E8B379C538561549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA62FB6840242A56A937468A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B91F6D6DF42159C34D4AA13;
+			remoteInfo = "ShaderCompileWorker_Build";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXTargetDependency section */
-		6126CB323C684DFAB2BA76FE /* PBXTargetDependency */ = {
+		1D0E7E40CCAEA57310FA77EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 97ABC04757032981101CD662 /* ShaderCompileWorker_Build */;
-			targetProxy = 4BEE7DACF519547654EE15D0 /* PBXContainerItemProxy */;
+			target = 8B91F6D6DF42159C34D4AA13 /* ShaderCompileWorker_Build */;
+			targetProxy = 9C43C8A7E8B379C538561549 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXGroup section */
+		2A3386801F625B853F6A82D8 = {
+			isa = PBXGroup;
+			children = (
+				ADA37567AB9D5E192D54AA05 /* Config */,
+				1225F820BF52D02EF43BFF05 /* Private */,
+				BE8222489D4918A93334B304 /* Resources */,
+				DB6DB93C6B0703BD9DDA4180 /* ShaderCompileWorker.Target.cs */,
+				F1CAEBCE86242302F19B22B6 /* ShaderCompileWorker.Build.cs */,
+				DD0BF23379C5AD865C5B62A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA37567AB9D5E192D54AA05 = {
+			isa = PBXGroup;
+			children = (
+				69F5B3D28B2F4A9008C1302C /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "Config";
+			sourceTree = "<group>";
+		};
+		1225F820BF52D02EF43BFF05 = {
+			isa = PBXGroup;
+			children = (
+				F9C291F649835E01894B1658 /* ShaderCompileWorker.cpp */,
+			);
+			name = "Private";
+			path = "Private";
+			sourceTree = "<group>";
+		};
+		BE8222489D4918A93334B304 = {
+			isa = PBXGroup;
+			children = (
+				85E8E56AB1957BF1053FD4C3 /* Debug-Win32.manifest */,
+				307B12EB310CD6870D0F7061 /* Debug-Win64.manifest */,
+				C6607AB44594A33297DE3936 /* Resource.rc */,
+				D13850B9015EDAFBCC1625D1 /* Win32.manifest */,
+				665989DF7F2A3F6E9031E20D /* Win64.manifest */,
+				0A3C187D8E108EB7C61052A8 /* resource.h */,
+			);
+			name = "Resources";
+			path = "Resources";
+			sourceTree = "<group>";
+		};
+		DD0BF23379C5AD865C5B62A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				590D1E50C593BF9E7869EB23 /* ShaderCompileWorker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		8B91F6D6DF42159C34D4AA13 /* ShaderCompileWorker_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 3B81985DA21029C6F835E7BE /* Build configuration list for PBXLegacyTarget "ShaderCompileWorker_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/UnrealEngine-4.10/Engine/Build/BatchFiles/Mac/Build.sh";
+			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
+			dependencies = (
+			);
+			name = "ShaderCompileWorker_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ShaderCompileWorker_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		BA4FCB09320AD1C28585B626 /* ShaderCompileWorker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97ABC04757032981101CD662 /* Build configuration list for PBXNativeTarget "ShaderCompileWorker" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1D0E7E40CCAEA57310FA77EC /* PBXTargetDependency */,
+			);
+			name = "ShaderCompileWorker";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ShaderCompileWorker";
+			productReference = "590D1E50C593BF9E7869EB23";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		9054AE7D3BD9733258A41C57 /* ShaderCompileWorker_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA3E6F640781585630A1544 /* Build configuration list for PBXNativeTarget "ShaderCompileWorker_Index" */;
+			buildPhases = (
+				17BA24EA4E7EDFB9C2FC3D0D /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "ShaderCompileWorker_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ShaderCompileWorker_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA62FB6840242A56A937468A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+			};
+			buildConfigurationList = 9498615A6078BB9664419FFF /* Build configuration list for PBXProject "ShaderCompileWorker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 2A3386801F625B853F6A82D8;
+			productRefGroup = DD0BF23379C5AD865C5B62A8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			BA4FCB09320AD1C28585B626 /* ShaderCompileWorker */,
+			8B91F6D6DF42159C34D4AA13 /* ShaderCompileWorker_Build */,
+			9054AE7D3BD9733258A41C57 /* ShaderCompileWorker_Index */,
+			);
+		};
+/* End PBXProject section */
+
 /* Begin XCBuildConfiguration section */
-		17BA24EA4E7EDFB9C2FC3D0D /* Debug */ = {
+		9EAA3647DBC04B2915887C54 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "ShaderCompileWorker-Mac-Debug";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Debug;
-		};
-		2A3386801F625B853F6A82D8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "ShaderCompileWorker-Mac-Debug";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Debug;
-		};
-		3D7036C08AC916E1CEE494CF /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				SUPPORTED_PLATFORMS = macosx;
-				UE_BUILD_TARGET_CONFIG = Development;
-				UE_BUILD_TARGET_NAME = ShaderCompileWorker;
-				VALID_ARCHS = x86_64;
-			};
-			name = Development;
-		};
-		86881C9E9319A2CFD1DD6864 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = ShaderCompileWorker;
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Development;
-		};
-		8F66AA9C0F38928E3ED064C6 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = ShaderCompileWorker;
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Development;
-		};
-		9498615A6078BB9664419FFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"ALLOW_LOG_FILE=0",
 					"ALLOW_WINDOWS_ERROR_REPORT_LIB=0",
 					"IS_PROGRAM=1",
-					UNICODE,
-					_UNICODE,
-					__UNREAL__,
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
 					"IS_MONOLITHIC=0",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -296,27 +240,93 @@
 					"PROFILERSERVICE_API=",
 					"MONOLITHIC_BUILD=1",
 				);
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
+					"../Build/Mac/ShaderCompileWorker/Inc/ShaderCompileWorker",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"../Build/Mac/ShaderCompileWorker/Inc/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
+					"../Build/Mac/ShaderCompileWorker/Inc/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore/Public",
+					"../Build/Mac/ShaderCompileWorker/Inc/ShaderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI/Public",
+					"../Build/Mac/ShaderCompileWorker/Inc/RHI",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore/Public",
+					"../Build/Mac/ShaderCompileWorker/Inc/RenderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile/Public",
+					"../Build/Mac/ShaderCompileWorker/Inc/SandboxFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform/Public/Common",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform/Public/Interfaces",
+					"../Build/Mac/ShaderCompileWorker/Inc/TargetPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform/Public",
+					"../Build/Mac/ShaderCompileWorker/Inc/DesktopPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public/Android",
+					"../Build/Mac/ShaderCompileWorker/Inc/Launch",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public/Interfaces",
+					"../Build/Mac/ShaderCompileWorker/Inc/ProfilerService",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch",
+				);
 				ONLY_ACTIVE_ARCH = YES;
-				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private ../Build/Mac/ShaderCompileWorker/Inc/ShaderCompileWorker /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/ShaderCompileWorker/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/ShaderCompileWorker/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore/Public ../Build/Mac/ShaderCompileWorker/Inc/ShaderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI/Public ../Build/Mac/ShaderCompileWorker/Inc/RHI /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore/Public ../Build/Mac/ShaderCompileWorker/Inc/RenderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile/Public ../Build/Mac/ShaderCompileWorker/Inc/SandboxFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform/Public/Common /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform/Public/Interfaces ../Build/Mac/ShaderCompileWorker/Inc/TargetPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform/Public ../Build/Mac/ShaderCompileWorker/Inc/DesktopPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public/Android ../Build/Mac/ShaderCompileWorker/Inc/Launch /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public/Interfaces ../Build/Mac/ShaderCompileWorker/Inc/ProfilerService /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch";
-				USE_HEADERMAP = NO;
-			};
-			name = Debug;
-		};
-		9EAA3647DBC04B2915887C54 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		624026A8596D3CC141D20A6A /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"ALLOW_LOG_FILE=0",
 					"ALLOW_WINDOWS_ERROR_REPORT_LIB=0",
 					"IS_PROGRAM=1",
-					UNICODE,
-					_UNICODE,
-					__UNREAL__,
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
 					"IS_MONOLITHIC=0",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -353,63 +363,198 @@
 					"PROFILERSERVICE_API=",
 					"MONOLITHIC_BUILD=1",
 				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
+					"../Build/Mac/ShaderCompileWorker/Inc/ShaderCompileWorker",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"../Build/Mac/ShaderCompileWorker/Inc/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
+					"../Build/Mac/ShaderCompileWorker/Inc/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore/Public",
+					"../Build/Mac/ShaderCompileWorker/Inc/ShaderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI/Public",
+					"../Build/Mac/ShaderCompileWorker/Inc/RHI",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore/Public",
+					"../Build/Mac/ShaderCompileWorker/Inc/RenderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile/Public",
+					"../Build/Mac/ShaderCompileWorker/Inc/SandboxFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform/Public/Common",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform/Public/Interfaces",
+					"../Build/Mac/ShaderCompileWorker/Inc/TargetPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform/Public",
+					"../Build/Mac/ShaderCompileWorker/Inc/DesktopPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public/Android",
+					"../Build/Mac/ShaderCompileWorker/Inc/Launch",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public/Interfaces",
+					"../Build/Mac/ShaderCompileWorker/Inc/ProfilerService",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService",
+					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch",
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				HEADER_SEARCH_PATHS = "";
-				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private ../Build/Mac/ShaderCompileWorker/Inc/ShaderCompileWorker /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/ShaderCompileWorker /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/ShaderCompileWorker/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/ShaderCompileWorker/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore/Public ../Build/Mac/ShaderCompileWorker/Inc/ShaderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI/Public ../Build/Mac/ShaderCompileWorker/Inc/RHI /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore/Public ../Build/Mac/ShaderCompileWorker/Inc/RenderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile/Public ../Build/Mac/ShaderCompileWorker/Inc/SandboxFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform/Public/Common /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform/Public/Interfaces ../Build/Mac/ShaderCompileWorker/Inc/TargetPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform/Public ../Build/Mac/ShaderCompileWorker/Inc/DesktopPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/TargetPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public/Android ../Build/Mac/ShaderCompileWorker/Inc/Launch /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public/Interfaces ../Build/Mac/ShaderCompileWorker/Inc/ProfilerService /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch";
 				USE_HEADERMAP = NO;
 			};
-			name = Development;
+			name = "Development";
 		};
-		DD0BF23379C5AD865C5B62A8 /* Debug */ = {
+		86881C9E9319A2CFD1DD6864 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SUPPORTED_PLATFORMS = macosx;
-				UE_BUILD_TARGET_CONFIG = Debug;
-				UE_BUILD_TARGET_NAME = ShaderCompileWorker;
-				VALID_ARCHS = x86_64;
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
 			};
-			name = Debug;
+			name = "Debug";
+		};
+		8A8B9E4C729A85A1F34D0F2C /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		3D7036C08AC916E1CEE494CF /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		6F06C0984BDA266C0C705E4A /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		8F66AA9C0F38928E3ED064C6 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		A26D8860A8D38DBD5C401184 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D0E7E40CCAEA57310FA77EC /* Build configuration list for PBXLegacyTarget "ShaderCompileWorker_Build" */ = {
+		9498615A6078BB9664419FFF /* Build configuration list for PBXProject "ShaderCompileWorker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD0BF23379C5AD865C5B62A8 /* Debug */,
-				3D7036C08AC916E1CEE494CF /* Development */,
+				9EAA3647DBC04B2915887C54 /* "Debug" */,
+				624026A8596D3CC141D20A6A /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		3B81985DA21029C6F835E7BE /* Build configuration list for PBXProject "ShaderCompileWorker" */ = {
+		3B81985DA21029C6F835E7BE /* Build configuration list for PBXLegacyTarget "ShaderCompileWorker_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9498615A6078BB9664419FFF /* Debug */,
-				9EAA3647DBC04B2915887C54 /* Development */,
+				3D7036C08AC916E1CEE494CF /* "Debug" */,
+				6F06C0984BDA266C0C705E4A /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		3B871B22509BBB745A2125F9 /* Build configuration list for PBXNativeTarget "ShaderCompileWorker" */ = {
+		97ABC04757032981101CD662 /* Build configuration list for PBXNativeTarget "ShaderCompileWorker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A3386801F625B853F6A82D8 /* Debug */,
-				86881C9E9319A2CFD1DD6864 /* Development */,
+				86881C9E9319A2CFD1DD6864 /* "Debug" */,
+				8A8B9E4C729A85A1F34D0F2C /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		590D1E50C593BF9E7869EB23 /* Build configuration list for PBXNativeTarget "ShaderCompileWorker_Index" */ = {
+		BDA3E6F640781585630A1544 /* Build configuration list for PBXNativeTarget "ShaderCompileWorker_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17BA24EA4E7EDFB9C2FC3D0D /* Debug */,
-				8F66AA9C0F38928E3ED064C6 /* Development */,
+				8F66AA9C0F38928E3ED064C6 /* "Debug" */,
+				A26D8860A8D38DBD5C401184 /* "Development" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8B91F6D6DF42159C34D4AA13 /* Project object */;
+	rootObject = FA62FB6840242A56A937468A /* Project object */;
 }

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC2B67E06DA44D9ED2B20D12"
+               BlueprintIdentifier = "627B7FA3FD272913F9A2EDF4"
                BuildableName = "DsymExporter.app"
                BlueprintName = "DsymExporter"
                ReferencedContainer = "container:DsymExporter.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC2B67E06DA44D9ED2B20D12"
+               BlueprintIdentifier = "627B7FA3FD272913F9A2EDF4"
                BuildableName = "DsymExporter.app"
                BlueprintName = "DsymExporter"
                ReferencedContainer = "container:DsymExporter.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC2B67E06DA44D9ED2B20D12"
+               BlueprintIdentifier = "627B7FA3FD272913F9A2EDF4"
                BuildableName = "DsymExporter.app"
                BlueprintName = "DsymExporter"
                ReferencedContainer = "container:DsymExporter.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC2B67E06DA44D9ED2B20D12"
+               BlueprintIdentifier = "627B7FA3FD272913F9A2EDF4"
                BuildableName = "DsymExporter.app"
                BlueprintName = "DsymExporter"
                ReferencedContainer = "container:DsymExporter.xcodeproj">
