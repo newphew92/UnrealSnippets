@@ -7,51 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4115C7AD0EDE683C3D4AC440 /* SlateViewer.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F49D4309D28FCF03A47A9 /* SlateViewer.Target.cs */; };
-		D4FB7CA2D7B741603F343581 /* SlateViewer.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0D90BA7DB005D579F141D442 /* SlateViewer.Build.cs */; };
 		12C2DF7FA22A473497886409 /* SlateViewerApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0C794B2AB0707D607966FFD /* SlateViewerApp.cpp */; };
-		551107C03AD8B69326398F15 /* IOSSlateViewerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C1BD15ED00E9842BB1BCE8 /* IOSSlateViewerMain.cpp */; };
-		7123CDEA39FE3B7B52E12A91 /* SlateViewerMainLinux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2286FABFD2D1E286377FDBE9 /* SlateViewerMainLinux.cpp */; };
 		49F2E906ADEAD2A3551F4F16 /* SlateViewerMainMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC5928FE14C2F5972CF266 /* SlateViewerMainMac.cpp */; };
-		062AB25ACF35B0F148E3A046 /* SlateViewerMainWindows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1535CE670F863B0337E3B406 /* SlateViewerMainWindows.cpp */; };
-		77BA8823BCE5521D0082FF82 /* SlateViewer.h in Sources */ = {isa = PBXBuildFile; fileRef = 3877D4206E5DCE262B1212C9 /* SlateViewer.h */; };
-		455BE610F0EF2E2376ABE314 /* SlateViewerApp.h in Sources */ = {isa = PBXBuildFile; fileRef = AC8D356291834692354B2E98 /* SlateViewerApp.h */; };
-		B21B94DA148DDB64A7BFDE61 /* Debug-PCLaunch-Win32.manifest in Sources */ = {isa = PBXBuildFile; fileRef = FE422C1154DB0C8D93BF73E1 /* Debug-PCLaunch-Win32.manifest */; };
-		286C95A8CC8094F92C4D5DD4 /* Debug-PCLaunch-Win64.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 5A540FE8D07F6CEDAFD3644E /* Debug-PCLaunch-Win64.manifest */; };
-		56343D593EA104F2A8B3B2A8 /* PCLaunch-Win32.manifest in Sources */ = {isa = PBXBuildFile; fileRef = F73297272BE434B1E457B700 /* PCLaunch-Win32.manifest */; };
-		CC24BC145285325407475297 /* PCLaunch-Win64.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 423ABA8A486B2CA6A167F09E /* PCLaunch-Win64.manifest */; };
-		E745C2CA9EB369FE7D3D8C1A /* PCLaunch.rc in Sources */ = {isa = PBXBuildFile; fileRef = E5F09F22815DA0B0E000E4F0 /* PCLaunch.rc */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		0A5F49D4309D28FCF03A47A9 /* SlateViewer.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "SlateViewer.Target.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/SlateViewer.Target.cs"; sourceTree = SOURCE_ROOT; };
-		0D90BA7DB005D579F141D442 /* SlateViewer.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "SlateViewer.Build.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/SlateViewer.Build.cs"; sourceTree = SOURCE_ROOT; };
-		C0C794B2AB0707D607966FFD /* SlateViewerApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "SlateViewerApp.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Private/SlateViewerApp.cpp"; sourceTree = SOURCE_ROOT; };
-		D7C1BD15ED00E9842BB1BCE8 /* IOSSlateViewerMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "IOSSlateViewerMain.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Private/IOS/IOSSlateViewerMain.cpp"; sourceTree = SOURCE_ROOT; };
-		2286FABFD2D1E286377FDBE9 /* SlateViewerMainLinux.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "SlateViewerMainLinux.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Private/Linux/SlateViewerMainLinux.cpp"; sourceTree = SOURCE_ROOT; };
-		0ACC5928FE14C2F5972CF266 /* SlateViewerMainMac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "SlateViewerMainMac.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Private/Mac/SlateViewerMainMac.cpp"; sourceTree = SOURCE_ROOT; };
-		1535CE670F863B0337E3B406 /* SlateViewerMainWindows.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "SlateViewerMainWindows.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Private/Windows/SlateViewerMainWindows.cpp"; sourceTree = SOURCE_ROOT; };
-		3877D4206E5DCE262B1212C9 /* SlateViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SlateViewer.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Public/SlateViewer.h"; sourceTree = SOURCE_ROOT; };
-		AC8D356291834692354B2E98 /* SlateViewerApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SlateViewerApp.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Public/SlateViewerApp.h"; sourceTree = SOURCE_ROOT; };
-		FE422C1154DB0C8D93BF73E1 /* Debug-PCLaunch-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-PCLaunch-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Resources/Windows/Debug-PCLaunch-Win32.manifest"; sourceTree = SOURCE_ROOT; };
-		5A540FE8D07F6CEDAFD3644E /* Debug-PCLaunch-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-PCLaunch-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Resources/Windows/Debug-PCLaunch-Win64.manifest"; sourceTree = SOURCE_ROOT; };
-		F73297272BE434B1E457B700 /* PCLaunch-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "PCLaunch-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Resources/Windows/PCLaunch-Win32.manifest"; sourceTree = SOURCE_ROOT; };
-		423ABA8A486B2CA6A167F09E /* PCLaunch-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "PCLaunch-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Resources/Windows/PCLaunch-Win64.manifest"; sourceTree = SOURCE_ROOT; };
-		E5F09F22815DA0B0E000E4F0 /* PCLaunch.rc */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "PCLaunch.rc"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Resources/Windows/PCLaunch.rc"; sourceTree = SOURCE_ROOT; };
-		F43A7F28D54160ED7EE844CC /* SlateViewer */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SlateViewer; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-
-/* Begin PBXSourcesBuildPhase section */
-		64E397571B2D91983DB1E6B9 = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12C2DF7FA22A473497886409 /* SlateViewerApp.cpp in Sources */,
-				49F2E906ADEAD2A3551F4F16 /* SlateViewerMainMac.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin PBXContainerItemProxy section */
 		41104DFCE4BA6AA9F1FC7EEB /* PBXContainerItemProxy */ = {
@@ -59,19 +17,38 @@
 			containerPortal = B476E77FB1C635EB84071899 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7B73099A43B2B3D6EFBB9D18;
-			remoteInfo = "SlateViewer_Build";
+			remoteInfo = SlateViewer_Build;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXTargetDependency section */
-		7A157CE33B01D2DD71F4C299 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7B73099A43B2B3D6EFBB9D18 /* SlateViewer_Build */;
-			targetProxy = 41104DFCE4BA6AA9F1FC7EEB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
+/* Begin PBXFileReference section */
+		0A5F49D4309D28FCF03A47A9 /* SlateViewer.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = SlateViewer.Target.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/SlateViewer.Target.cs"; sourceTree = SOURCE_ROOT; };
+		0ACC5928FE14C2F5972CF266 /* SlateViewerMainMac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SlateViewerMainMac.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Private/Mac/SlateViewerMainMac.cpp"; sourceTree = SOURCE_ROOT; };
+		0D90BA7DB005D579F141D442 /* SlateViewer.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = SlateViewer.Build.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/SlateViewer.Build.cs"; sourceTree = SOURCE_ROOT; };
+		1535CE670F863B0337E3B406 /* SlateViewerMainWindows.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SlateViewerMainWindows.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Private/Windows/SlateViewerMainWindows.cpp"; sourceTree = SOURCE_ROOT; };
+		2286FABFD2D1E286377FDBE9 /* SlateViewerMainLinux.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SlateViewerMainLinux.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Private/Linux/SlateViewerMainLinux.cpp"; sourceTree = SOURCE_ROOT; };
+		3877D4206E5DCE262B1212C9 /* SlateViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SlateViewer.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Public/SlateViewer.h"; sourceTree = SOURCE_ROOT; };
+		423ABA8A486B2CA6A167F09E /* PCLaunch-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "PCLaunch-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Resources/Windows/PCLaunch-Win64.manifest"; sourceTree = SOURCE_ROOT; };
+		5A540FE8D07F6CEDAFD3644E /* Debug-PCLaunch-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-PCLaunch-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Resources/Windows/Debug-PCLaunch-Win64.manifest"; sourceTree = SOURCE_ROOT; };
+		AC8D356291834692354B2E98 /* SlateViewerApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SlateViewerApp.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Public/SlateViewerApp.h"; sourceTree = SOURCE_ROOT; };
+		C0C794B2AB0707D607966FFD /* SlateViewerApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SlateViewerApp.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Private/SlateViewerApp.cpp"; sourceTree = SOURCE_ROOT; };
+		D7C1BD15ED00E9842BB1BCE8 /* IOSSlateViewerMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = IOSSlateViewerMain.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Private/IOS/IOSSlateViewerMain.cpp"; sourceTree = SOURCE_ROOT; };
+		E5F09F22815DA0B0E000E4F0 /* PCLaunch.rc */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = PCLaunch.rc; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Resources/Windows/PCLaunch.rc"; sourceTree = SOURCE_ROOT; };
+		F43A7F28D54160ED7EE844CC /* SlateViewer-Mac-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "SlateViewer-Mac-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73297272BE434B1E457B700 /* PCLaunch-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "PCLaunch-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Resources/Windows/PCLaunch-Win32.manifest"; sourceTree = SOURCE_ROOT; };
+		FE422C1154DB0C8D93BF73E1 /* Debug-PCLaunch-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-PCLaunch-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Resources/Windows/Debug-PCLaunch-Win32.manifest"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		522D4D4726888C1F0E9BDC29 /* Linux */ = {
+			isa = PBXGroup;
+			children = (
+				2286FABFD2D1E286377FDBE9 /* SlateViewerMainLinux.cpp */,
+			);
+			name = Linux;
+			path = Private/Linux;
+			sourceTree = "<group>";
+		};
 		99F835EF93B6641A3F947B1D = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +61,15 @@
 			);
 			sourceTree = "<group>";
 		};
-		BF6F7070B12242D57053AB13 = {
+		9D55E92B7261296C4AC351A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDD968033B4A3488B95C7834 /* Windows */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF6F7070B12242D57053AB13 /* Private */ = {
 			isa = PBXGroup;
 			children = (
 				E6B5157FA37EA1180D2D7A17 /* IOS */,
@@ -93,66 +78,19 @@
 				F684ABB3B70B5F91F5591E84 /* Windows */,
 				C0C794B2AB0707D607966FFD /* SlateViewerApp.cpp */,
 			);
-			name = "Private";
-			path = "Private";
+			path = Private;
 			sourceTree = "<group>";
 		};
-		E6B5157FA37EA1180D2D7A17 = {
-			isa = PBXGroup;
-			children = (
-				D7C1BD15ED00E9842BB1BCE8 /* IOSSlateViewerMain.cpp */,
-			);
-			name = "IOS";
-			path = "Private/IOS";
-			sourceTree = "<group>";
-		};
-		522D4D4726888C1F0E9BDC29 = {
-			isa = PBXGroup;
-			children = (
-				2286FABFD2D1E286377FDBE9 /* SlateViewerMainLinux.cpp */,
-			);
-			name = "Linux";
-			path = "Private/Linux";
-			sourceTree = "<group>";
-		};
-		E1D7E04C2EE2BB18EEE5E38A = {
-			isa = PBXGroup;
-			children = (
-				0ACC5928FE14C2F5972CF266 /* SlateViewerMainMac.cpp */,
-			);
-			name = "Mac";
-			path = "Private/Mac";
-			sourceTree = "<group>";
-		};
-		F684ABB3B70B5F91F5591E84 = {
-			isa = PBXGroup;
-			children = (
-				1535CE670F863B0337E3B406 /* SlateViewerMainWindows.cpp */,
-			);
-			name = "Windows";
-			path = "Private/Windows";
-			sourceTree = "<group>";
-		};
-		D4FAAEE8C68B054AD9EB9DCB = {
+		D4FAAEE8C68B054AD9EB9DCB /* Public */ = {
 			isa = PBXGroup;
 			children = (
 				3877D4206E5DCE262B1212C9 /* SlateViewer.h */,
 				AC8D356291834692354B2E98 /* SlateViewerApp.h */,
 			);
-			name = "Public";
-			path = "Public";
+			path = Public;
 			sourceTree = "<group>";
 		};
-		9D55E92B7261296C4AC351A2 = {
-			isa = PBXGroup;
-			children = (
-				DDD968033B4A3488B95C7834 /* Windows */,
-			);
-			name = "Resources";
-			path = "Resources";
-			sourceTree = "<group>";
-		};
-		DDD968033B4A3488B95C7834 = {
+		DDD968033B4A3488B95C7834 /* Windows */ = {
 			isa = PBXGroup;
 			children = (
 				FE422C1154DB0C8D93BF73E1 /* Debug-PCLaunch-Win32.manifest */,
@@ -161,16 +99,43 @@
 				423ABA8A486B2CA6A167F09E /* PCLaunch-Win64.manifest */,
 				E5F09F22815DA0B0E000E4F0 /* PCLaunch.rc */,
 			);
-			name = "Windows";
-			path = "Resources/Windows";
+			name = Windows;
+			path = Resources/Windows;
+			sourceTree = "<group>";
+		};
+		E1D7E04C2EE2BB18EEE5E38A /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				0ACC5928FE14C2F5972CF266 /* SlateViewerMainMac.cpp */,
+			);
+			name = Mac;
+			path = Private/Mac;
+			sourceTree = "<group>";
+		};
+		E6B5157FA37EA1180D2D7A17 /* IOS */ = {
+			isa = PBXGroup;
+			children = (
+				D7C1BD15ED00E9842BB1BCE8 /* IOSSlateViewerMain.cpp */,
+			);
+			name = IOS;
+			path = Private/IOS;
 			sourceTree = "<group>";
 		};
 		EE9BA7054B94ECA9B7CC94C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F43A7F28D54160ED7EE844CC /* SlateViewer */,
+				F43A7F28D54160ED7EE844CC /* SlateViewer-Mac-Debug.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F684ABB3B70B5F91F5591E84 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				1535CE670F863B0337E3B406 /* SlateViewerMainWindows.cpp */,
+			);
+			name = Windows;
+			path = Private/Windows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,9 +151,9 @@
 			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
 			dependencies = (
 			);
-			name = "SlateViewer_Build";
+			name = SlateViewer_Build;
 			passBuildSettingsInEnvironment = 1;
-			productName = "SlateViewer_Build";
+			productName = SlateViewer_Build;
 		};
 /* End PBXLegacyTarget section */
 
@@ -198,29 +163,28 @@
 			buildConfigurationList = CAB154DE290A5E71A470A829 /* Build configuration list for PBXNativeTarget "SlateViewer" */;
 			buildPhases = (
 			);
+			buildRules = (
+			);
 			dependencies = (
 				7A157CE33B01D2DD71F4C299 /* PBXTargetDependency */,
 			);
-			name = "SlateViewer";
-			passBuildSettingsInEnvironment = 1;
-			productName = "SlateViewer";
-			productReference = "F43A7F28D54160ED7EE844CC";
+			name = SlateViewer;
+			productName = SlateViewer;
+			productReference = F43A7F28D54160ED7EE844CC /* SlateViewer-Mac-Debug.app */;
 			productType = "com.apple.product-type.application";
 		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXNativeTarget section */
 		81AA083093D51A58CC808071 /* SlateViewer_Index */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1D0653F49A7FC389C676A73 /* Build configuration list for PBXNativeTarget "SlateViewer_Index" */;
 			buildPhases = (
 				64E397571B2D91983DB1E6B9 /* Sources */,
 			);
+			buildRules = (
+			);
 			dependencies = (
 			);
-			name = "SlateViewer_Index";
-			passBuildSettingsInEnvironment = 1;
-			productName = "SlateViewer_Index";
+			name = SlateViewer_Index;
+			productName = SlateViewer_Index;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -237,29 +201,87 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en
+				en,
 			);
 			mainGroup = 99F835EF93B6641A3F947B1D;
-			productRefGroup = EE9BA7054B94ECA9B7CC94C5;
+			productRefGroup = EE9BA7054B94ECA9B7CC94C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			5D2611BFE1F857449B159025 /* SlateViewer */,
-			7B73099A43B2B3D6EFBB9D18 /* SlateViewer_Build */,
-			81AA083093D51A58CC808071 /* SlateViewer_Index */,
+				5D2611BFE1F857449B159025 /* SlateViewer */,
+				7B73099A43B2B3D6EFBB9D18 /* SlateViewer_Build */,
+				81AA083093D51A58CC808071 /* SlateViewer_Index */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXSourcesBuildPhase section */
+		64E397571B2D91983DB1E6B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C2DF7FA22A473497886409 /* SlateViewerApp.cpp in Sources */,
+				49F2E906ADEAD2A3551F4F16 /* SlateViewerMainMac.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A157CE33B01D2DD71F4C299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B73099A43B2B3D6EFBB9D18 /* SlateViewer_Build */;
+			targetProxy = 41104DFCE4BA6AA9F1FC7EEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		914658CEA2FE591607252B06 /* "Debug" */ = {
+		1E0DFE1203E2DF3CB4EE7405 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_CONFIG = Debug;
+				UE_BUILD_TARGET_NAME = SlateViewer;
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		3B1E06B8727EBE3FB891BAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/SlateViewer-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/Mac/SlateViewer-Mac-Debug-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = SlateViewer;
+				"PRODUCT_NAME[sdk=macosx*]" = "SlateViewer-Mac-Debug";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		3B4369AD33195521BCA9AF95 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"IS_PROGRAM=1",
-					"UNICODE",
-					"_UNICODE",
-					"__UNREAL__",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
 					"IS_MONOLITHIC=1",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -302,444 +324,158 @@
 					"WITH_CEF3=1",
 					"MONOLITHIC_BUILD=1",
 				);
-				HEADER_SEARCH_PATHS = (
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/CEF3/cef_binary_3.2272.24.ga8ab9ad_macosx64",
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/CEF3/cef_binary_3.2272.24.ga8ab9ad_macosx64";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Public ../Build/Mac/SlateViewer/Inc/SlateViewer /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Colors /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Testing /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Views /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Workflow ../Build/Mac/SlateViewer/Inc/AppFramework /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views ../Build/Mac/SlateViewer/Inc/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject ../Build/Mac/SlateViewer/Inc/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public ../Build/Mac/SlateViewer/Inc/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/SlateViewer/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets ../Build/Mac/SlateViewer/Inc/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/SlateViewer/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector/Public ../Build/Mac/SlateViewer/Inc/SlateReflector /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS ../Build/Mac/SlateViewer/Inc/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceCodeAccess/Public ../Build/Mac/SlateViewer/Inc/SourceCodeAccess /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/Settings/Public ../Build/Mac/SlateViewer/Inc/Settings /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceCodeAccess /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/WebBrowser/Public ../Build/Mac/SlateViewer/Inc/WebBrowser /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/WebBrowser /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/SlateViewer/Inc/XCodeSourceCodeAccess /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source/XCodeSourceCodeAccess /Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/CEF3";
+				USE_HEADERMAP = NO;
+			};
+			name = Development;
+		};
+		7932089B995248926E70B82B /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/SlateViewer-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/Mac/SlateViewer-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = SlateViewer;
+				"PRODUCT_NAME[sdk=macosx*]" = SlateViewer;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+		89C659E5B14BF78D532AD6BF /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_CONFIG = Development;
+				UE_BUILD_TARGET_NAME = SlateViewer;
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+		914658CEA2FE591607252B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PROGRAM=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=1",
+					"WITH_ENGINE=0",
+					"WITH_UNREAL_DEVELOPER_TOOLS=0",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=1",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=0",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"UE_PROJECT_NAME=Network",
+					"ORIGINAL_FILE_NAME=SlateViewer",
+					"SLATEVIEWER_API=",
+					"APPFRAMEWORK_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=0",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"WITH_FREETYPE=1",
+					"SLATE_API=",
+					"COREUOBJECT_API=",
+					"INPUTCORE_API=",
+					"JSON_API=",
+					"SLATECORE_API=",
+					"PROJECTS_API=",
+					"SLATEREFLECTOR_API=",
+					"STANDALONERENDERER_API=",
+					"SOURCECODEACCESS_API=",
+					"SETTINGS_API=",
+					"WEBBROWSER_API=",
+					"XCODESOURCECODEACCESS_API=",
+					"WITH_CEF3=1",
+					"MONOLITHIC_BUILD=1",
 				);
-				USER_HEADER_SEARCH_PATHS = (
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Public",
-					"../Build/Mac/SlateViewer/Inc/SlateViewer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Colors",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Testing",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Views",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Workflow",
-					"../Build/Mac/SlateViewer/Inc/AppFramework",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views",
-					"../Build/Mac/SlateViewer/Inc/Slate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject",
-					"../Build/Mac/SlateViewer/Inc/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public",
-					"../Build/Mac/SlateViewer/Inc/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
-					"../Build/Mac/SlateViewer/Inc/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets",
-					"../Build/Mac/SlateViewer/Inc/SlateCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
-					"../Build/Mac/SlateViewer/Inc/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector/Public",
-					"../Build/Mac/SlateViewer/Inc/SlateReflector",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS",
-					"../Build/Mac/SlateViewer/Inc/StandaloneRenderer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceCodeAccess/Public",
-					"../Build/Mac/SlateViewer/Inc/SourceCodeAccess",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/Settings/Public",
-					"../Build/Mac/SlateViewer/Inc/Settings",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/Settings",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceCodeAccess",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/WebBrowser/Public",
-					"../Build/Mac/SlateViewer/Inc/WebBrowser",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/WebBrowser",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/SlateViewer/Inc/XCodeSourceCodeAccess",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source/XCodeSourceCodeAccess",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/CEF3",
-				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/CEF3/cef_binary_3.2272.24.ga8ab9ad_macosx64";
 				ONLY_ACTIVE_ARCH = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Public ../Build/Mac/SlateViewer/Inc/SlateViewer /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Colors /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Testing /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Views /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Workflow ../Build/Mac/SlateViewer/Inc/AppFramework /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views ../Build/Mac/SlateViewer/Inc/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject ../Build/Mac/SlateViewer/Inc/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public ../Build/Mac/SlateViewer/Inc/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/SlateViewer/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets ../Build/Mac/SlateViewer/Inc/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/SlateViewer/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector/Public ../Build/Mac/SlateViewer/Inc/SlateReflector /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS ../Build/Mac/SlateViewer/Inc/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceCodeAccess/Public ../Build/Mac/SlateViewer/Inc/SourceCodeAccess /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/Settings/Public ../Build/Mac/SlateViewer/Inc/Settings /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceCodeAccess /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/WebBrowser/Public ../Build/Mac/SlateViewer/Inc/WebBrowser /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/WebBrowser /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/SlateViewer/Inc/XCodeSourceCodeAccess /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source/XCodeSourceCodeAccess /Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/CEF3";
 				USE_HEADERMAP = NO;
 			};
-			name = "Debug";
+			name = Debug;
 		};
-		3B4369AD33195521BCA9AF95 /* "Development" */ = {
+		9D46F14D2F8F7ECC636F8AAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"IS_PROGRAM=1",
-					"UNICODE",
-					"_UNICODE",
-					"__UNREAL__",
-					"IS_MONOLITHIC=1",
-					"WITH_ENGINE=0",
-					"WITH_UNREAL_DEVELOPER_TOOLS=0",
-					"WITH_COREUOBJECT=1",
-					"USE_STATS_WITHOUT_ENGINE=0",
-					"WITH_PLUGIN_SUPPORT=0",
-					"USE_LOGGING_IN_SHIPPING=1",
-					"UE_BUILD_MINIMAL=0",
-					"WITH_EDITOR=0",
-					"WITH_SERVER_CODE=1",
-					"UBT_COMPILED_PLATFORM=Mac",
-					"PLATFORM_MAC=1",
-					"PLATFORM_APPLE=1",
-					"WITH_TTS=0",
-					"WITH_SPEECH_RECOGNITION=0",
-					"WITH_DATABASE_SUPPORT=0",
-					"NDEBUG=1",
-					"UE_BUILD_DEVELOPMENT=1",
-					"UE_PROJECT_NAME=Network",
-					"ORIGINAL_FILE_NAME=SlateViewer",
-					"SLATEVIEWER_API=",
-					"APPFRAMEWORK_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_STEAMWORKS=0",
-					"WITH_DIRECTXMATH=0",
-					"CORE_API=",
-					"WITH_FREETYPE=1",
-					"SLATE_API=",
-					"COREUOBJECT_API=",
-					"INPUTCORE_API=",
-					"JSON_API=",
-					"SLATECORE_API=",
-					"PROJECTS_API=",
-					"SLATEREFLECTOR_API=",
-					"STANDALONERENDERER_API=",
-					"SOURCECODEACCESS_API=",
-					"SETTINGS_API=",
-					"WEBBROWSER_API=",
-					"XCODESOURCECODEACCESS_API=",
-					"WITH_CEF3=1",
-					"MONOLITHIC_BUILD=1",
-				);
-				HEADER_SEARCH_PATHS = (
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/CEF3/cef_binary_3.2272.24.ga8ab9ad_macosx64",
-				);
-				USER_HEADER_SEARCH_PATHS = (
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer/Public",
-					"../Build/Mac/SlateViewer/Inc/SlateViewer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SlateViewer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Colors",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Testing",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Views",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework/Public/Widgets/Workflow",
-					"../Build/Mac/SlateViewer/Inc/AppFramework",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views",
-					"../Build/Mac/SlateViewer/Inc/Slate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject",
-					"../Build/Mac/SlateViewer/Inc/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public",
-					"../Build/Mac/SlateViewer/Inc/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
-					"../Build/Mac/SlateViewer/Inc/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets",
-					"../Build/Mac/SlateViewer/Inc/SlateCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/AppFramework",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
-					"../Build/Mac/SlateViewer/Inc/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector/Public",
-					"../Build/Mac/SlateViewer/Inc/SlateReflector",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS",
-					"../Build/Mac/SlateViewer/Inc/StandaloneRenderer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceCodeAccess/Public",
-					"../Build/Mac/SlateViewer/Inc/SourceCodeAccess",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/Settings/Public",
-					"../Build/Mac/SlateViewer/Inc/Settings",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/Settings",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceCodeAccess",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/WebBrowser/Public",
-					"../Build/Mac/SlateViewer/Inc/WebBrowser",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/WebBrowser",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/SlateViewer/Inc/XCodeSourceCodeAccess",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source/XCodeSourceCodeAccess",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/ThirdParty/CEF3",
-				);
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				USE_HEADERMAP = NO;
-			};
-			name = "Development";
-		};
-		9D46F14D2F8F7ECC636F8AAF /* "Debug" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-				SUPPORTED_PLATFORMS = "macosx iphoneos";
-				"PRODUCT_NAME[sdk=macosx*]" = "SlateViewer-Mac-Debug";
-				"PRODUCT_NAME[sdk=iphoneos*]" = "SlateViewer";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				"SDKROOT[arch=x86_64]" = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				INFOPLIST_OUTPUT_FORMAT = xml;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/SlateViewer-Info.plist";
 				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/Mac/SlateViewer-Mac-Debug-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/SlateViewer-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Debug";
-		};
-		FF46122446EE51AED1EC1110 /* "Development" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-				SUPPORTED_PLATFORMS = "macosx iphoneos";
-				"PRODUCT_NAME[sdk=macosx*]" = "SlateViewer";
-				"PRODUCT_NAME[sdk=iphoneos*]" = "SlateViewer";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				"SDKROOT[arch=x86_64]" = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
 				INFOPLIST_OUTPUT_FORMAT = xml;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/Mac/SlateViewer-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/SlateViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Development";
-		};
-		1E0DFE1203E2DF3CB4EE7405 /* "Debug" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-				SUPPORTED_PLATFORMS = "macosx iphoneos";
-				UE_BUILD_TARGET_NAME = "SlateViewer";
-				UE_BUILD_TARGET_CONFIG = "Debug";
-			};
-			name = "Debug";
-		};
-		89C659E5B14BF78D532AD6BF /* "Development" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-				SUPPORTED_PLATFORMS = "macosx iphoneos";
-				UE_BUILD_TARGET_NAME = "SlateViewer";
-				UE_BUILD_TARGET_CONFIG = "Development";
-			};
-			name = "Development";
-		};
-		3B1E06B8727EBE3FB891BAD4 /* "Debug" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=iphoneos*]" = SlateViewer;
 				"PRODUCT_NAME[sdk=macosx*]" = "SlateViewer-Mac-Debug";
-				"PRODUCT_NAME[sdk=iphoneos*]" = "SlateViewer";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				"SDKROOT[arch=x86_64]" = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				INFOPLIST_OUTPUT_FORMAT = xml;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/Mac/SlateViewer-Mac-Debug-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/SlateViewer-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
 			};
-			name = "Debug";
+			name = Debug;
 		};
-		7932089B995248926E70B82B /* "Development" */ = {
+		FF46122446EE51AED1EC1110 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-				SUPPORTED_PLATFORMS = "macosx iphoneos";
-				"PRODUCT_NAME[sdk=macosx*]" = "SlateViewer";
-				"PRODUCT_NAME[sdk=iphoneos*]" = "SlateViewer";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				"SDKROOT[arch=x86_64]" = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				INFOPLIST_OUTPUT_FORMAT = xml;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/Mac/SlateViewer-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/SlateViewer-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/IOS/SlateViewer-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Shared/UnrealEngine-4.10/Engine/Intermediate/Mac/SlateViewer-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = SlateViewer;
+				"PRODUCT_NAME[sdk=macosx*]" = SlateViewer;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
 			};
-			name = "Development";
+			name = Development;
 		};
 /* End XCBuildConfiguration section */
 
@@ -747,26 +483,8 @@
 		AA834219A1444C3DE21B3935 /* Build configuration list for PBXProject "SlateViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				914658CEA2FE591607252B06 /* "Debug" */,
-				3B4369AD33195521BCA9AF95 /* "Development" */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
-		};
-		BD628CEA05FE377E9790EE01 /* Build configuration list for PBXLegacyTarget "SlateViewer_Build" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E0DFE1203E2DF3CB4EE7405 /* "Debug" */,
-				89C659E5B14BF78D532AD6BF /* "Development" */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
-		};
-		CAB154DE290A5E71A470A829 /* Build configuration list for PBXNativeTarget "SlateViewer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9D46F14D2F8F7ECC636F8AAF /* "Debug" */,
-				FF46122446EE51AED1EC1110 /* "Development" */,
+				914658CEA2FE591607252B06 /* Debug */,
+				3B4369AD33195521BCA9AF95 /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -774,8 +492,26 @@
 		B1D0653F49A7FC389C676A73 /* Build configuration list for PBXNativeTarget "SlateViewer_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B1E06B8727EBE3FB891BAD4 /* "Debug" */,
-				7932089B995248926E70B82B /* "Development" */,
+				3B1E06B8727EBE3FB891BAD4 /* Debug */,
+				7932089B995248926E70B82B /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		BD628CEA05FE377E9790EE01 /* Build configuration list for PBXLegacyTarget "SlateViewer_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0DFE1203E2DF3CB4EE7405 /* Debug */,
+				89C659E5B14BF78D532AD6BF /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		CAB154DE290A5E71A470A829 /* Build configuration list for PBXNativeTarget "SlateViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D46F14D2F8F7ECC636F8AAF /* Debug */,
+				FF46122446EE51AED1EC1110 /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;

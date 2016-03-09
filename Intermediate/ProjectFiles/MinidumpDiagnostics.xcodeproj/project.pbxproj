@@ -7,45 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C4E399CAD3837ECD0F8CBD6 /* MinidumpDiagnostics.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FC01DBECF6EAFE3EBE34A /* MinidumpDiagnostics.Target.cs */; };
-		06A37E382CA13E5C6331621B /* MinidumpDiagnostics.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 4C62B26C03E22CBA2996F70B /* MinidumpDiagnostics.Build.cs */; };
-		7EA29A7F31E84C2C3E89C843 /* MinidumpDiagnosticsApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFFB38E299DA989A87A41793 /* MinidumpDiagnosticsApp.cpp */; };
 		617BC194CB129570AB72B989 /* MinidumpDiagnosticsMainMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BE2A7BE436DCC2996F8C08 /* MinidumpDiagnosticsMainMac.cpp */; };
-		A94A204FFD5D83D98B061DB5 /* MinidumpDiagnosticsMainWindows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B7602CF358976C41AEDBDA /* MinidumpDiagnosticsMainWindows.cpp */; };
-		B01DB550C754F9F1EEB9EB81 /* MinidumpDiagnosticsApp.h in Sources */ = {isa = PBXBuildFile; fileRef = F146724EEEE0FE00A174542C /* MinidumpDiagnosticsApp.h */; };
-		D6B0CF41D820C6FA6F469EE0 /* Debug-PCLaunch-Win32.manifest in Sources */ = {isa = PBXBuildFile; fileRef = A73311360D2BC66DCCDE3AAC /* Debug-PCLaunch-Win32.manifest */; };
-		E6487D61B0DA383BC8887A17 /* Debug-PCLaunch-Win64.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 85B819CEF2F012ABA791A6BB /* Debug-PCLaunch-Win64.manifest */; };
-		CEC8F376ADE660F876225A8F /* PCLaunch-Win32.manifest in Sources */ = {isa = PBXBuildFile; fileRef = A2654A940D63171EB8FAB054 /* PCLaunch-Win32.manifest */; };
-		12F87ADCCC8E0454A2C192E8 /* PCLaunch-Win64.manifest in Sources */ = {isa = PBXBuildFile; fileRef = E7C28DE22882A1635D892B8D /* PCLaunch-Win64.manifest */; };
-		A57E9E447A8703D4179E64B5 /* PCLaunch.rc in Sources */ = {isa = PBXBuildFile; fileRef = 6C842BE71D06EDE0D362AC4B /* PCLaunch.rc */; };
+		7EA29A7F31E84C2C3E89C843 /* MinidumpDiagnosticsApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFFB38E299DA989A87A41793 /* MinidumpDiagnosticsApp.cpp */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		4E6FC01DBECF6EAFE3EBE34A /* MinidumpDiagnostics.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "MinidumpDiagnostics.Target.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/MinidumpDiagnostics.Target.cs"; sourceTree = SOURCE_ROOT; };
-		4C62B26C03E22CBA2996F70B /* MinidumpDiagnostics.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "MinidumpDiagnostics.Build.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/MinidumpDiagnostics.Build.cs"; sourceTree = SOURCE_ROOT; };
-		DFFB38E299DA989A87A41793 /* MinidumpDiagnosticsApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "MinidumpDiagnosticsApp.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Private/MinidumpDiagnosticsApp.cpp"; sourceTree = SOURCE_ROOT; };
-		07BE2A7BE436DCC2996F8C08 /* MinidumpDiagnosticsMainMac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "MinidumpDiagnosticsMainMac.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Private/Mac/MinidumpDiagnosticsMainMac.cpp"; sourceTree = SOURCE_ROOT; };
-		26B7602CF358976C41AEDBDA /* MinidumpDiagnosticsMainWindows.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "MinidumpDiagnosticsMainWindows.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Private/Windows/MinidumpDiagnosticsMainWindows.cpp"; sourceTree = SOURCE_ROOT; };
-		F146724EEEE0FE00A174542C /* MinidumpDiagnosticsApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MinidumpDiagnosticsApp.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Public/MinidumpDiagnosticsApp.h"; sourceTree = SOURCE_ROOT; };
-		A73311360D2BC66DCCDE3AAC /* Debug-PCLaunch-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-PCLaunch-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Resources/Windows/Debug-PCLaunch-Win32.manifest"; sourceTree = SOURCE_ROOT; };
-		85B819CEF2F012ABA791A6BB /* Debug-PCLaunch-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-PCLaunch-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Resources/Windows/Debug-PCLaunch-Win64.manifest"; sourceTree = SOURCE_ROOT; };
-		A2654A940D63171EB8FAB054 /* PCLaunch-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "PCLaunch-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Resources/Windows/PCLaunch-Win32.manifest"; sourceTree = SOURCE_ROOT; };
-		E7C28DE22882A1635D892B8D /* PCLaunch-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "PCLaunch-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Resources/Windows/PCLaunch-Win64.manifest"; sourceTree = SOURCE_ROOT; };
-		6C842BE71D06EDE0D362AC4B /* PCLaunch.rc */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "PCLaunch.rc"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Resources/Windows/PCLaunch.rc"; sourceTree = SOURCE_ROOT; };
-		D18BE08103C339D5D4CB3839 /* MinidumpDiagnostics */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = MinidumpDiagnostics; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-
-/* Begin PBXSourcesBuildPhase section */
-		34FF9EF773AA2F2815D38860 = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7EA29A7F31E84C2C3E89C843 /* MinidumpDiagnosticsApp.cpp in Sources */,
-				617BC194CB129570AB72B989 /* MinidumpDiagnosticsMainMac.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin PBXContainerItemProxy section */
 		B1ACF8866759B9E080F54205 /* PBXContainerItemProxy */ = {
@@ -53,17 +17,24 @@
 			containerPortal = 5A3C1C98251317BC89959D67 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3F318248B29F7E6F690C3D70;
-			remoteInfo = "MinidumpDiagnostics_Build";
+			remoteInfo = MinidumpDiagnostics_Build;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXTargetDependency section */
-		19648879788BCCBF9A0AA2B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3F318248B29F7E6F690C3D70 /* MinidumpDiagnostics_Build */;
-			targetProxy = B1ACF8866759B9E080F54205 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
+/* Begin PBXFileReference section */
+		07BE2A7BE436DCC2996F8C08 /* MinidumpDiagnosticsMainMac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MinidumpDiagnosticsMainMac.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Private/Mac/MinidumpDiagnosticsMainMac.cpp"; sourceTree = SOURCE_ROOT; };
+		26B7602CF358976C41AEDBDA /* MinidumpDiagnosticsMainWindows.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MinidumpDiagnosticsMainWindows.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Private/Windows/MinidumpDiagnosticsMainWindows.cpp"; sourceTree = SOURCE_ROOT; };
+		4C62B26C03E22CBA2996F70B /* MinidumpDiagnostics.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = MinidumpDiagnostics.Build.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/MinidumpDiagnostics.Build.cs"; sourceTree = SOURCE_ROOT; };
+		4E6FC01DBECF6EAFE3EBE34A /* MinidumpDiagnostics.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = MinidumpDiagnostics.Target.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/MinidumpDiagnostics.Target.cs"; sourceTree = SOURCE_ROOT; };
+		6C842BE71D06EDE0D362AC4B /* PCLaunch.rc */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = PCLaunch.rc; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Resources/Windows/PCLaunch.rc"; sourceTree = SOURCE_ROOT; };
+		85B819CEF2F012ABA791A6BB /* Debug-PCLaunch-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-PCLaunch-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Resources/Windows/Debug-PCLaunch-Win64.manifest"; sourceTree = SOURCE_ROOT; };
+		A2654A940D63171EB8FAB054 /* PCLaunch-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "PCLaunch-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Resources/Windows/PCLaunch-Win32.manifest"; sourceTree = SOURCE_ROOT; };
+		A73311360D2BC66DCCDE3AAC /* Debug-PCLaunch-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-PCLaunch-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Resources/Windows/Debug-PCLaunch-Win32.manifest"; sourceTree = SOURCE_ROOT; };
+		D18BE08103C339D5D4CB3839 /* MinidumpDiagnostics-Mac-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "MinidumpDiagnostics-Mac-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFB38E299DA989A87A41793 /* MinidumpDiagnosticsApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MinidumpDiagnosticsApp.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Private/MinidumpDiagnosticsApp.cpp"; sourceTree = SOURCE_ROOT; };
+		E7C28DE22882A1635D892B8D /* PCLaunch-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "PCLaunch-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Resources/Windows/PCLaunch-Win64.manifest"; sourceTree = SOURCE_ROOT; };
+		F146724EEEE0FE00A174542C /* MinidumpDiagnosticsApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MinidumpDiagnosticsApp.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Public/MinidumpDiagnosticsApp.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		0FC5AD4FE6E29F3B94C57C93 = {
@@ -78,54 +49,7 @@
 			);
 			sourceTree = "<group>";
 		};
-		E8A951BB1BE306A846E6233F = {
-			isa = PBXGroup;
-			children = (
-				91916B2E51C0E09C284F9A66 /* Mac */,
-				55CDD11CB9E23790B7209C20 /* Windows */,
-				DFFB38E299DA989A87A41793 /* MinidumpDiagnosticsApp.cpp */,
-			);
-			name = "Private";
-			path = "Private";
-			sourceTree = "<group>";
-		};
-		91916B2E51C0E09C284F9A66 = {
-			isa = PBXGroup;
-			children = (
-				07BE2A7BE436DCC2996F8C08 /* MinidumpDiagnosticsMainMac.cpp */,
-			);
-			name = "Mac";
-			path = "Private/Mac";
-			sourceTree = "<group>";
-		};
-		55CDD11CB9E23790B7209C20 = {
-			isa = PBXGroup;
-			children = (
-				26B7602CF358976C41AEDBDA /* MinidumpDiagnosticsMainWindows.cpp */,
-			);
-			name = "Windows";
-			path = "Private/Windows";
-			sourceTree = "<group>";
-		};
-		2077AABDF731C16CAC5C731D = {
-			isa = PBXGroup;
-			children = (
-				F146724EEEE0FE00A174542C /* MinidumpDiagnosticsApp.h */,
-			);
-			name = "Public";
-			path = "Public";
-			sourceTree = "<group>";
-		};
-		BF0870AA40F934980FEA654D = {
-			isa = PBXGroup;
-			children = (
-				12EAEF64AE938871F44A0ED9 /* Windows */,
-			);
-			name = "Resources";
-			path = "Resources";
-			sourceTree = "<group>";
-		};
-		12EAEF64AE938871F44A0ED9 = {
+		12EAEF64AE938871F44A0ED9 /* Windows */ = {
 			isa = PBXGroup;
 			children = (
 				A73311360D2BC66DCCDE3AAC /* Debug-PCLaunch-Win32.manifest */,
@@ -134,16 +58,60 @@
 				E7C28DE22882A1635D892B8D /* PCLaunch-Win64.manifest */,
 				6C842BE71D06EDE0D362AC4B /* PCLaunch.rc */,
 			);
-			name = "Windows";
-			path = "Resources/Windows";
+			name = Windows;
+			path = Resources/Windows;
+			sourceTree = "<group>";
+		};
+		2077AABDF731C16CAC5C731D /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				F146724EEEE0FE00A174542C /* MinidumpDiagnosticsApp.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		55CDD11CB9E23790B7209C20 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				26B7602CF358976C41AEDBDA /* MinidumpDiagnosticsMainWindows.cpp */,
+			);
+			name = Windows;
+			path = Private/Windows;
+			sourceTree = "<group>";
+		};
+		91916B2E51C0E09C284F9A66 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				07BE2A7BE436DCC2996F8C08 /* MinidumpDiagnosticsMainMac.cpp */,
+			);
+			name = Mac;
+			path = Private/Mac;
 			sourceTree = "<group>";
 		};
 		B04DC060A78AAC41D3C5FBD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D18BE08103C339D5D4CB3839 /* MinidumpDiagnostics */,
+				D18BE08103C339D5D4CB3839 /* MinidumpDiagnostics-Mac-Debug.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BF0870AA40F934980FEA654D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12EAEF64AE938871F44A0ED9 /* Windows */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E8A951BB1BE306A846E6233F /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				91916B2E51C0E09C284F9A66 /* Mac */,
+				55CDD11CB9E23790B7209C20 /* Windows */,
+				DFFB38E299DA989A87A41793 /* MinidumpDiagnosticsApp.cpp */,
+			);
+			path = Private;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,9 +127,9 @@
 			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
 			dependencies = (
 			);
-			name = "MinidumpDiagnostics_Build";
+			name = MinidumpDiagnostics_Build;
 			passBuildSettingsInEnvironment = 1;
-			productName = "MinidumpDiagnostics_Build";
+			productName = MinidumpDiagnostics_Build;
 		};
 /* End PBXLegacyTarget section */
 
@@ -171,29 +139,28 @@
 			buildConfigurationList = 790CC6EE1DC394D056721D25 /* Build configuration list for PBXNativeTarget "MinidumpDiagnostics" */;
 			buildPhases = (
 			);
+			buildRules = (
+			);
 			dependencies = (
 				19648879788BCCBF9A0AA2B9 /* PBXTargetDependency */,
 			);
-			name = "MinidumpDiagnostics";
-			passBuildSettingsInEnvironment = 1;
-			productName = "MinidumpDiagnostics";
-			productReference = "D18BE08103C339D5D4CB3839";
+			name = MinidumpDiagnostics;
+			productName = MinidumpDiagnostics;
+			productReference = D18BE08103C339D5D4CB3839 /* MinidumpDiagnostics-Mac-Debug.app */;
 			productType = "com.apple.product-type.application";
 		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXNativeTarget section */
 		AB4ABBD7D0CDE5E674BE4736 /* MinidumpDiagnostics_Index */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6702DE076D39BC54E6FB6F5 /* Build configuration list for PBXNativeTarget "MinidumpDiagnostics_Index" */;
 			buildPhases = (
 				34FF9EF773AA2F2815D38860 /* Sources */,
 			);
+			buildRules = (
+			);
 			dependencies = (
 			);
-			name = "MinidumpDiagnostics_Index";
-			passBuildSettingsInEnvironment = 1;
-			productName = "MinidumpDiagnostics_Index";
+			name = MinidumpDiagnostics_Index;
+			productName = MinidumpDiagnostics_Index;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -210,30 +177,63 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en
+				en,
 			);
 			mainGroup = 0FC5AD4FE6E29F3B94C57C93;
-			productRefGroup = B04DC060A78AAC41D3C5FBD0;
+			productRefGroup = B04DC060A78AAC41D3C5FBD0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			48F1F0519EC7AAFBD37E5E18 /* MinidumpDiagnostics */,
-			3F318248B29F7E6F690C3D70 /* MinidumpDiagnostics_Build */,
-			AB4ABBD7D0CDE5E674BE4736 /* MinidumpDiagnostics_Index */,
+				48F1F0519EC7AAFBD37E5E18 /* MinidumpDiagnostics */,
+				3F318248B29F7E6F690C3D70 /* MinidumpDiagnostics_Build */,
+				AB4ABBD7D0CDE5E674BE4736 /* MinidumpDiagnostics_Index */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXSourcesBuildPhase section */
+		34FF9EF773AA2F2815D38860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA29A7F31E84C2C3E89C843 /* MinidumpDiagnosticsApp.cpp in Sources */,
+				617BC194CB129570AB72B989 /* MinidumpDiagnosticsMainMac.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19648879788BCCBF9A0AA2B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F318248B29F7E6F690C3D70 /* MinidumpDiagnostics_Build */;
+			targetProxy = B1ACF8866759B9E080F54205 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		66C7D5A7F561D31F290BEBD9 /* "Debug" */ = {
+		44A8C8E995547DDCC460FADF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Debug;
+				UE_BUILD_TARGET_NAME = MinidumpDiagnostics;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		46F2A2305F3F9688ACEE634D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"MINIDUMPDIAGNOSTICS=1",
 					"IS_PROGRAM=1",
-					"UNICODE",
-					"_UNICODE",
-					"__UNREAL__",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
 					"IS_MONOLITHIC=1",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -271,295 +271,144 @@
 					"PROFILERSERVICE_API=",
 					"MONOLITHIC_BUILD=1",
 				);
-				HEADER_SEARCH_PATHS = (
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Public ../Build/Mac/MinidumpDiagnostics/Inc/MinidumpDiagnostics /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper/Public ../Build/Mac/MinidumpDiagnostics/Inc/CrashDebugHelper /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public/Tests ../Build/Mac/MinidumpDiagnostics/Inc/SourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject ../Build/Mac/MinidumpDiagnostics/Inc/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public ../Build/Mac/MinidumpDiagnostics/Inc/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Intermediate/Build/Mac/MinidumpDiagnostics/Inc/PerforceSourceControl /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Source/PerforceSourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/MinidumpDiagnostics/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/MinidumpDiagnostics/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public/Android ../Build/Mac/MinidumpDiagnostics/Inc/Launch /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public/Interfaces ../Build/Mac/MinidumpDiagnostics/Inc/ProfilerService /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch";
+				USE_HEADERMAP = NO;
+			};
+			name = Development;
+		};
+		66C7D5A7F561D31F290BEBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"MINIDUMPDIAGNOSTICS=1",
+					"IS_PROGRAM=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=1",
+					"WITH_ENGINE=0",
+					"WITH_UNREAL_DEVELOPER_TOOLS=0",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=1",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=0",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"UE_PROJECT_NAME=Network",
+					"ORIGINAL_FILE_NAME=MinidumpDiagnostics",
+					"MINIDUMPDIAGNOSTICS_API=",
+					"UE_ENABLE_ICU=0",
+					"WITH_STEAMWORKS=0",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"CRASHDEBUGHELPER_API=",
+					"SOURCECONTROL_API=",
+					"COREUOBJECT_API=",
+					"INPUTCORE_API=",
+					"USE_P4_API=1",
+					"PERFORCESOURCECONTROL_API=",
+					"PROJECTS_API=",
+					"JSON_API=",
+					"LAUNCH_API=",
+					"PROFILERSERVICE_API=",
+					"MONOLITHIC_BUILD=1",
 				);
-				USER_HEADER_SEARCH_PATHS = (
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Public",
-					"../Build/Mac/MinidumpDiagnostics/Inc/MinidumpDiagnostics",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper/Public",
-					"../Build/Mac/MinidumpDiagnostics/Inc/CrashDebugHelper",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public/Tests",
-					"../Build/Mac/MinidumpDiagnostics/Inc/SourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject",
-					"../Build/Mac/MinidumpDiagnostics/Inc/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public",
-					"../Build/Mac/MinidumpDiagnostics/Inc/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Intermediate/Build/Mac/MinidumpDiagnostics/Inc/PerforceSourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Source/PerforceSourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
-					"../Build/Mac/MinidumpDiagnostics/Inc/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
-					"../Build/Mac/MinidumpDiagnostics/Inc/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public/Android",
-					"../Build/Mac/MinidumpDiagnostics/Inc/Launch",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public/Interfaces",
-					"../Build/Mac/MinidumpDiagnostics/Inc/ProfilerService",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch",
-				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Public ../Build/Mac/MinidumpDiagnostics/Inc/MinidumpDiagnostics /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper/Public ../Build/Mac/MinidumpDiagnostics/Inc/CrashDebugHelper /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public/Tests ../Build/Mac/MinidumpDiagnostics/Inc/SourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject ../Build/Mac/MinidumpDiagnostics/Inc/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public ../Build/Mac/MinidumpDiagnostics/Inc/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Intermediate/Build/Mac/MinidumpDiagnostics/Inc/PerforceSourceControl /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Source/PerforceSourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/MinidumpDiagnostics/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/MinidumpDiagnostics/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public/Android ../Build/Mac/MinidumpDiagnostics/Inc/Launch /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public/Interfaces ../Build/Mac/MinidumpDiagnostics/Inc/ProfilerService /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch";
 				USE_HEADERMAP = NO;
 			};
-			name = "Debug";
+			name = Debug;
 		};
-		46F2A2305F3F9688ACEE634D /* "Development" */ = {
+		969B643C85E57449C9DD1AE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"MINIDUMPDIAGNOSTICS=1",
-					"IS_PROGRAM=1",
-					"UNICODE",
-					"_UNICODE",
-					"__UNREAL__",
-					"IS_MONOLITHIC=1",
-					"WITH_ENGINE=0",
-					"WITH_UNREAL_DEVELOPER_TOOLS=0",
-					"WITH_COREUOBJECT=1",
-					"USE_STATS_WITHOUT_ENGINE=0",
-					"WITH_PLUGIN_SUPPORT=0",
-					"USE_LOGGING_IN_SHIPPING=1",
-					"UE_BUILD_MINIMAL=0",
-					"WITH_EDITOR=0",
-					"WITH_SERVER_CODE=1",
-					"UBT_COMPILED_PLATFORM=Mac",
-					"PLATFORM_MAC=1",
-					"PLATFORM_APPLE=1",
-					"WITH_TTS=0",
-					"WITH_SPEECH_RECOGNITION=0",
-					"WITH_DATABASE_SUPPORT=0",
-					"NDEBUG=1",
-					"UE_BUILD_DEVELOPMENT=1",
-					"UE_PROJECT_NAME=Network",
-					"ORIGINAL_FILE_NAME=MinidumpDiagnostics",
-					"MINIDUMPDIAGNOSTICS_API=",
-					"UE_ENABLE_ICU=0",
-					"WITH_STEAMWORKS=0",
-					"WITH_DIRECTXMATH=0",
-					"CORE_API=",
-					"CRASHDEBUGHELPER_API=",
-					"SOURCECONTROL_API=",
-					"COREUOBJECT_API=",
-					"INPUTCORE_API=",
-					"USE_P4_API=1",
-					"PERFORCESOURCECONTROL_API=",
-					"PROJECTS_API=",
-					"JSON_API=",
-					"LAUNCH_API=",
-					"PROFILERSERVICE_API=",
-					"MONOLITHIC_BUILD=1",
-				);
-				HEADER_SEARCH_PATHS = (
-				);
-				USER_HEADER_SEARCH_PATHS = (
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Public",
-					"../Build/Mac/MinidumpDiagnostics/Inc/MinidumpDiagnostics",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper/Public",
-					"../Build/Mac/MinidumpDiagnostics/Inc/CrashDebugHelper",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public/Tests",
-					"../Build/Mac/MinidumpDiagnostics/Inc/SourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject",
-					"../Build/Mac/MinidumpDiagnostics/Inc/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public",
-					"../Build/Mac/MinidumpDiagnostics/Inc/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Intermediate/Build/Mac/MinidumpDiagnostics/Inc/PerforceSourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Source/PerforceSourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
-					"../Build/Mac/MinidumpDiagnostics/Inc/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
-					"../Build/Mac/MinidumpDiagnostics/Inc/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public/Android",
-					"../Build/Mac/MinidumpDiagnostics/Inc/Launch",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService/Public/Interfaces",
-					"../Build/Mac/MinidumpDiagnostics/Inc/ProfilerService",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/ProfilerService",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch",
-				);
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				USE_HEADERMAP = NO;
-			};
-			name = "Development";
-		};
-		969B643C85E57449C9DD1AE7 /* "Debug" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "MinidumpDiagnostics-Mac-Debug";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		98EA89D58D0E1535A0848781 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = MinidumpDiagnostics;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
 			};
-			name = "Debug";
+			name = Development;
 		};
-		98EA89D58D0E1535A0848781 /* "Development" */ = {
+		9A0257ED37F1D27F47F0A3A3 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "MinidumpDiagnostics";
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Development;
+				UE_BUILD_TARGET_NAME = MinidumpDiagnostics;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		B14D7D84CA7132C6A1FDD907 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = MinidumpDiagnostics;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
 			};
-			name = "Development";
+			name = Development;
 		};
-		44A8C8E995547DDCC460FADF /* "Debug" */ = {
+		B4044B72F1DCA62914C460D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				UE_BUILD_TARGET_NAME = "MinidumpDiagnostics";
-				UE_BUILD_TARGET_CONFIG = "Debug";
-			};
-			name = "Debug";
-		};
-		9A0257ED37F1D27F47F0A3A3 /* "Development" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				UE_BUILD_TARGET_NAME = "MinidumpDiagnostics";
-				UE_BUILD_TARGET_CONFIG = "Development";
-			};
-			name = "Development";
-		};
-		B4044B72F1DCA62914C460D8 /* "Debug" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "MinidumpDiagnostics-Mac-Debug";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
 			};
-			name = "Debug";
-		};
-		B14D7D84CA7132C6A1FDD907 /* "Development" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "MinidumpDiagnostics";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Development";
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4A69E9C2756FC0CC6322648 /* Build configuration list for PBXProject "MinidumpDiagnostics" */ = {
+		790CC6EE1DC394D056721D25 /* Build configuration list for PBXNativeTarget "MinidumpDiagnostics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66C7D5A7F561D31F290BEBD9 /* "Debug" */,
-				46F2A2305F3F9688ACEE634D /* "Development" */,
+				969B643C85E57449C9DD1AE7 /* Debug */,
+				98EA89D58D0E1535A0848781 /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -567,17 +416,8 @@
 		CA0D68FDB93CA5242282A7ED /* Build configuration list for PBXLegacyTarget "MinidumpDiagnostics_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44A8C8E995547DDCC460FADF /* "Debug" */,
-				9A0257ED37F1D27F47F0A3A3 /* "Development" */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
-		};
-		790CC6EE1DC394D056721D25 /* Build configuration list for PBXNativeTarget "MinidumpDiagnostics" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				969B643C85E57449C9DD1AE7 /* "Debug" */,
-				98EA89D58D0E1535A0848781 /* "Development" */,
+				44A8C8E995547DDCC460FADF /* Debug */,
+				9A0257ED37F1D27F47F0A3A3 /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -585,8 +425,17 @@
 		D6702DE076D39BC54E6FB6F5 /* Build configuration list for PBXNativeTarget "MinidumpDiagnostics_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4044B72F1DCA62914C460D8 /* "Debug" */,
-				B14D7D84CA7132C6A1FDD907 /* "Development" */,
+				B4044B72F1DCA62914C460D8 /* Debug */,
+				B14D7D84CA7132C6A1FDD907 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		E4A69E9C2756FC0CC6322648 /* Build configuration list for PBXProject "MinidumpDiagnostics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C7D5A7F561D31F290BEBD9 /* Debug */,
+				46F2A2305F3F9688ACEE634D /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;

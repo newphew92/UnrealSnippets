@@ -7,55 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1321A2329E44AA72CE41EC2C /* SymbolDebugger.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = C64BBB25FD428890A978320C /* SymbolDebugger.Target.cs */; };
-		29AA68792B105E65331E2D0D /* SymbolDebugger.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = C267B554DD541905ADA0A558 /* SymbolDebugger.Build.cs */; };
-		CB092543C73FBDE760D2A1F4 /* SSymbolDebugger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AF0D26DDE27E7C6C3925F19 /* SSymbolDebugger.cpp */; };
-		A84BD38BE6DF4289040FAD21 /* SSymbolDebugger.h in Sources */ = {isa = PBXBuildFile; fileRef = EB1A9EF46045ACF0C6C00AEC /* SSymbolDebugger.h */; };
-		81AC2685B9DF9438A90B9B7B /* SymbolDebugger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B3200818F18F03B42B082C3 /* SymbolDebugger.cpp */; };
-		89F2657DE66F53E741E70A39 /* SymbolDebugger.h in Sources */ = {isa = PBXBuildFile; fileRef = B9BDCF257A7578DF7F22882E /* SymbolDebugger.h */; };
 		442A61ADD0CEA9D02A62FBC6 /* SymbolDebuggerApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7917513AB7B33A8427C7C8D2 /* SymbolDebuggerApp.cpp */; };
 		48CAC0CD38A244676A3738BB /* SymbolDebuggerMainMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DA516723D390F56C109AB63 /* SymbolDebuggerMainMac.cpp */; };
-		233D27CBE703077D628F6505 /* SymbolDebuggerMainWindows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EDC97881D945B41DE962C11 /* SymbolDebuggerMainWindows.cpp */; };
-		9DC846EDB871103E1E5CA9FA /* SymbolDebuggerApp.h in Sources */ = {isa = PBXBuildFile; fileRef = 7A797F6630BB597E40106361 /* SymbolDebuggerApp.h */; };
-		A287382CAE6A858D11162E1F /* Debug-PCLaunch-Win32.manifest in Sources */ = {isa = PBXBuildFile; fileRef = BD19C5F17E26E6B2329D0DA4 /* Debug-PCLaunch-Win32.manifest */; };
-		14F411233CAED18C64E54B31 /* Debug-PCLaunch-Win64.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 38E390B4D71CE9644A60A916 /* Debug-PCLaunch-Win64.manifest */; };
-		F568FF192AB12E04799318B9 /* PCLaunch-Win32.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 5861506244A1BAD7CD94B89A /* PCLaunch-Win32.manifest */; };
-		9631DA15B3A85AB34BFA2DD4 /* PCLaunch-Win64.manifest in Sources */ = {isa = PBXBuildFile; fileRef = AFB762B3B646B7A4CBD65C75 /* PCLaunch-Win64.manifest */; };
-		CC871FA8A5D14861AF6483F8 /* PCLaunch.rc in Sources */ = {isa = PBXBuildFile; fileRef = D61951D039646E5E337CB28D /* PCLaunch.rc */; };
+		81AC2685B9DF9438A90B9B7B /* SymbolDebugger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B3200818F18F03B42B082C3 /* SymbolDebugger.cpp */; };
+		CB092543C73FBDE760D2A1F4 /* SSymbolDebugger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AF0D26DDE27E7C6C3925F19 /* SSymbolDebugger.cpp */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		C64BBB25FD428890A978320C /* SymbolDebugger.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "SymbolDebugger.Target.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/SymbolDebugger.Target.cs"; sourceTree = SOURCE_ROOT; };
-		C267B554DD541905ADA0A558 /* SymbolDebugger.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "SymbolDebugger.Build.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/SymbolDebugger.Build.cs"; sourceTree = SOURCE_ROOT; };
-		4AF0D26DDE27E7C6C3925F19 /* SSymbolDebugger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "SSymbolDebugger.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Private/SSymbolDebugger.cpp"; sourceTree = SOURCE_ROOT; };
-		EB1A9EF46045ACF0C6C00AEC /* SSymbolDebugger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SSymbolDebugger.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Private/SSymbolDebugger.h"; sourceTree = SOURCE_ROOT; };
-		6B3200818F18F03B42B082C3 /* SymbolDebugger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "SymbolDebugger.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Private/SymbolDebugger.cpp"; sourceTree = SOURCE_ROOT; };
-		B9BDCF257A7578DF7F22882E /* SymbolDebugger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SymbolDebugger.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Private/SymbolDebugger.h"; sourceTree = SOURCE_ROOT; };
-		7917513AB7B33A8427C7C8D2 /* SymbolDebuggerApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "SymbolDebuggerApp.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Private/SymbolDebuggerApp.cpp"; sourceTree = SOURCE_ROOT; };
-		0DA516723D390F56C109AB63 /* SymbolDebuggerMainMac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "SymbolDebuggerMainMac.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Private/Mac/SymbolDebuggerMainMac.cpp"; sourceTree = SOURCE_ROOT; };
-		0EDC97881D945B41DE962C11 /* SymbolDebuggerMainWindows.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "SymbolDebuggerMainWindows.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Private/Windows/SymbolDebuggerMainWindows.cpp"; sourceTree = SOURCE_ROOT; };
-		7A797F6630BB597E40106361 /* SymbolDebuggerApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SymbolDebuggerApp.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Public/SymbolDebuggerApp.h"; sourceTree = SOURCE_ROOT; };
-		BD19C5F17E26E6B2329D0DA4 /* Debug-PCLaunch-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-PCLaunch-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Resources/Windows/Debug-PCLaunch-Win32.manifest"; sourceTree = SOURCE_ROOT; };
-		38E390B4D71CE9644A60A916 /* Debug-PCLaunch-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-PCLaunch-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Resources/Windows/Debug-PCLaunch-Win64.manifest"; sourceTree = SOURCE_ROOT; };
-		5861506244A1BAD7CD94B89A /* PCLaunch-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "PCLaunch-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Resources/Windows/PCLaunch-Win32.manifest"; sourceTree = SOURCE_ROOT; };
-		AFB762B3B646B7A4CBD65C75 /* PCLaunch-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "PCLaunch-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Resources/Windows/PCLaunch-Win64.manifest"; sourceTree = SOURCE_ROOT; };
-		D61951D039646E5E337CB28D /* PCLaunch.rc */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "PCLaunch.rc"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Resources/Windows/PCLaunch.rc"; sourceTree = SOURCE_ROOT; };
-		2BA0580722678B27C86440DE /* SymbolDebugger */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SymbolDebugger; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-
-/* Begin PBXSourcesBuildPhase section */
-		335DFD430A6B3B5EBB72E0FD = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB092543C73FBDE760D2A1F4 /* SSymbolDebugger.cpp in Sources */,
-				81AC2685B9DF9438A90B9B7B /* SymbolDebugger.cpp in Sources */,
-				442A61ADD0CEA9D02A62FBC6 /* SymbolDebuggerApp.cpp in Sources */,
-				48CAC0CD38A244676A3738BB /* SymbolDebuggerMainMac.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin PBXContainerItemProxy section */
 		0FC68CB11346BCFDC206E206 /* PBXContainerItemProxy */ = {
@@ -63,19 +19,77 @@
 			containerPortal = 6929D7BB3A24BF80BD3C15C0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 882153D1CCD5846B3C81836A;
-			remoteInfo = "SymbolDebugger_Build";
+			remoteInfo = SymbolDebugger_Build;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXTargetDependency section */
-		22010F8FB7141240DDB5F79E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 882153D1CCD5846B3C81836A /* SymbolDebugger_Build */;
-			targetProxy = 0FC68CB11346BCFDC206E206 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
+/* Begin PBXFileReference section */
+		0DA516723D390F56C109AB63 /* SymbolDebuggerMainMac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SymbolDebuggerMainMac.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Private/Mac/SymbolDebuggerMainMac.cpp"; sourceTree = SOURCE_ROOT; };
+		0EDC97881D945B41DE962C11 /* SymbolDebuggerMainWindows.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SymbolDebuggerMainWindows.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Private/Windows/SymbolDebuggerMainWindows.cpp"; sourceTree = SOURCE_ROOT; };
+		2BA0580722678B27C86440DE /* SymbolDebugger-Mac-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "SymbolDebugger-Mac-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E390B4D71CE9644A60A916 /* Debug-PCLaunch-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-PCLaunch-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Resources/Windows/Debug-PCLaunch-Win64.manifest"; sourceTree = SOURCE_ROOT; };
+		4AF0D26DDE27E7C6C3925F19 /* SSymbolDebugger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SSymbolDebugger.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Private/SSymbolDebugger.cpp"; sourceTree = SOURCE_ROOT; };
+		5861506244A1BAD7CD94B89A /* PCLaunch-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "PCLaunch-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Resources/Windows/PCLaunch-Win32.manifest"; sourceTree = SOURCE_ROOT; };
+		6B3200818F18F03B42B082C3 /* SymbolDebugger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SymbolDebugger.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Private/SymbolDebugger.cpp"; sourceTree = SOURCE_ROOT; };
+		7917513AB7B33A8427C7C8D2 /* SymbolDebuggerApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SymbolDebuggerApp.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Private/SymbolDebuggerApp.cpp"; sourceTree = SOURCE_ROOT; };
+		7A797F6630BB597E40106361 /* SymbolDebuggerApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SymbolDebuggerApp.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Public/SymbolDebuggerApp.h"; sourceTree = SOURCE_ROOT; };
+		AFB762B3B646B7A4CBD65C75 /* PCLaunch-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "PCLaunch-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Resources/Windows/PCLaunch-Win64.manifest"; sourceTree = SOURCE_ROOT; };
+		B9BDCF257A7578DF7F22882E /* SymbolDebugger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SymbolDebugger.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Private/SymbolDebugger.h"; sourceTree = SOURCE_ROOT; };
+		BD19C5F17E26E6B2329D0DA4 /* Debug-PCLaunch-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-PCLaunch-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Resources/Windows/Debug-PCLaunch-Win32.manifest"; sourceTree = SOURCE_ROOT; };
+		C267B554DD541905ADA0A558 /* SymbolDebugger.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = SymbolDebugger.Build.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/SymbolDebugger.Build.cs"; sourceTree = SOURCE_ROOT; };
+		C64BBB25FD428890A978320C /* SymbolDebugger.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = SymbolDebugger.Target.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/SymbolDebugger.Target.cs"; sourceTree = SOURCE_ROOT; };
+		D61951D039646E5E337CB28D /* PCLaunch.rc */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = PCLaunch.rc; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Resources/Windows/PCLaunch.rc"; sourceTree = SOURCE_ROOT; };
+		EB1A9EF46045ACF0C6C00AEC /* SSymbolDebugger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SSymbolDebugger.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Private/SSymbolDebugger.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		4A96753D7549B953F791E99D /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				0DA516723D390F56C109AB63 /* SymbolDebuggerMainMac.cpp */,
+			);
+			name = Mac;
+			path = Private/Mac;
+			sourceTree = "<group>";
+		};
+		749CC0EB2970E7520A108867 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6BFE05A97EE4585B6EC7A59 /* Windows */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93FF3FEF64A48F427AC5DF88 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				0EDC97881D945B41DE962C11 /* SymbolDebuggerMainWindows.cpp */,
+			);
+			name = Windows;
+			path = Private/Windows;
+			sourceTree = "<group>";
+		};
+		B6BFE05A97EE4585B6EC7A59 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				BD19C5F17E26E6B2329D0DA4 /* Debug-PCLaunch-Win32.manifest */,
+				38E390B4D71CE9644A60A916 /* Debug-PCLaunch-Win64.manifest */,
+				5861506244A1BAD7CD94B89A /* PCLaunch-Win32.manifest */,
+				AFB762B3B646B7A4CBD65C75 /* PCLaunch-Win64.manifest */,
+				D61951D039646E5E337CB28D /* PCLaunch.rc */,
+			);
+			name = Windows;
+			path = Resources/Windows;
+			sourceTree = "<group>";
+		};
+		C21C9EF43CC501F2E830AE7B /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				7A797F6630BB597E40106361 /* SymbolDebuggerApp.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 		DB3C99A83EBAFACE29830BFF = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +102,7 @@
 			);
 			sourceTree = "<group>";
 		};
-		E3F4AE1C67F5AF45FE2630C0 = {
+		E3F4AE1C67F5AF45FE2630C0 /* Private */ = {
 			isa = PBXGroup;
 			children = (
 				4A96753D7549B953F791E99D /* Mac */,
@@ -99,63 +113,13 @@
 				B9BDCF257A7578DF7F22882E /* SymbolDebugger.h */,
 				7917513AB7B33A8427C7C8D2 /* SymbolDebuggerApp.cpp */,
 			);
-			name = "Private";
-			path = "Private";
-			sourceTree = "<group>";
-		};
-		4A96753D7549B953F791E99D = {
-			isa = PBXGroup;
-			children = (
-				0DA516723D390F56C109AB63 /* SymbolDebuggerMainMac.cpp */,
-			);
-			name = "Mac";
-			path = "Private/Mac";
-			sourceTree = "<group>";
-		};
-		93FF3FEF64A48F427AC5DF88 = {
-			isa = PBXGroup;
-			children = (
-				0EDC97881D945B41DE962C11 /* SymbolDebuggerMainWindows.cpp */,
-			);
-			name = "Windows";
-			path = "Private/Windows";
-			sourceTree = "<group>";
-		};
-		C21C9EF43CC501F2E830AE7B = {
-			isa = PBXGroup;
-			children = (
-				7A797F6630BB597E40106361 /* SymbolDebuggerApp.h */,
-			);
-			name = "Public";
-			path = "Public";
-			sourceTree = "<group>";
-		};
-		749CC0EB2970E7520A108867 = {
-			isa = PBXGroup;
-			children = (
-				B6BFE05A97EE4585B6EC7A59 /* Windows */,
-			);
-			name = "Resources";
-			path = "Resources";
-			sourceTree = "<group>";
-		};
-		B6BFE05A97EE4585B6EC7A59 = {
-			isa = PBXGroup;
-			children = (
-				BD19C5F17E26E6B2329D0DA4 /* Debug-PCLaunch-Win32.manifest */,
-				38E390B4D71CE9644A60A916 /* Debug-PCLaunch-Win64.manifest */,
-				5861506244A1BAD7CD94B89A /* PCLaunch-Win32.manifest */,
-				AFB762B3B646B7A4CBD65C75 /* PCLaunch-Win64.manifest */,
-				D61951D039646E5E337CB28D /* PCLaunch.rc */,
-			);
-			name = "Windows";
-			path = "Resources/Windows";
+			path = Private;
 			sourceTree = "<group>";
 		};
 		F8197160EFA834B7D4703672 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2BA0580722678B27C86440DE /* SymbolDebugger */,
+				2BA0580722678B27C86440DE /* SymbolDebugger-Mac-Debug.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,9 +137,9 @@
 			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
 			dependencies = (
 			);
-			name = "SymbolDebugger_Build";
+			name = SymbolDebugger_Build;
 			passBuildSettingsInEnvironment = 1;
-			productName = "SymbolDebugger_Build";
+			productName = SymbolDebugger_Build;
 		};
 /* End PBXLegacyTarget section */
 
@@ -185,29 +149,28 @@
 			buildConfigurationList = 21341F9330B13A10A80B0AED /* Build configuration list for PBXNativeTarget "SymbolDebugger" */;
 			buildPhases = (
 			);
+			buildRules = (
+			);
 			dependencies = (
 				22010F8FB7141240DDB5F79E /* PBXTargetDependency */,
 			);
-			name = "SymbolDebugger";
-			passBuildSettingsInEnvironment = 1;
-			productName = "SymbolDebugger";
-			productReference = "2BA0580722678B27C86440DE";
+			name = SymbolDebugger;
+			productName = SymbolDebugger;
+			productReference = 2BA0580722678B27C86440DE /* SymbolDebugger-Mac-Debug.app */;
 			productType = "com.apple.product-type.application";
 		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXNativeTarget section */
 		BC0B1E7529CFD5AB85AE28F2 /* SymbolDebugger_Index */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3EA31ED8276CAA91CEEE29A /* Build configuration list for PBXNativeTarget "SymbolDebugger_Index" */;
 			buildPhases = (
 				335DFD430A6B3B5EBB72E0FD /* Sources */,
 			);
+			buildRules = (
+			);
 			dependencies = (
 			);
-			name = "SymbolDebugger_Index";
-			passBuildSettingsInEnvironment = 1;
-			productName = "SymbolDebugger_Index";
+			name = SymbolDebugger_Index;
+			productName = SymbolDebugger_Index;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -224,30 +187,121 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en
+				en,
 			);
 			mainGroup = DB3C99A83EBAFACE29830BFF;
-			productRefGroup = F8197160EFA834B7D4703672;
+			productRefGroup = F8197160EFA834B7D4703672 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			33D35162E098B00AE6DF1661 /* SymbolDebugger */,
-			882153D1CCD5846B3C81836A /* SymbolDebugger_Build */,
-			BC0B1E7529CFD5AB85AE28F2 /* SymbolDebugger_Index */,
+				33D35162E098B00AE6DF1661 /* SymbolDebugger */,
+				882153D1CCD5846B3C81836A /* SymbolDebugger_Build */,
+				BC0B1E7529CFD5AB85AE28F2 /* SymbolDebugger_Index */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXSourcesBuildPhase section */
+		335DFD430A6B3B5EBB72E0FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB092543C73FBDE760D2A1F4 /* SSymbolDebugger.cpp in Sources */,
+				81AC2685B9DF9438A90B9B7B /* SymbolDebugger.cpp in Sources */,
+				442A61ADD0CEA9D02A62FBC6 /* SymbolDebuggerApp.cpp in Sources */,
+				48CAC0CD38A244676A3738BB /* SymbolDebuggerMainMac.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22010F8FB7141240DDB5F79E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 882153D1CCD5846B3C81836A /* SymbolDebugger_Build */;
+			targetProxy = 0FC68CB11346BCFDC206E206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		8B1641034146973303437492 /* "Debug" */ = {
+		253FA4C37D703806EAEC0B00 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = SymbolDebugger;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		40029102B684F951DA3DDAC3 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Development;
+				UE_BUILD_TARGET_NAME = SymbolDebugger;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		6631768DD9036FF0E86BDC86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "SymbolDebugger-Mac-Debug";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		668387B6D6B6906A062675E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "SymbolDebugger-Mac-Debug";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		82D9EA56FFEE59F2ADAE4FA4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = SymbolDebugger;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		8B1641034146973303437492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"WITH_DATABASE_SUPPORT=1",
 					"IS_PROGRAM=1",
-					"UNICODE",
-					"_UNICODE",
-					"__UNREAL__",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
 					"IS_MONOLITHIC=1",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -289,146 +343,36 @@
 					"PROJECTS_API=",
 					"MONOLITHIC_BUILD=1",
 				);
-				HEADER_SEARCH_PATHS = (
-				);
-				USER_HEADER_SEARCH_PATHS = (
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Public",
-					"../Build/Mac/SymbolDebugger/Inc/SymbolDebugger",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views",
-					"../Build/Mac/SymbolDebugger/Inc/Slate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject",
-					"../Build/Mac/SymbolDebugger/Inc/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public",
-					"../Build/Mac/SymbolDebugger/Inc/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
-					"../Build/Mac/SymbolDebugger/Inc/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets",
-					"../Build/Mac/SymbolDebugger/Inc/SlateCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Interfaces",
-					"../Build/Mac/SymbolDebugger/Inc/EditorStyle",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS",
-					"../Build/Mac/SymbolDebugger/Inc/StandaloneRenderer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform/Public",
-					"../Build/Mac/SymbolDebugger/Inc/DesktopPlatform",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper/Public",
-					"../Build/Mac/SymbolDebugger/Inc/CrashDebugHelper",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public/Tests",
-					"../Build/Mac/SymbolDebugger/Inc/SourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Intermediate/Build/Mac/SymbolDebugger/Inc/PerforceSourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Source/PerforceSourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog/Public",
-					"../Build/Mac/SymbolDebugger/Inc/MessageLog",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
-					"../Build/Mac/SymbolDebugger/Inc/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
-				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Public ../Build/Mac/SymbolDebugger/Inc/SymbolDebugger /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views ../Build/Mac/SymbolDebugger/Inc/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject ../Build/Mac/SymbolDebugger/Inc/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public ../Build/Mac/SymbolDebugger/Inc/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/SymbolDebugger/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets ../Build/Mac/SymbolDebugger/Inc/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Interfaces ../Build/Mac/SymbolDebugger/Inc/EditorStyle /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS ../Build/Mac/SymbolDebugger/Inc/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform/Public ../Build/Mac/SymbolDebugger/Inc/DesktopPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper/Public ../Build/Mac/SymbolDebugger/Inc/CrashDebugHelper /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public/Tests ../Build/Mac/SymbolDebugger/Inc/SourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Intermediate/Build/Mac/SymbolDebugger/Inc/PerforceSourceControl /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Source/PerforceSourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog/Public ../Build/Mac/SymbolDebugger/Inc/MessageLog /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/SymbolDebugger/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		BCB7C4BE48AD43853874D5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Debug;
+				UE_BUILD_TARGET_NAME = SymbolDebugger;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		E4848704E175F765A0604689 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				USE_HEADERMAP = NO;
-			};
-			name = "Debug";
-		};
-		E4848704E175F765A0604689 /* "Development" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"WITH_DATABASE_SUPPORT=1",
 					"IS_PROGRAM=1",
-					"UNICODE",
-					"_UNICODE",
-					"__UNREAL__",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
 					"IS_MONOLITHIC=1",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -470,220 +414,21 @@
 					"PROJECTS_API=",
 					"MONOLITHIC_BUILD=1",
 				);
-				HEADER_SEARCH_PATHS = (
-				);
-				USER_HEADER_SEARCH_PATHS = (
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Public",
-					"../Build/Mac/SymbolDebugger/Inc/SymbolDebugger",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views",
-					"../Build/Mac/SymbolDebugger/Inc/Slate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject",
-					"../Build/Mac/SymbolDebugger/Inc/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public",
-					"../Build/Mac/SymbolDebugger/Inc/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
-					"../Build/Mac/SymbolDebugger/Inc/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets",
-					"../Build/Mac/SymbolDebugger/Inc/SlateCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Interfaces",
-					"../Build/Mac/SymbolDebugger/Inc/EditorStyle",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS",
-					"../Build/Mac/SymbolDebugger/Inc/StandaloneRenderer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform/Public",
-					"../Build/Mac/SymbolDebugger/Inc/DesktopPlatform",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper/Public",
-					"../Build/Mac/SymbolDebugger/Inc/CrashDebugHelper",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public/Tests",
-					"../Build/Mac/SymbolDebugger/Inc/SourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Intermediate/Build/Mac/SymbolDebugger/Inc/PerforceSourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Source/PerforceSourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog/Public",
-					"../Build/Mac/SymbolDebugger/Inc/MessageLog",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
-					"../Build/Mac/SymbolDebugger/Inc/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
-				);
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger/Public ../Build/Mac/SymbolDebugger/Inc/SymbolDebugger /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/SymbolDebugger /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views ../Build/Mac/SymbolDebugger/Inc/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject ../Build/Mac/SymbolDebugger/Inc/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public ../Build/Mac/SymbolDebugger/Inc/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/SymbolDebugger/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets ../Build/Mac/SymbolDebugger/Inc/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle/Public/Interfaces ../Build/Mac/SymbolDebugger/Inc/EditorStyle /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS ../Build/Mac/SymbolDebugger/Inc/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform/Public ../Build/Mac/SymbolDebugger/Inc/DesktopPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/DesktopPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper/Public ../Build/Mac/SymbolDebugger/Inc/CrashDebugHelper /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public/Tests ../Build/Mac/SymbolDebugger/Inc/SourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Intermediate/Build/Mac/SymbolDebugger/Inc/PerforceSourceControl /Users/Shared/UnrealEngine-4.10/Engine/Plugins/Developer/PerforceSourceControl/Source/PerforceSourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog/Public ../Build/Mac/SymbolDebugger/Inc/MessageLog /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/SymbolDebugger/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects";
 				USE_HEADERMAP = NO;
 			};
-			name = "Development";
-		};
-		668387B6D6B6906A062675E1 /* "Debug" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "SymbolDebugger-Mac-Debug";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Debug";
-		};
-		82D9EA56FFEE59F2ADAE4FA4 /* "Development" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "SymbolDebugger";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Development";
-		};
-		BCB7C4BE48AD43853874D5D9 /* "Debug" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				UE_BUILD_TARGET_NAME = "SymbolDebugger";
-				UE_BUILD_TARGET_CONFIG = "Debug";
-			};
-			name = "Debug";
-		};
-		40029102B684F951DA3DDAC3 /* "Development" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				UE_BUILD_TARGET_NAME = "SymbolDebugger";
-				UE_BUILD_TARGET_CONFIG = "Development";
-			};
-			name = "Development";
-		};
-		6631768DD9036FF0E86BDC86 /* "Debug" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "SymbolDebugger-Mac-Debug";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Debug";
-		};
-		253FA4C37D703806EAEC0B00 /* "Development" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "SymbolDebugger";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Development";
+			name = Development;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B60F426CACD8E4765F0B6E65 /* Build configuration list for PBXProject "SymbolDebugger" */ = {
+		21341F9330B13A10A80B0AED /* Build configuration list for PBXNativeTarget "SymbolDebugger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B1641034146973303437492 /* "Debug" */,
-				E4848704E175F765A0604689 /* "Development" */,
+				668387B6D6B6906A062675E1 /* Debug */,
+				82D9EA56FFEE59F2ADAE4FA4 /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -691,17 +436,17 @@
 		2588FD614F0D2A1B1F086317 /* Build configuration list for PBXLegacyTarget "SymbolDebugger_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCB7C4BE48AD43853874D5D9 /* "Debug" */,
-				40029102B684F951DA3DDAC3 /* "Development" */,
+				BCB7C4BE48AD43853874D5D9 /* Debug */,
+				40029102B684F951DA3DDAC3 /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		21341F9330B13A10A80B0AED /* Build configuration list for PBXNativeTarget "SymbolDebugger" */ = {
+		B60F426CACD8E4765F0B6E65 /* Build configuration list for PBXProject "SymbolDebugger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				668387B6D6B6906A062675E1 /* "Debug" */,
-				82D9EA56FFEE59F2ADAE4FA4 /* "Development" */,
+				8B1641034146973303437492 /* Debug */,
+				E4848704E175F765A0604689 /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -709,8 +454,8 @@
 		F3EA31ED8276CAA91CEEE29A /* Build configuration list for PBXNativeTarget "SymbolDebugger_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6631768DD9036FF0E86BDC86 /* "Debug" */,
-				253FA4C37D703806EAEC0B00 /* "Development" */,
+				6631768DD9036FF0E86BDC86 /* Debug */,
+				253FA4C37D703806EAEC0B00 /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;

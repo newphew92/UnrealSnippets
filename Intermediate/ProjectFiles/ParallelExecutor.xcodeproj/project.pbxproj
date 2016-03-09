@@ -7,35 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE3F921150CC8D8B6329672C /* ParallelExecutor.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 626E002216CD5D0D39A20148 /* ParallelExecutor.Target.cs */; };
-		FB4CE2690BF1430CB7B29C1F /* ParallelExecutor.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = FE5B2ED45D53CF4979F892DC /* ParallelExecutor.Build.cs */; };
 		BC4C08AF737D90BC94C49FB7 /* BuildGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D44F9392B82026E1F82E5C9F /* BuildGraph.cpp */; };
-		8028C42F2F02B302B906ADBE /* BuildGraph.h in Sources */ = {isa = PBXBuildFile; fileRef = E994983A21E08A39BC76000E /* BuildGraph.h */; };
 		C03D9159D2B1E38EF0692E4B /* ParallelExecutor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8618D92119CFECEA2D4A923 /* ParallelExecutor.cpp */; };
-		88ECC018A322E20927B56FF1 /* ParallelExecutor.h in Sources */ = {isa = PBXBuildFile; fileRef = 705A3008231ECE7F664C81BF /* ParallelExecutor.h */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		626E002216CD5D0D39A20148 /* ParallelExecutor.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "ParallelExecutor.Target.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor/ParallelExecutor.Target.cs"; sourceTree = SOURCE_ROOT; };
-		FE5B2ED45D53CF4979F892DC /* ParallelExecutor.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "ParallelExecutor.Build.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor/ParallelExecutor.Build.cs"; sourceTree = SOURCE_ROOT; };
-		D44F9392B82026E1F82E5C9F /* BuildGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "BuildGraph.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor/Private/BuildGraph.cpp"; sourceTree = SOURCE_ROOT; };
-		E994983A21E08A39BC76000E /* BuildGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BuildGraph.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor/Private/BuildGraph.h"; sourceTree = SOURCE_ROOT; };
-		B8618D92119CFECEA2D4A923 /* ParallelExecutor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "ParallelExecutor.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor/Private/ParallelExecutor.cpp"; sourceTree = SOURCE_ROOT; };
-		705A3008231ECE7F664C81BF /* ParallelExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ParallelExecutor.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor/Private/ParallelExecutor.h"; sourceTree = SOURCE_ROOT; };
-		325529A6D5DEFA8079AEF234 /* ParallelExecutor */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = ParallelExecutor; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-
-/* Begin PBXSourcesBuildPhase section */
-		5CA30CF9FAA1F88465939549 = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC4C08AF737D90BC94C49FB7 /* BuildGraph.cpp in Sources */,
-				C03D9159D2B1E38EF0692E4B /* ParallelExecutor.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin PBXContainerItemProxy section */
 		DE250AB0D565FF457D1D7552 /* PBXContainerItemProxy */ = {
@@ -43,19 +17,32 @@
 			containerPortal = 57CE70E48E3E75457C6542C0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6722A1CC00A11897BB464530;
-			remoteInfo = "ParallelExecutor_Build";
+			remoteInfo = ParallelExecutor_Build;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXTargetDependency section */
-		D13473D891B3E79CDC1048E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6722A1CC00A11897BB464530 /* ParallelExecutor_Build */;
-			targetProxy = DE250AB0D565FF457D1D7552 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
+/* Begin PBXFileReference section */
+		325529A6D5DEFA8079AEF234 /* ParallelExecutor-Mac-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "ParallelExecutor-Mac-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		626E002216CD5D0D39A20148 /* ParallelExecutor.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = ParallelExecutor.Target.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor/ParallelExecutor.Target.cs"; sourceTree = SOURCE_ROOT; };
+		705A3008231ECE7F664C81BF /* ParallelExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParallelExecutor.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor/Private/ParallelExecutor.h"; sourceTree = SOURCE_ROOT; };
+		B8618D92119CFECEA2D4A923 /* ParallelExecutor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = ParallelExecutor.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor/Private/ParallelExecutor.cpp"; sourceTree = SOURCE_ROOT; };
+		D44F9392B82026E1F82E5C9F /* BuildGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = BuildGraph.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor/Private/BuildGraph.cpp"; sourceTree = SOURCE_ROOT; };
+		E994983A21E08A39BC76000E /* BuildGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BuildGraph.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor/Private/BuildGraph.h"; sourceTree = SOURCE_ROOT; };
+		FE5B2ED45D53CF4979F892DC /* ParallelExecutor.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = ParallelExecutor.Build.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor/ParallelExecutor.Build.cs"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		4BEE7DACF519547654EE15D0 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				D44F9392B82026E1F82E5C9F /* BuildGraph.cpp */,
+				E994983A21E08A39BC76000E /* BuildGraph.h */,
+				B8618D92119CFECEA2D4A923 /* ParallelExecutor.cpp */,
+				705A3008231ECE7F664C81BF /* ParallelExecutor.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
 		4F44AFE18AB92D918704A647 = {
 			isa = PBXGroup;
 			children = (
@@ -66,22 +53,10 @@
 			);
 			sourceTree = "<group>";
 		};
-		4BEE7DACF519547654EE15D0 = {
-			isa = PBXGroup;
-			children = (
-				D44F9392B82026E1F82E5C9F /* BuildGraph.cpp */,
-				E994983A21E08A39BC76000E /* BuildGraph.h */,
-				B8618D92119CFECEA2D4A923 /* ParallelExecutor.cpp */,
-				705A3008231ECE7F664C81BF /* ParallelExecutor.h */,
-			);
-			name = "Private";
-			path = "Private";
-			sourceTree = "<group>";
-		};
 		5881A1F45F03355EF18401EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				325529A6D5DEFA8079AEF234 /* ParallelExecutor */,
+				325529A6D5DEFA8079AEF234 /* ParallelExecutor-Mac-Debug.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,28 +74,11 @@
 			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
 			dependencies = (
 			);
-			name = "ParallelExecutor_Build";
+			name = ParallelExecutor_Build;
 			passBuildSettingsInEnvironment = 1;
-			productName = "ParallelExecutor_Build";
+			productName = ParallelExecutor_Build;
 		};
 /* End PBXLegacyTarget section */
-
-/* Begin PBXNativeTarget section */
-		90544CC469DAFB337FE83EF5 /* ParallelExecutor */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A704262455F7C35B920FDA9D /* Build configuration list for PBXNativeTarget "ParallelExecutor" */;
-			buildPhases = (
-			);
-			dependencies = (
-				D13473D891B3E79CDC1048E0 /* PBXTargetDependency */,
-			);
-			name = "ParallelExecutor";
-			passBuildSettingsInEnvironment = 1;
-			productName = "ParallelExecutor";
-			productReference = "325529A6D5DEFA8079AEF234";
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
 		8940C6FE15C8662F32D549B2 /* ParallelExecutor_Index */ = {
@@ -129,12 +87,28 @@
 			buildPhases = (
 				5CA30CF9FAA1F88465939549 /* Sources */,
 			);
+			buildRules = (
+			);
 			dependencies = (
 			);
-			name = "ParallelExecutor_Index";
-			passBuildSettingsInEnvironment = 1;
-			productName = "ParallelExecutor_Index";
+			name = ParallelExecutor_Index;
+			productName = ParallelExecutor_Index;
 			productType = "com.apple.product-type.library.static";
+		};
+		90544CC469DAFB337FE83EF5 /* ParallelExecutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A704262455F7C35B920FDA9D /* Build configuration list for PBXNativeTarget "ParallelExecutor" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D13473D891B3E79CDC1048E0 /* PBXTargetDependency */,
+			);
+			name = ParallelExecutor;
+			productName = ParallelExecutor;
+			productReference = 325529A6D5DEFA8079AEF234 /* ParallelExecutor-Mac-Debug.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -150,29 +124,108 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en
+				en,
 			);
 			mainGroup = 4F44AFE18AB92D918704A647;
-			productRefGroup = 5881A1F45F03355EF18401EA;
+			productRefGroup = 5881A1F45F03355EF18401EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			90544CC469DAFB337FE83EF5 /* ParallelExecutor */,
-			6722A1CC00A11897BB464530 /* ParallelExecutor_Build */,
-			8940C6FE15C8662F32D549B2 /* ParallelExecutor_Index */,
+				90544CC469DAFB337FE83EF5 /* ParallelExecutor */,
+				6722A1CC00A11897BB464530 /* ParallelExecutor_Build */,
+				8940C6FE15C8662F32D549B2 /* ParallelExecutor_Index */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXSourcesBuildPhase section */
+		5CA30CF9FAA1F88465939549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4C08AF737D90BC94C49FB7 /* BuildGraph.cpp in Sources */,
+				C03D9159D2B1E38EF0692E4B /* ParallelExecutor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D13473D891B3E79CDC1048E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6722A1CC00A11897BB464530 /* ParallelExecutor_Build */;
+			targetProxy = DE250AB0D565FF457D1D7552 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		8E94BBC338B138D673399A5E /* "Debug" */ = {
+		1B52C95157D6711CA4ED7E2C /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = ParallelExecutor;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		3B871B22509BBB745A2125F9 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = ParallelExecutor;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		487125404C2B772208AE84F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "ParallelExecutor-Mac-Debug";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		7409B8C69D0AEACB43C485E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "ParallelExecutor-Mac-Debug";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		8E94BBC338B138D673399A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"IS_PROGRAM=1",
-					"UNICODE",
-					"_UNICODE",
-					"__UNREAL__",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
 					"IS_MONOLITHIC=1",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -204,68 +257,45 @@
 					"XMLPARSER_API=",
 					"MONOLITHIC_BUILD=1",
 				);
-				HEADER_SEARCH_PATHS = (
-				);
-				USER_HEADER_SEARCH_PATHS = (
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
-					"../Build/Mac/ParallelExecutor/Inc/ParallelExecutor",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
-					"../Build/Mac/ParallelExecutor/Inc/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
-					"../Build/Mac/ParallelExecutor/Inc/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/XmlParser/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser/Public",
-					"../Build/Mac/ParallelExecutor/Inc/XmlParser",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser",
-				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private ../Build/Mac/ParallelExecutor/Inc/ParallelExecutor /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/ParallelExecutor/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/ParallelExecutor/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/XmlParser/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser/Public ../Build/Mac/ParallelExecutor/Inc/XmlParser /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		AC3496E60C22E2C4EC5765CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Debug;
+				UE_BUILD_TARGET_NAME = ParallelExecutor;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		E4AA7E174C62DEFDAFA4FEDB /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Development;
+				UE_BUILD_TARGET_NAME = ParallelExecutor;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		E831E65BA9CA06CA0FD31704 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				USE_HEADERMAP = NO;
-			};
-			name = "Debug";
-		};
-		E831E65BA9CA06CA0FD31704 /* "Development" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"IS_PROGRAM=1",
-					"UNICODE",
-					"_UNICODE",
-					"__UNREAL__",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
 					"IS_MONOLITHIC=1",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -297,161 +327,21 @@
 					"XMLPARSER_API=",
 					"MONOLITHIC_BUILD=1",
 				);
-				HEADER_SEARCH_PATHS = (
-				);
-				USER_HEADER_SEARCH_PATHS = (
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
-					"../Build/Mac/ParallelExecutor/Inc/ParallelExecutor",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
-					"../Build/Mac/ParallelExecutor/Inc/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
-					"../Build/Mac/ParallelExecutor/Inc/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/XmlParser/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser/Public",
-					"../Build/Mac/ParallelExecutor/Inc/XmlParser",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser",
-				);
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private ../Build/Mac/ParallelExecutor/Inc/ParallelExecutor /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/ParallelExecutor /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/ParallelExecutor/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/ParallelExecutor/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/XmlParser/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser/Public ../Build/Mac/ParallelExecutor/Inc/XmlParser /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser";
 				USE_HEADERMAP = NO;
 			};
-			name = "Development";
-		};
-		7409B8C69D0AEACB43C485E7 /* "Debug" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "ParallelExecutor-Mac-Debug";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Debug";
-		};
-		1B52C95157D6711CA4ED7E2C /* "Development" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "ParallelExecutor";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Development";
-		};
-		AC3496E60C22E2C4EC5765CA /* "Debug" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				UE_BUILD_TARGET_NAME = "ParallelExecutor";
-				UE_BUILD_TARGET_CONFIG = "Debug";
-			};
-			name = "Debug";
-		};
-		E4AA7E174C62DEFDAFA4FEDB /* "Development" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				UE_BUILD_TARGET_NAME = "ParallelExecutor";
-				UE_BUILD_TARGET_CONFIG = "Development";
-			};
-			name = "Development";
-		};
-		487125404C2B772208AE84F1 /* "Debug" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "ParallelExecutor-Mac-Debug";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Debug";
-		};
-		3B871B22509BBB745A2125F9 /* "Development" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "ParallelExecutor";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Development";
+			name = Development;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA1A81F3DF15FD18CAD368DC /* Build configuration list for PBXProject "ParallelExecutor" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8E94BBC338B138D673399A5E /* "Debug" */,
-				E831E65BA9CA06CA0FD31704 /* "Development" */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
-		};
-		ED13862C109420B4BF21A53C /* Build configuration list for PBXLegacyTarget "ParallelExecutor_Build" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC3496E60C22E2C4EC5765CA /* "Debug" */,
-				E4AA7E174C62DEFDAFA4FEDB /* "Development" */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
-		};
 		A704262455F7C35B920FDA9D /* Build configuration list for PBXNativeTarget "ParallelExecutor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7409B8C69D0AEACB43C485E7 /* "Debug" */,
-				1B52C95157D6711CA4ED7E2C /* "Development" */,
+				7409B8C69D0AEACB43C485E7 /* Debug */,
+				1B52C95157D6711CA4ED7E2C /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -459,8 +349,26 @@
 		C33344DB04DD96EC0FF8B9C2 /* Build configuration list for PBXNativeTarget "ParallelExecutor_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				487125404C2B772208AE84F1 /* "Debug" */,
-				3B871B22509BBB745A2125F9 /* "Development" */,
+				487125404C2B772208AE84F1 /* Debug */,
+				3B871B22509BBB745A2125F9 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		DA1A81F3DF15FD18CAD368DC /* Build configuration list for PBXProject "ParallelExecutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E94BBC338B138D673399A5E /* Debug */,
+				E831E65BA9CA06CA0FD31704 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		ED13862C109420B4BF21A53C /* Build configuration list for PBXLegacyTarget "ParallelExecutor_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3496E60C22E2C4EC5765CA /* Debug */,
+				E4AA7E174C62DEFDAFA4FEDB /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;

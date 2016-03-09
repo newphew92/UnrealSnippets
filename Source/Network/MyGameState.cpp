@@ -17,5 +17,7 @@ void AMyGameState::GetLifetimeReplicatedProps(TArray< FLifetimeProperty>& OutLif
     Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 
 
-    DOREPLIFETIME(AMyGameState, Score);
+    DOREPLIFETIME(AMyGameState, Mana);
+    // DOREPLIFETIME(AMyGameState, PlayerOneHealth);
+    // DOREPLIFETIME(AMyGameState, PlayerTwoHealth);
 }

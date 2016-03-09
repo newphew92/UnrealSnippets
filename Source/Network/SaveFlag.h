@@ -9,17 +9,18 @@ UCLASS()
 class NETWORK_API ASaveFlag : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
-	// Sets default values for this actor's properties
-	ASaveFlag();
 
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-	
-	// Called every frame
-	virtual void Tick( float DeltaSeconds ) override;
+public:
+	ASaveFlag(const FObjectInitializer& ObjectInitializer);
 
-	
-	
+	//    sphere component for colliding
+	USphereComponent* CollisionComp;
+	UFUNCTION()
+	void OnOverlapBegin(class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	// Our server function to update the score.
+	UFUNCTION(Reliable, Server, WithValidation)
+	void SaveGame();
+	void SaveGame_Implementation();
+	bool SaveGame_Validate();
+
 };

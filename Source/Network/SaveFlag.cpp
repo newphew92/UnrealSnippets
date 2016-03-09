@@ -2,27 +2,35 @@
 
 #include "Network.h"
 #include "SaveFlag.h"
-
-
-// Sets default values
-ASaveFlag::ASaveFlag()
-{
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
+#include "Engine.h"
+// Include our game mode for casting.
+#include "NetworkGameMode.h"
+//--------------------------------------------------------------------
+ASaveFlag::ASaveFlag(const FObjectInitializer& ObjectInitializer)
+: Super(ObjectInitializer){
+    //ObjectInitializer
+    bReplicates = true;
+    CollisionComp = ObjectInitializer.CreateDefaultSubobject<USphereComponent>(this, TEXT("SphereComp"));
+    CollisionComp->InitSphereRadius(80.0f);
+    RootComponent = CollisionComp;
+    CollisionComp->OnComponentBeginOverlap.AddDynamic(this, &ASaveFlag::OnOverlapBegin);
 }
 
-// Called when the game starts or when spawned
-void ASaveFlag::BeginPlay()
-{
-	Super::BeginPlay();
-	
+
+void ASaveFlag::OnOverlapBegin(class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult){
+
+    if (Role == ROLE_Authority){
+        SaveGame();
+    }
 }
 
-// Called every frame
-void ASaveFlag::Tick( float DeltaTime )
-{
-	Super::Tick( DeltaTime );
-
+void ASaveFlag::SaveGame_Implementation(){
+    // Get the game mode and cast it to our game mode.
+    ANetworkGameMode* TheGameMode = Cast<ANetworkGameMode>(GetWorld()->GetAuthGameMode());
+    //Add Score!
+    TheGameMode->SaveGame();
 }
 
+bool ASaveFlag::SaveGame_Validate(){
+    return true;
+}

@@ -18,9 +18,18 @@ ANetworkGameMode::ANetworkGameMode(const FObjectInitializer& ObjectInitializer)
 	}
 }
 
-void ANetworkGameMode::AddScore(int32 Amount){
-		jsonHelper j;
-		j.setJsonObject("test.json");
-    GetGameState<AMyGameState>()->Score += Amount;
-    GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::FromInt(GetGameState<AMyGameState>()->Score));
+void ANetworkGameMode::AddMana(int32 Amount){
+    GetGameState<AMyGameState>()->Mana += Amount;
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::FromInt(GetGameState<AMyGameState>()->Mana));
 }
+
+void ANetworkGameMode::SaveGame(){
+	jsonHelper j;
+	j.setJsonObject("test.json");
+}
+// void ANetworkGameMode::AddHealth(int32 Amount, int32 Player){
+// 		jsonHelper j;
+// 		j.setJsonObject("test.json");
+//    GetGameState<AMyGameState>()->Mana += Amount;
+//    GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::FromInt(GetGameState<AMyGameState>()->Mana));
+// }

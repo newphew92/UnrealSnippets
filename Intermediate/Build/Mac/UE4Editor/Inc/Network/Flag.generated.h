@@ -17,19 +17,19 @@ struct FHitResult;
 #define NETWORK_Flag_generated_h
 
 #define Network_Source_Network_Flag_h_11_RPC_WRAPPERS \
-	virtual bool UpdateScore_Validate(int32 ); \
-	virtual void UpdateScore_Implementation(int32 Amount); \
+	virtual bool UpdateMana_Validate(int32 ); \
+	virtual void UpdateMana_Implementation(int32 Amount); \
  \
-	DECLARE_FUNCTION(execUpdateScore) \
+	DECLARE_FUNCTION(execUpdateMana) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_Amount); \
 		P_FINISH; \
-		if (!this->UpdateScore_Validate(Z_Param_Amount)) \
+		if (!this->UpdateMana_Validate(Z_Param_Amount)) \
 		{ \
-			RPC_ValidateFailed(TEXT("UpdateScore_Validate")); \
+			RPC_ValidateFailed(TEXT("UpdateMana_Validate")); \
 			return; \
 		} \
-		this->UpdateScore_Implementation(Z_Param_Amount); \
+		this->UpdateMana_Implementation(Z_Param_Amount); \
 	} \
  \
 	DECLARE_FUNCTION(execOnOverlapBegin) \
@@ -46,16 +46,16 @@ struct FHitResult;
 
 #define Network_Source_Network_Flag_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execUpdateScore) \
+	DECLARE_FUNCTION(execUpdateMana) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_Amount); \
 		P_FINISH; \
-		if (!this->UpdateScore_Validate(Z_Param_Amount)) \
+		if (!this->UpdateMana_Validate(Z_Param_Amount)) \
 		{ \
-			RPC_ValidateFailed(TEXT("UpdateScore_Validate")); \
+			RPC_ValidateFailed(TEXT("UpdateMana_Validate")); \
 			return; \
 		} \
-		this->UpdateScore_Implementation(Z_Param_Amount); \
+		this->UpdateMana_Implementation(Z_Param_Amount); \
 	} \
  \
 	DECLARE_FUNCTION(execOnOverlapBegin) \
@@ -71,13 +71,13 @@ struct FHitResult;
 
 
 #define Network_Source_Network_Flag_h_11_EVENT_PARMS \
-	struct Flag_eventUpdateScore_Parms \
+	struct Flag_eventUpdateMana_Parms \
 	{ \
 		int32 Amount; \
 	};
 
 
-extern NETWORK_API  FName NETWORK_UpdateScore;
+extern NETWORK_API  FName NETWORK_UpdateMana;
 #define Network_Source_Network_Flag_h_11_CALLBACK_WRAPPERS
 #define Network_Source_Network_Flag_h_11_INCLASS_NO_PURE_DECLS \
 	private: \

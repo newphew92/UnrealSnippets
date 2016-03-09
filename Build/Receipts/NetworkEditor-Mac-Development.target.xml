@@ -7,8 +7,8 @@
     <Property Name="Precompile" Value="False" />
   </Properties>
   <BuildProducts>
-    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/UE4Editor-Network-260.dylib" Type="DynamicLibrary" />
-    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/UE4Editor-Network-260.dsym" Type="SymbolFile" />
+    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/UE4Editor-Network-3771.dylib" Type="DynamicLibrary" />
+    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/UE4Editor-Network-3771.dsym" Type="SymbolFile" />
   </BuildProducts>
   <RuntimeDependencies />
   <AdditionalProperties />

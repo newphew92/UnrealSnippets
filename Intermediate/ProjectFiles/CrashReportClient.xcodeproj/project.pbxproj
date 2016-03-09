@@ -7,114 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CA02256E208777020EF3683 /* CrashReportClient.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* CrashReportClient.Target.cs */; };
-		1585F2565C58581C59A98FA5 /* CrashReportClient.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 13AC4FFE3F95992B6D1E4092 /* CrashReportClient.Build.cs */; };
-		F50D484FBC76DCAB16630F0F /* CrashDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B593DE908A93AEED8C2326 /* CrashDescription.cpp */; };
-		B151F19BDC8A43F64560604F /* CrashDescription.h in Sources */ = {isa = PBXBuildFile; fileRef = 0F0960E2CCE38EB09D40DA89 /* CrashDescription.h */; };
 		01BA9AE28B91A468EA229D6B /* CrashReportAnalytics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8541CF8C1F18C9C35443CE87 /* CrashReportAnalytics.cpp */; };
-		2AB0E209FE73887076679921 /* CrashReportAnalytics.h in Sources */ = {isa = PBXBuildFile; fileRef = EF616BB3BBF865ED6BF45C8B /* CrashReportAnalytics.h */; };
-		14019085761635BEEC13B7DA /* CrashReportClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF9B6A76992DF41EA8AD9DBD /* CrashReportClient.cpp */; };
-		AC16085CDEE11B355357F4FC /* CrashReportClient.h in Sources */ = {isa = PBXBuildFile; fileRef = E203F96031DA35DCAA910420 /* CrashReportClient.h */; };
-		8DEE533E003EE26664D2D860 /* CrashReportClientApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ED9DF0AF8818658A66E9396 /* CrashReportClientApp.cpp */; };
-		3393ECCD78C1131B11E7CEEF /* CrashReportClientStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC3515748E97102A985258 /* CrashReportClientStyle.cpp */; };
-		FB2AE3280AAB7A1E5ABD0B6C /* CrashReportClientStyle.h in Sources */ = {isa = PBXBuildFile; fileRef = 5115EEA3BEBD4E260AEF7C1B /* CrashReportClientStyle.h */; };
-		4C71E318D6836B9A4194D24D /* CrashReportClientUnattended.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDEB10666DAF94D0D1C8C45F /* CrashReportClientUnattended.cpp */; };
-		9FF4516D4A2C4D0BAEC8DC99 /* CrashReportClientUnattended.h in Sources */ = {isa = PBXBuildFile; fileRef = C76248D751702BBC42A0C6D3 /* CrashReportClientUnattended.h */; };
-		ACE8B85A5AAB4983AC8478E2 /* CrashReportUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = 31FE501546C69F140E779E0B /* CrashReportUtil.h */; };
-		67BD7E609D071CFF2E7EC061 /* CrashUpload.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74F2B0027E58EC43E965A653 /* CrashUpload.cpp */; };
-		2015757C00B1C53549ACF29D /* CrashUpload.h in Sources */ = {isa = PBXBuildFile; fileRef = 2CE9E6A56779B4B33DEEA154 /* CrashUpload.h */; };
-		169C96B58A5B2202162B4087 /* GenericErrorReport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91A0FE7CB98B17C70012D695 /* GenericErrorReport.cpp */; };
-		7247DB70B0F3163274216563 /* GenericErrorReport.h in Sources */ = {isa = PBXBuildFile; fileRef = 1B0FAAEE8AF08601A95E14C7 /* GenericErrorReport.h */; };
-		7B38FAB2D6D95403C6004343 /* MainLoopTiming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80B15123150D136F3A9A60A9 /* MainLoopTiming.cpp */; };
-		E0293D0F8CD4EB143213F578 /* MainLoopTiming.h in Sources */ = {isa = PBXBuildFile; fileRef = F8635B9ACD629D1ACC666ED8 /* MainLoopTiming.h */; };
-		9F62EC9B4AA48CE1D750D1AD /* PendingReports.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C4477F1142E106CBCD82BB1 /* PendingReports.cpp */; };
-		B278A2D8FC46DD7ABB647029 /* PendingReports.h in Sources */ = {isa = PBXBuildFile; fileRef = E850C98E8714A1A892AEFE89 /* PendingReports.h */; };
-		EBAB059D55021CC6373AE8D1 /* PlatformErrorReport.h in Sources */ = {isa = PBXBuildFile; fileRef = 02B4E4907257F137D44D08C4 /* PlatformErrorReport.h */; };
-		6482E5A836821E047A18EC51 /* SCrashReportClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 404024B948A9F1AE67F78CD2 /* SCrashReportClient.cpp */; };
-		3010353BBCC6B49DA24138D3 /* SCrashReportClient.h in Sources */ = {isa = PBXBuildFile; fileRef = 1D7490B41BE457E9C7925032 /* SCrashReportClient.h */; };
-		3238EF2A5B5A5C6DF5127825 /* CrashReportClientMainLinux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DE347B4644FAFFE08509CD4 /* CrashReportClientMainLinux.cpp */; };
-		193D9283A0A30A9DC0030884 /* LinuxErrorReport.h in Sources */ = {isa = PBXBuildFile; fileRef = D6894147E4CBDE0AFB6A6738 /* LinuxErrorReport.h */; };
-		9DA38578E3512AE29C1B111E /* CrashReportClientMainMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8D9CC5207DA6549DAC3DDDA /* CrashReportClientMainMac.cpp */; };
 		0D671A3C7291D8AFD559E5FD /* MacErrorReport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E92BA6ED926E7BB78227F0B /* MacErrorReport.cpp */; };
-		FE8B0221041E5ED9C5AA6A7C /* MacErrorReport.h in Sources */ = {isa = PBXBuildFile; fileRef = 37ED6F0A4362496EF3CF3475 /* MacErrorReport.h */; };
-		20F770B3DB2262EBE70E3EE6 /* CrashReportClientMainWindows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FB6AAB6FA0B3773283E37EB /* CrashReportClientMainWindows.cpp */; };
-		B7DD7815D910172E578D010D /* WindowsErrorReport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEABFEA3487F9428AF887B8C /* WindowsErrorReport.cpp */; };
-		B89273E798C14DE1BF84FCFE /* WindowsErrorReport.h in Sources */ = {isa = PBXBuildFile; fileRef = A94C11D6F70F8F01B49C084F /* WindowsErrorReport.h */; };
-		0D932AA8A90E3C2E61EB5D46 /* CrashReportClientApp.h in Sources */ = {isa = PBXBuildFile; fileRef = 9C2F96963F1F4D29AF00F9FC /* CrashReportClientApp.h */; };
-		6DBE309FF979D71B8924DA04 /* CrashReportClient-Win32.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 97A438B047CD9CBEEFCB39C7 /* CrashReportClient-Win32.manifest */; };
-		79F8C2954FDEA00C9A2D3BEB /* CrashReportClient-Win64.manifest in Sources */ = {isa = PBXBuildFile; fileRef = DE9D34E81442BC785591FF9A /* CrashReportClient-Win64.manifest */; };
-		E69CE2E1643B0DA184692600 /* CrashReportClient.ico in Sources */ = {isa = PBXBuildFile; fileRef = B742CCAA83CD6A69694DD2AA /* CrashReportClient.ico */; };
-		99B4A9AC0EC072E7F927AEB2 /* CrashReportClient.rc in Sources */ = {isa = PBXBuildFile; fileRef = FCBFA85E20996674763330D2 /* CrashReportClient.rc */; };
-		7611F58727953199CA3747B0 /* Debug-CrashReportClient-Win32.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 916093C3F63E068F9319ADC4 /* Debug-CrashReportClient-Win32.manifest */; };
-		240B49CFE65D336583D736FC /* Debug-CrashReportClient-Win64.manifest in Sources */ = {isa = PBXBuildFile; fileRef = CBEAC064F514E8C577F8CCBF /* Debug-CrashReportClient-Win64.manifest */; };
+		14019085761635BEEC13B7DA /* CrashReportClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF9B6A76992DF41EA8AD9DBD /* CrashReportClient.cpp */; };
+		169C96B58A5B2202162B4087 /* GenericErrorReport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91A0FE7CB98B17C70012D695 /* GenericErrorReport.cpp */; };
+		3393ECCD78C1131B11E7CEEF /* CrashReportClientStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC3515748E97102A985258 /* CrashReportClientStyle.cpp */; };
+		4C71E318D6836B9A4194D24D /* CrashReportClientUnattended.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDEB10666DAF94D0D1C8C45F /* CrashReportClientUnattended.cpp */; };
+		6482E5A836821E047A18EC51 /* SCrashReportClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 404024B948A9F1AE67F78CD2 /* SCrashReportClient.cpp */; };
+		67BD7E609D071CFF2E7EC061 /* CrashUpload.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74F2B0027E58EC43E965A653 /* CrashUpload.cpp */; };
+		7B38FAB2D6D95403C6004343 /* MainLoopTiming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80B15123150D136F3A9A60A9 /* MainLoopTiming.cpp */; };
+		8DEE533E003EE26664D2D860 /* CrashReportClientApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ED9DF0AF8818658A66E9396 /* CrashReportClientApp.cpp */; };
+		9DA38578E3512AE29C1B111E /* CrashReportClientMainMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8D9CC5207DA6549DAC3DDDA /* CrashReportClientMainMac.cpp */; };
+		9F62EC9B4AA48CE1D750D1AD /* PendingReports.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C4477F1142E106CBCD82BB1 /* PendingReports.cpp */; };
+		F50D484FBC76DCAB16630F0F /* CrashDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B593DE908A93AEED8C2326 /* CrashDescription.cpp */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		5873D72E80F5FC38B15BAE4B /* CrashReportClient.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "CrashReportClient.Target.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/CrashReportClient.Target.cs"; sourceTree = SOURCE_ROOT; };
-		13AC4FFE3F95992B6D1E4092 /* CrashReportClient.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "CrashReportClient.Build.cs"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/CrashReportClient.Build.cs"; sourceTree = SOURCE_ROOT; };
-		24B593DE908A93AEED8C2326 /* CrashDescription.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "CrashDescription.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashDescription.cpp"; sourceTree = SOURCE_ROOT; };
-		0F0960E2CCE38EB09D40DA89 /* CrashDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CrashDescription.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashDescription.h"; sourceTree = SOURCE_ROOT; };
-		8541CF8C1F18C9C35443CE87 /* CrashReportAnalytics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "CrashReportAnalytics.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportAnalytics.cpp"; sourceTree = SOURCE_ROOT; };
-		EF616BB3BBF865ED6BF45C8B /* CrashReportAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CrashReportAnalytics.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportAnalytics.h"; sourceTree = SOURCE_ROOT; };
-		AF9B6A76992DF41EA8AD9DBD /* CrashReportClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "CrashReportClient.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportClient.cpp"; sourceTree = SOURCE_ROOT; };
-		E203F96031DA35DCAA910420 /* CrashReportClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CrashReportClient.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportClient.h"; sourceTree = SOURCE_ROOT; };
-		0ED9DF0AF8818658A66E9396 /* CrashReportClientApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "CrashReportClientApp.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportClientApp.cpp"; sourceTree = SOURCE_ROOT; };
-		8EDC3515748E97102A985258 /* CrashReportClientStyle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "CrashReportClientStyle.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportClientStyle.cpp"; sourceTree = SOURCE_ROOT; };
-		5115EEA3BEBD4E260AEF7C1B /* CrashReportClientStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CrashReportClientStyle.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportClientStyle.h"; sourceTree = SOURCE_ROOT; };
-		DDEB10666DAF94D0D1C8C45F /* CrashReportClientUnattended.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "CrashReportClientUnattended.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportClientUnattended.cpp"; sourceTree = SOURCE_ROOT; };
-		C76248D751702BBC42A0C6D3 /* CrashReportClientUnattended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CrashReportClientUnattended.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportClientUnattended.h"; sourceTree = SOURCE_ROOT; };
-		31FE501546C69F140E779E0B /* CrashReportUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CrashReportUtil.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportUtil.h"; sourceTree = SOURCE_ROOT; };
-		74F2B0027E58EC43E965A653 /* CrashUpload.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "CrashUpload.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashUpload.cpp"; sourceTree = SOURCE_ROOT; };
-		2CE9E6A56779B4B33DEEA154 /* CrashUpload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CrashUpload.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashUpload.h"; sourceTree = SOURCE_ROOT; };
-		91A0FE7CB98B17C70012D695 /* GenericErrorReport.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "GenericErrorReport.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/GenericErrorReport.cpp"; sourceTree = SOURCE_ROOT; };
-		1B0FAAEE8AF08601A95E14C7 /* GenericErrorReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GenericErrorReport.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/GenericErrorReport.h"; sourceTree = SOURCE_ROOT; };
-		80B15123150D136F3A9A60A9 /* MainLoopTiming.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "MainLoopTiming.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/MainLoopTiming.cpp"; sourceTree = SOURCE_ROOT; };
-		F8635B9ACD629D1ACC666ED8 /* MainLoopTiming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainLoopTiming.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/MainLoopTiming.h"; sourceTree = SOURCE_ROOT; };
-		9C4477F1142E106CBCD82BB1 /* PendingReports.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "PendingReports.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/PendingReports.cpp"; sourceTree = SOURCE_ROOT; };
-		E850C98E8714A1A892AEFE89 /* PendingReports.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PendingReports.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/PendingReports.h"; sourceTree = SOURCE_ROOT; };
-		02B4E4907257F137D44D08C4 /* PlatformErrorReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PlatformErrorReport.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/PlatformErrorReport.h"; sourceTree = SOURCE_ROOT; };
-		404024B948A9F1AE67F78CD2 /* SCrashReportClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "SCrashReportClient.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/SCrashReportClient.cpp"; sourceTree = SOURCE_ROOT; };
-		1D7490B41BE457E9C7925032 /* SCrashReportClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SCrashReportClient.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/SCrashReportClient.h"; sourceTree = SOURCE_ROOT; };
-		4DE347B4644FAFFE08509CD4 /* CrashReportClientMainLinux.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "CrashReportClientMainLinux.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Linux/CrashReportClientMainLinux.cpp"; sourceTree = SOURCE_ROOT; };
-		D6894147E4CBDE0AFB6A6738 /* LinuxErrorReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LinuxErrorReport.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Linux/LinuxErrorReport.h"; sourceTree = SOURCE_ROOT; };
-		C8D9CC5207DA6549DAC3DDDA /* CrashReportClientMainMac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "CrashReportClientMainMac.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Mac/CrashReportClientMainMac.cpp"; sourceTree = SOURCE_ROOT; };
-		1E92BA6ED926E7BB78227F0B /* MacErrorReport.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "MacErrorReport.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Mac/MacErrorReport.cpp"; sourceTree = SOURCE_ROOT; };
-		37ED6F0A4362496EF3CF3475 /* MacErrorReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MacErrorReport.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Mac/MacErrorReport.h"; sourceTree = SOURCE_ROOT; };
-		8FB6AAB6FA0B3773283E37EB /* CrashReportClientMainWindows.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "CrashReportClientMainWindows.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Windows/CrashReportClientMainWindows.cpp"; sourceTree = SOURCE_ROOT; };
-		AEABFEA3487F9428AF887B8C /* WindowsErrorReport.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "WindowsErrorReport.cpp"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Windows/WindowsErrorReport.cpp"; sourceTree = SOURCE_ROOT; };
-		A94C11D6F70F8F01B49C084F /* WindowsErrorReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WindowsErrorReport.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Windows/WindowsErrorReport.h"; sourceTree = SOURCE_ROOT; };
-		9C2F96963F1F4D29AF00F9FC /* CrashReportClientApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CrashReportClientApp.h"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Public/CrashReportClientApp.h"; sourceTree = SOURCE_ROOT; };
-		97A438B047CD9CBEEFCB39C7 /* CrashReportClient-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "CrashReportClient-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Resources/Windows/CrashReportClient-Win32.manifest"; sourceTree = SOURCE_ROOT; };
-		DE9D34E81442BC785591FF9A /* CrashReportClient-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "CrashReportClient-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Resources/Windows/CrashReportClient-Win64.manifest"; sourceTree = SOURCE_ROOT; };
-		B742CCAA83CD6A69694DD2AA /* CrashReportClient.ico */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "CrashReportClient.ico"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Resources/Windows/CrashReportClient.ico"; sourceTree = SOURCE_ROOT; };
-		FCBFA85E20996674763330D2 /* CrashReportClient.rc */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "CrashReportClient.rc"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Resources/Windows/CrashReportClient.rc"; sourceTree = SOURCE_ROOT; };
-		916093C3F63E068F9319ADC4 /* Debug-CrashReportClient-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-CrashReportClient-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Resources/Windows/Debug-CrashReportClient-Win32.manifest"; sourceTree = SOURCE_ROOT; };
-		CBEAC064F514E8C577F8CCBF /* Debug-CrashReportClient-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-CrashReportClient-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Resources/Windows/Debug-CrashReportClient-Win64.manifest"; sourceTree = SOURCE_ROOT; };
-		85503F1689775D136CB21400 /* CrashReportClient */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CrashReportClient; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-
-/* Begin PBXSourcesBuildPhase section */
-		599CF936C3E9C80F4D4EE461 = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F50D484FBC76DCAB16630F0F /* CrashDescription.cpp in Sources */,
-				01BA9AE28B91A468EA229D6B /* CrashReportAnalytics.cpp in Sources */,
-				14019085761635BEEC13B7DA /* CrashReportClient.cpp in Sources */,
-				8DEE533E003EE26664D2D860 /* CrashReportClientApp.cpp in Sources */,
-				3393ECCD78C1131B11E7CEEF /* CrashReportClientStyle.cpp in Sources */,
-				4C71E318D6836B9A4194D24D /* CrashReportClientUnattended.cpp in Sources */,
-				67BD7E609D071CFF2E7EC061 /* CrashUpload.cpp in Sources */,
-				169C96B58A5B2202162B4087 /* GenericErrorReport.cpp in Sources */,
-				7B38FAB2D6D95403C6004343 /* MainLoopTiming.cpp in Sources */,
-				9F62EC9B4AA48CE1D750D1AD /* PendingReports.cpp in Sources */,
-				6482E5A836821E047A18EC51 /* SCrashReportClient.cpp in Sources */,
-				9DA38578E3512AE29C1B111E /* CrashReportClientMainMac.cpp in Sources */,
-				0D671A3C7291D8AFD559E5FD /* MacErrorReport.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin PBXContainerItemProxy section */
 		F0FF6F4820A9DD8F071F6DB8 /* PBXContainerItemProxy */ = {
@@ -122,19 +28,66 @@
 			containerPortal = 0F2B5F05F41EC972749298CB /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 41B9563A49DB6212E2CB2BB2;
-			remoteInfo = "CrashReportClient_Build";
+			remoteInfo = CrashReportClient_Build;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXTargetDependency section */
-		15A387CA14E194C6D86DBC78 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 41B9563A49DB6212E2CB2BB2 /* CrashReportClient_Build */;
-			targetProxy = F0FF6F4820A9DD8F071F6DB8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
+/* Begin PBXFileReference section */
+		02B4E4907257F137D44D08C4 /* PlatformErrorReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PlatformErrorReport.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/PlatformErrorReport.h"; sourceTree = SOURCE_ROOT; };
+		0ED9DF0AF8818658A66E9396 /* CrashReportClientApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CrashReportClientApp.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportClientApp.cpp"; sourceTree = SOURCE_ROOT; };
+		0F0960E2CCE38EB09D40DA89 /* CrashDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CrashDescription.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashDescription.h"; sourceTree = SOURCE_ROOT; };
+		13AC4FFE3F95992B6D1E4092 /* CrashReportClient.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = CrashReportClient.Build.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/CrashReportClient.Build.cs"; sourceTree = SOURCE_ROOT; };
+		1B0FAAEE8AF08601A95E14C7 /* GenericErrorReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GenericErrorReport.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/GenericErrorReport.h"; sourceTree = SOURCE_ROOT; };
+		1D7490B41BE457E9C7925032 /* SCrashReportClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SCrashReportClient.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/SCrashReportClient.h"; sourceTree = SOURCE_ROOT; };
+		1E92BA6ED926E7BB78227F0B /* MacErrorReport.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MacErrorReport.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Mac/MacErrorReport.cpp"; sourceTree = SOURCE_ROOT; };
+		24B593DE908A93AEED8C2326 /* CrashDescription.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CrashDescription.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashDescription.cpp"; sourceTree = SOURCE_ROOT; };
+		2CE9E6A56779B4B33DEEA154 /* CrashUpload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CrashUpload.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashUpload.h"; sourceTree = SOURCE_ROOT; };
+		31FE501546C69F140E779E0B /* CrashReportUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CrashReportUtil.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportUtil.h"; sourceTree = SOURCE_ROOT; };
+		37ED6F0A4362496EF3CF3475 /* MacErrorReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MacErrorReport.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Mac/MacErrorReport.h"; sourceTree = SOURCE_ROOT; };
+		404024B948A9F1AE67F78CD2 /* SCrashReportClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SCrashReportClient.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/SCrashReportClient.cpp"; sourceTree = SOURCE_ROOT; };
+		4DE347B4644FAFFE08509CD4 /* CrashReportClientMainLinux.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CrashReportClientMainLinux.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Linux/CrashReportClientMainLinux.cpp"; sourceTree = SOURCE_ROOT; };
+		5115EEA3BEBD4E260AEF7C1B /* CrashReportClientStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CrashReportClientStyle.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportClientStyle.h"; sourceTree = SOURCE_ROOT; };
+		5873D72E80F5FC38B15BAE4B /* CrashReportClient.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = CrashReportClient.Target.cs; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/CrashReportClient.Target.cs"; sourceTree = SOURCE_ROOT; };
+		74F2B0027E58EC43E965A653 /* CrashUpload.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CrashUpload.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashUpload.cpp"; sourceTree = SOURCE_ROOT; };
+		80B15123150D136F3A9A60A9 /* MainLoopTiming.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MainLoopTiming.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/MainLoopTiming.cpp"; sourceTree = SOURCE_ROOT; };
+		8541CF8C1F18C9C35443CE87 /* CrashReportAnalytics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CrashReportAnalytics.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportAnalytics.cpp"; sourceTree = SOURCE_ROOT; };
+		85503F1689775D136CB21400 /* CrashReportClient-Mac-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "CrashReportClient-Mac-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDC3515748E97102A985258 /* CrashReportClientStyle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CrashReportClientStyle.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportClientStyle.cpp"; sourceTree = SOURCE_ROOT; };
+		8FB6AAB6FA0B3773283E37EB /* CrashReportClientMainWindows.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CrashReportClientMainWindows.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Windows/CrashReportClientMainWindows.cpp"; sourceTree = SOURCE_ROOT; };
+		916093C3F63E068F9319ADC4 /* Debug-CrashReportClient-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-CrashReportClient-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Resources/Windows/Debug-CrashReportClient-Win32.manifest"; sourceTree = SOURCE_ROOT; };
+		91A0FE7CB98B17C70012D695 /* GenericErrorReport.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = GenericErrorReport.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/GenericErrorReport.cpp"; sourceTree = SOURCE_ROOT; };
+		97A438B047CD9CBEEFCB39C7 /* CrashReportClient-Win32.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "CrashReportClient-Win32.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Resources/Windows/CrashReportClient-Win32.manifest"; sourceTree = SOURCE_ROOT; };
+		9C2F96963F1F4D29AF00F9FC /* CrashReportClientApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CrashReportClientApp.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Public/CrashReportClientApp.h"; sourceTree = SOURCE_ROOT; };
+		9C4477F1142E106CBCD82BB1 /* PendingReports.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = PendingReports.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/PendingReports.cpp"; sourceTree = SOURCE_ROOT; };
+		A94C11D6F70F8F01B49C084F /* WindowsErrorReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WindowsErrorReport.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Windows/WindowsErrorReport.h"; sourceTree = SOURCE_ROOT; };
+		AEABFEA3487F9428AF887B8C /* WindowsErrorReport.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = WindowsErrorReport.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Windows/WindowsErrorReport.cpp"; sourceTree = SOURCE_ROOT; };
+		AF9B6A76992DF41EA8AD9DBD /* CrashReportClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CrashReportClient.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportClient.cpp"; sourceTree = SOURCE_ROOT; };
+		B742CCAA83CD6A69694DD2AA /* CrashReportClient.ico */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = CrashReportClient.ico; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Resources/Windows/CrashReportClient.ico"; sourceTree = SOURCE_ROOT; };
+		C76248D751702BBC42A0C6D3 /* CrashReportClientUnattended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CrashReportClientUnattended.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportClientUnattended.h"; sourceTree = SOURCE_ROOT; };
+		C8D9CC5207DA6549DAC3DDDA /* CrashReportClientMainMac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CrashReportClientMainMac.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Mac/CrashReportClientMainMac.cpp"; sourceTree = SOURCE_ROOT; };
+		CBEAC064F514E8C577F8CCBF /* Debug-CrashReportClient-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "Debug-CrashReportClient-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Resources/Windows/Debug-CrashReportClient-Win64.manifest"; sourceTree = SOURCE_ROOT; };
+		D6894147E4CBDE0AFB6A6738 /* LinuxErrorReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LinuxErrorReport.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/Linux/LinuxErrorReport.h"; sourceTree = SOURCE_ROOT; };
+		DDEB10666DAF94D0D1C8C45F /* CrashReportClientUnattended.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CrashReportClientUnattended.cpp; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportClientUnattended.cpp"; sourceTree = SOURCE_ROOT; };
+		DE9D34E81442BC785591FF9A /* CrashReportClient-Win64.manifest */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = "CrashReportClient-Win64.manifest"; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Resources/Windows/CrashReportClient-Win64.manifest"; sourceTree = SOURCE_ROOT; };
+		E203F96031DA35DCAA910420 /* CrashReportClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CrashReportClient.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportClient.h"; sourceTree = SOURCE_ROOT; };
+		E850C98E8714A1A892AEFE89 /* PendingReports.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PendingReports.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/PendingReports.h"; sourceTree = SOURCE_ROOT; };
+		EF616BB3BBF865ED6BF45C8B /* CrashReportAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CrashReportAnalytics.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/CrashReportAnalytics.h"; sourceTree = SOURCE_ROOT; };
+		F8635B9ACD629D1ACC666ED8 /* MainLoopTiming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainLoopTiming.h; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private/MainLoopTiming.h"; sourceTree = SOURCE_ROOT; };
+		FCBFA85E20996674763330D2 /* CrashReportClient.rc */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = CrashReportClient.rc; path = "../../../../../../Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Resources/Windows/CrashReportClient.rc"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		1A9F7B753A476EF578BE60BC /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				C8D9CC5207DA6549DAC3DDDA /* CrashReportClientMainMac.cpp */,
+				1E92BA6ED926E7BB78227F0B /* MacErrorReport.cpp */,
+				37ED6F0A4362496EF3CF3475 /* MacErrorReport.h */,
+			);
+			name = Mac;
+			path = Private/Mac;
+			sourceTree = "<group>";
+		};
 		219238DBF98B9F15B51751E4 = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +100,47 @@
 			);
 			sourceTree = "<group>";
 		};
-		A21BFDA3B0D2A3D432199777 = {
+		4A0549CCA694F3C00A7A8EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85503F1689775D136CB21400 /* CrashReportClient-Mac-Debug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55AFCE42E8EF9554CE080A0A /* Linux */ = {
+			isa = PBXGroup;
+			children = (
+				4DE347B4644FAFFE08509CD4 /* CrashReportClientMainLinux.cpp */,
+				D6894147E4CBDE0AFB6A6738 /* LinuxErrorReport.h */,
+			);
+			name = Linux;
+			path = Private/Linux;
+			sourceTree = "<group>";
+		};
+		572D99EBABA2FE964E12548C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5FDE0DBB11987AFD4498938F /* Windows */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5FDE0DBB11987AFD4498938F /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				97A438B047CD9CBEEFCB39C7 /* CrashReportClient-Win32.manifest */,
+				DE9D34E81442BC785591FF9A /* CrashReportClient-Win64.manifest */,
+				B742CCAA83CD6A69694DD2AA /* CrashReportClient.ico */,
+				FCBFA85E20996674763330D2 /* CrashReportClient.rc */,
+				916093C3F63E068F9319ADC4 /* Debug-CrashReportClient-Win32.manifest */,
+				CBEAC064F514E8C577F8CCBF /* Debug-CrashReportClient-Win64.manifest */,
+			);
+			name = Windows;
+			path = Resources/Windows;
+			sourceTree = "<group>";
+		};
+		A21BFDA3B0D2A3D432199777 /* Private */ = {
 			isa = PBXGroup;
 			children = (
 				55AFCE42E8EF9554CE080A0A /* Linux */,
@@ -177,80 +170,26 @@
 				404024B948A9F1AE67F78CD2 /* SCrashReportClient.cpp */,
 				1D7490B41BE457E9C7925032 /* SCrashReportClient.h */,
 			);
-			name = "Private";
-			path = "Private";
+			path = Private;
 			sourceTree = "<group>";
 		};
-		55AFCE42E8EF9554CE080A0A = {
+		E2AAFE7C0427209911F28811 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				4DE347B4644FAFFE08509CD4 /* CrashReportClientMainLinux.cpp */,
-				D6894147E4CBDE0AFB6A6738 /* LinuxErrorReport.h */,
+				9C2F96963F1F4D29AF00F9FC /* CrashReportClientApp.h */,
 			);
-			name = "Linux";
-			path = "Private/Linux";
+			path = Public;
 			sourceTree = "<group>";
 		};
-		1A9F7B753A476EF578BE60BC = {
-			isa = PBXGroup;
-			children = (
-				C8D9CC5207DA6549DAC3DDDA /* CrashReportClientMainMac.cpp */,
-				1E92BA6ED926E7BB78227F0B /* MacErrorReport.cpp */,
-				37ED6F0A4362496EF3CF3475 /* MacErrorReport.h */,
-			);
-			name = "Mac";
-			path = "Private/Mac";
-			sourceTree = "<group>";
-		};
-		EE5C8FB64613F772901C5AE2 = {
+		EE5C8FB64613F772901C5AE2 /* Windows */ = {
 			isa = PBXGroup;
 			children = (
 				8FB6AAB6FA0B3773283E37EB /* CrashReportClientMainWindows.cpp */,
 				AEABFEA3487F9428AF887B8C /* WindowsErrorReport.cpp */,
 				A94C11D6F70F8F01B49C084F /* WindowsErrorReport.h */,
 			);
-			name = "Windows";
-			path = "Private/Windows";
-			sourceTree = "<group>";
-		};
-		E2AAFE7C0427209911F28811 = {
-			isa = PBXGroup;
-			children = (
-				9C2F96963F1F4D29AF00F9FC /* CrashReportClientApp.h */,
-			);
-			name = "Public";
-			path = "Public";
-			sourceTree = "<group>";
-		};
-		572D99EBABA2FE964E12548C = {
-			isa = PBXGroup;
-			children = (
-				5FDE0DBB11987AFD4498938F /* Windows */,
-			);
-			name = "Resources";
-			path = "Resources";
-			sourceTree = "<group>";
-		};
-		5FDE0DBB11987AFD4498938F = {
-			isa = PBXGroup;
-			children = (
-				97A438B047CD9CBEEFCB39C7 /* CrashReportClient-Win32.manifest */,
-				DE9D34E81442BC785591FF9A /* CrashReportClient-Win64.manifest */,
-				B742CCAA83CD6A69694DD2AA /* CrashReportClient.ico */,
-				FCBFA85E20996674763330D2 /* CrashReportClient.rc */,
-				916093C3F63E068F9319ADC4 /* Debug-CrashReportClient-Win32.manifest */,
-				CBEAC064F514E8C577F8CCBF /* Debug-CrashReportClient-Win64.manifest */,
-			);
-			name = "Windows";
-			path = "Resources/Windows";
-			sourceTree = "<group>";
-		};
-		4A0549CCA694F3C00A7A8EBA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				85503F1689775D136CB21400 /* CrashReportClient */,
-			);
-			name = Products;
+			name = Windows;
+			path = Private/Windows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,28 +205,11 @@
 			buildWorkingDirectory = "/Users/Shared/UnrealEngine-4.10";
 			dependencies = (
 			);
-			name = "CrashReportClient_Build";
+			name = CrashReportClient_Build;
 			passBuildSettingsInEnvironment = 1;
-			productName = "CrashReportClient_Build";
+			productName = CrashReportClient_Build;
 		};
 /* End PBXLegacyTarget section */
-
-/* Begin PBXNativeTarget section */
-		A563792AA3C9846A1BDEA23B /* CrashReportClient */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7F9F441CB1BDAC88DB91F6C6 /* Build configuration list for PBXNativeTarget "CrashReportClient" */;
-			buildPhases = (
-			);
-			dependencies = (
-				15A387CA14E194C6D86DBC78 /* PBXTargetDependency */,
-			);
-			name = "CrashReportClient";
-			passBuildSettingsInEnvironment = 1;
-			productName = "CrashReportClient";
-			productReference = "85503F1689775D136CB21400";
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
 		A27D3C6010A90B3DEA6F0667 /* CrashReportClient_Index */ = {
@@ -296,12 +218,28 @@
 			buildPhases = (
 				599CF936C3E9C80F4D4EE461 /* Sources */,
 			);
+			buildRules = (
+			);
 			dependencies = (
 			);
-			name = "CrashReportClient_Index";
-			passBuildSettingsInEnvironment = 1;
-			productName = "CrashReportClient_Index";
+			name = CrashReportClient_Index;
+			productName = CrashReportClient_Index;
 			productType = "com.apple.product-type.library.static";
+		};
+		A563792AA3C9846A1BDEA23B /* CrashReportClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9F441CB1BDAC88DB91F6C6 /* Build configuration list for PBXNativeTarget "CrashReportClient" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15A387CA14E194C6D86DBC78 /* PBXTargetDependency */,
+			);
+			name = CrashReportClient;
+			productName = CrashReportClient;
+			productReference = 85503F1689775D136CB21400 /* CrashReportClient-Mac-Debug.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -317,30 +255,164 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en
+				en,
 			);
 			mainGroup = 219238DBF98B9F15B51751E4;
-			productRefGroup = 4A0549CCA694F3C00A7A8EBA;
+			productRefGroup = 4A0549CCA694F3C00A7A8EBA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			A563792AA3C9846A1BDEA23B /* CrashReportClient */,
-			41B9563A49DB6212E2CB2BB2 /* CrashReportClient_Build */,
-			A27D3C6010A90B3DEA6F0667 /* CrashReportClient_Index */,
+				A563792AA3C9846A1BDEA23B /* CrashReportClient */,
+				41B9563A49DB6212E2CB2BB2 /* CrashReportClient_Build */,
+				A27D3C6010A90B3DEA6F0667 /* CrashReportClient_Index */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXSourcesBuildPhase section */
+		599CF936C3E9C80F4D4EE461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50D484FBC76DCAB16630F0F /* CrashDescription.cpp in Sources */,
+				01BA9AE28B91A468EA229D6B /* CrashReportAnalytics.cpp in Sources */,
+				14019085761635BEEC13B7DA /* CrashReportClient.cpp in Sources */,
+				8DEE533E003EE26664D2D860 /* CrashReportClientApp.cpp in Sources */,
+				3393ECCD78C1131B11E7CEEF /* CrashReportClientStyle.cpp in Sources */,
+				4C71E318D6836B9A4194D24D /* CrashReportClientUnattended.cpp in Sources */,
+				67BD7E609D071CFF2E7EC061 /* CrashUpload.cpp in Sources */,
+				169C96B58A5B2202162B4087 /* GenericErrorReport.cpp in Sources */,
+				7B38FAB2D6D95403C6004343 /* MainLoopTiming.cpp in Sources */,
+				9F62EC9B4AA48CE1D750D1AD /* PendingReports.cpp in Sources */,
+				6482E5A836821E047A18EC51 /* SCrashReportClient.cpp in Sources */,
+				9DA38578E3512AE29C1B111E /* CrashReportClientMainMac.cpp in Sources */,
+				0D671A3C7291D8AFD559E5FD /* MacErrorReport.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15A387CA14E194C6D86DBC78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41B9563A49DB6212E2CB2BB2 /* CrashReportClient_Build */;
+			targetProxy = F0FF6F4820A9DD8F071F6DB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		E5ED78E8F3821587B01CEEBA /* "Debug" */ = {
+		1B0ACD886407093CAD3E91C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "CrashReportClient-Mac-Debug";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		3049386F85F299BC1580AD02 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "CrashReportClient-Mac-Development";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		3EB6329632AD4F0C26272ED9 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Shipping;
+				UE_BUILD_TARGET_NAME = CrashReportClient;
+				VALID_ARCHS = x86_64;
+			};
+			name = Shipping;
+		};
+		3F67B4E38A7F4DFFB343571A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "CrashReportClient-Mac-Development";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		507E42FD7445AF53D78A1B50 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Development;
+				UE_BUILD_TARGET_NAME = CrashReportClient;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		8EF4AD03D7EBFF4088EAE729 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = CrashReportClient;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Shipping;
+		};
+		916951CC4F4197FC21E7E6B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Debug;
+				UE_BUILD_TARGET_NAME = CrashReportClient;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		A4FC38C90D1D06A6047E825D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "CrashReportClient-Mac-Debug";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		B0FE022F483D5D676B1B5689 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"USE_CHECKS_IN_SHIPPING=1",
 					"IS_PROGRAM=1",
-					"UNICODE",
-					"_UNICODE",
-					"__UNREAL__",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
 					"IS_MONOLITHIC=1",
 					"WITH_ENGINE=0",
 					"WITH_UNREAL_DEVELOPER_TOOLS=0",
@@ -385,673 +457,163 @@
 					"MESSAGELOG_API=",
 					"MONOLITHIC_BUILD=1",
 				);
-				HEADER_SEARCH_PATHS = (
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Public ../Build/Mac/CrashReportClient/Inc/CrashReportClient /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject ../Build/Mac/CrashReportClient/Inc/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper/Public ../Build/Mac/CrashReportClient/Inc/CrashDebugHelper /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public/Tests ../Build/Mac/CrashReportClient/Inc/SourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public ../Build/Mac/CrashReportClient/Inc/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP/Public/Interfaces ../Build/Mac/CrashReportClient/Inc/HTTP /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/CrashReportClient/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/CrashReportClient/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/XmlParser/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser/Public ../Build/Mac/CrashReportClient/Inc/XmlParser /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics/Public/Interfaces ../Build/Mac/CrashReportClient/Inc/Analytics /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/AnalyticsET/Public ../Build/Mac/CrashReportClient/Inc/AnalyticsET /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/AnalyticsET /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views ../Build/Mac/CrashReportClient/Inc/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets ../Build/Mac/CrashReportClient/Inc/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector/Public ../Build/Mac/CrashReportClient/Inc/SlateReflector /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS ../Build/Mac/CrashReportClient/Inc/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog/Public ../Build/Mac/CrashReportClient/Inc/MessageLog /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog";
+				USE_HEADERMAP = NO;
+			};
+			name = Development;
+		};
+		CE9AB7BAA5D4B23051FFDFC9 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"USE_CHECKS_IN_SHIPPING=1",
+					"IS_PROGRAM=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=1",
+					"WITH_ENGINE=0",
+					"WITH_UNREAL_DEVELOPER_TOOLS=0",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=1",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=0",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"UE_PROJECT_NAME=Network",
+					"ORIGINAL_FILE_NAME=CrashReportClient-Mac-Development",
+					"CRASHREPORTCLIENT_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=0",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"CRASHDEBUGHELPER_API=",
+					"SOURCECONTROL_API=",
+					"INPUTCORE_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"JSON_API=",
+					"PROJECTS_API=",
+					"XMLPARSER_API=",
+					"ANALYTICS_API=",
+					"ANALYTICSET_API=",
+					"WITH_FREETYPE=1",
+					"SLATE_API=",
+					"SLATECORE_API=",
+					"SLATEREFLECTOR_API=",
+					"STANDALONERENDERER_API=",
+					"MESSAGELOG_API=",
+					"MONOLITHIC_BUILD=1",
 				);
-				USER_HEADER_SEARCH_PATHS = (
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Public",
-					"../Build/Mac/CrashReportClient/Inc/CrashReportClient",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject",
-					"../Build/Mac/CrashReportClient/Inc/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper/Public",
-					"../Build/Mac/CrashReportClient/Inc/CrashDebugHelper",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public/Tests",
-					"../Build/Mac/CrashReportClient/Inc/SourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public",
-					"../Build/Mac/CrashReportClient/Inc/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP/Public/Interfaces",
-					"../Build/Mac/CrashReportClient/Inc/HTTP",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
-					"../Build/Mac/CrashReportClient/Inc/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
-					"../Build/Mac/CrashReportClient/Inc/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/XmlParser/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser/Public",
-					"../Build/Mac/CrashReportClient/Inc/XmlParser",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics/Public/Interfaces",
-					"../Build/Mac/CrashReportClient/Inc/Analytics",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/AnalyticsET/Public",
-					"../Build/Mac/CrashReportClient/Inc/AnalyticsET",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/AnalyticsET",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views",
-					"../Build/Mac/CrashReportClient/Inc/Slate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets",
-					"../Build/Mac/CrashReportClient/Inc/SlateCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector/Public",
-					"../Build/Mac/CrashReportClient/Inc/SlateReflector",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS",
-					"../Build/Mac/CrashReportClient/Inc/StandaloneRenderer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog/Public",
-					"../Build/Mac/CrashReportClient/Inc/MessageLog",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog",
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Public ../Build/Mac/CrashReportClient/Inc/CrashReportClient /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject ../Build/Mac/CrashReportClient/Inc/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper/Public ../Build/Mac/CrashReportClient/Inc/CrashDebugHelper /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public/Tests ../Build/Mac/CrashReportClient/Inc/SourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public ../Build/Mac/CrashReportClient/Inc/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP/Public/Interfaces ../Build/Mac/CrashReportClient/Inc/HTTP /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/CrashReportClient/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/CrashReportClient/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/XmlParser/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser/Public ../Build/Mac/CrashReportClient/Inc/XmlParser /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics/Public/Interfaces ../Build/Mac/CrashReportClient/Inc/Analytics /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/AnalyticsET/Public ../Build/Mac/CrashReportClient/Inc/AnalyticsET /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/AnalyticsET /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views ../Build/Mac/CrashReportClient/Inc/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets ../Build/Mac/CrashReportClient/Inc/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector/Public ../Build/Mac/CrashReportClient/Inc/SlateReflector /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS ../Build/Mac/CrashReportClient/Inc/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog/Public ../Build/Mac/CrashReportClient/Inc/MessageLog /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog";
+				USE_HEADERMAP = NO;
+			};
+			name = Shipping;
+		};
+		E5ED78E8F3821587B01CEEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"USE_CHECKS_IN_SHIPPING=1",
+					"IS_PROGRAM=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=1",
+					"WITH_ENGINE=0",
+					"WITH_UNREAL_DEVELOPER_TOOLS=0",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=1",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=0",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"UE_PROJECT_NAME=Network",
+					"ORIGINAL_FILE_NAME=CrashReportClient-Mac-Development",
+					"CRASHREPORTCLIENT_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=0",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"CRASHDEBUGHELPER_API=",
+					"SOURCECONTROL_API=",
+					"INPUTCORE_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"JSON_API=",
+					"PROJECTS_API=",
+					"XMLPARSER_API=",
+					"ANALYTICS_API=",
+					"ANALYTICSET_API=",
+					"WITH_FREETYPE=1",
+					"SLATE_API=",
+					"SLATECORE_API=",
+					"SLATEREFLECTOR_API=",
+					"STANDALONERENDERER_API=",
+					"MESSAGELOG_API=",
+					"MONOLITHIC_BUILD=1",
 				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine-4.10/Engine/Source /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Public ../Build/Mac/CrashReportClient/Inc/CrashReportClient /Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject ../Build/Mac/CrashReportClient/Inc/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper/Public ../Build/Mac/CrashReportClient/Inc/CrashDebugHelper /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public/Tests ../Build/Mac/CrashReportClient/Inc/SourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public ../Build/Mac/CrashReportClient/Inc/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP/Public/Interfaces ../Build/Mac/CrashReportClient/Inc/HTTP /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization ../Build/Mac/CrashReportClient/Inc/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces ../Build/Mac/CrashReportClient/Inc/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/XmlParser/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser/Public ../Build/Mac/CrashReportClient/Inc/XmlParser /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics/Public/Interfaces ../Build/Mac/CrashReportClient/Inc/Analytics /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/AnalyticsET/Public ../Build/Mac/CrashReportClient/Inc/AnalyticsET /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/AnalyticsET /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views ../Build/Mac/CrashReportClient/Inc/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets ../Build/Mac/CrashReportClient/Inc/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector/Public ../Build/Mac/CrashReportClient/Inc/SlateReflector /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS ../Build/Mac/CrashReportClient/Inc/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog/Public ../Build/Mac/CrashReportClient/Inc/MessageLog /Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog";
 				USE_HEADERMAP = NO;
 			};
-			name = "Debug";
+			name = Debug;
 		};
-		B0FE022F483D5D676B1B5689 /* "Development" */ = {
+		FB60F3256C03B2A62DE72F1D /* Shipping */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"USE_CHECKS_IN_SHIPPING=1",
-					"IS_PROGRAM=1",
-					"UNICODE",
-					"_UNICODE",
-					"__UNREAL__",
-					"IS_MONOLITHIC=1",
-					"WITH_ENGINE=0",
-					"WITH_UNREAL_DEVELOPER_TOOLS=0",
-					"WITH_COREUOBJECT=1",
-					"USE_STATS_WITHOUT_ENGINE=0",
-					"WITH_PLUGIN_SUPPORT=0",
-					"USE_LOGGING_IN_SHIPPING=1",
-					"UE_BUILD_MINIMAL=0",
-					"WITH_EDITOR=0",
-					"WITH_SERVER_CODE=1",
-					"UBT_COMPILED_PLATFORM=Mac",
-					"PLATFORM_MAC=1",
-					"PLATFORM_APPLE=1",
-					"WITH_TTS=0",
-					"WITH_SPEECH_RECOGNITION=0",
-					"WITH_DATABASE_SUPPORT=0",
-					"NDEBUG=1",
-					"UE_BUILD_DEVELOPMENT=1",
-					"UE_PROJECT_NAME=Network",
-					"ORIGINAL_FILE_NAME=CrashReportClient-Mac-Development",
-					"CRASHREPORTCLIENT_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_STEAMWORKS=0",
-					"WITH_DIRECTXMATH=0",
-					"CORE_API=",
-					"COREUOBJECT_API=",
-					"CRASHDEBUGHELPER_API=",
-					"SOURCECONTROL_API=",
-					"INPUTCORE_API=",
-					"HTTP_PACKAGE=1",
-					"HTTP_API=",
-					"JSON_API=",
-					"PROJECTS_API=",
-					"XMLPARSER_API=",
-					"ANALYTICS_API=",
-					"ANALYTICSET_API=",
-					"WITH_FREETYPE=1",
-					"SLATE_API=",
-					"SLATECORE_API=",
-					"SLATEREFLECTOR_API=",
-					"STANDALONERENDERER_API=",
-					"MESSAGELOG_API=",
-					"MONOLITHIC_BUILD=1",
-				);
-				HEADER_SEARCH_PATHS = (
-				);
-				USER_HEADER_SEARCH_PATHS = (
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Public",
-					"../Build/Mac/CrashReportClient/Inc/CrashReportClient",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject",
-					"../Build/Mac/CrashReportClient/Inc/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper/Public",
-					"../Build/Mac/CrashReportClient/Inc/CrashDebugHelper",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public/Tests",
-					"../Build/Mac/CrashReportClient/Inc/SourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public",
-					"../Build/Mac/CrashReportClient/Inc/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP/Public/Interfaces",
-					"../Build/Mac/CrashReportClient/Inc/HTTP",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
-					"../Build/Mac/CrashReportClient/Inc/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
-					"../Build/Mac/CrashReportClient/Inc/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/XmlParser/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser/Public",
-					"../Build/Mac/CrashReportClient/Inc/XmlParser",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics/Public/Interfaces",
-					"../Build/Mac/CrashReportClient/Inc/Analytics",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/AnalyticsET/Public",
-					"../Build/Mac/CrashReportClient/Inc/AnalyticsET",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/AnalyticsET",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views",
-					"../Build/Mac/CrashReportClient/Inc/Slate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets",
-					"../Build/Mac/CrashReportClient/Inc/SlateCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector/Public",
-					"../Build/Mac/CrashReportClient/Inc/SlateReflector",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS",
-					"../Build/Mac/CrashReportClient/Inc/StandaloneRenderer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog/Public",
-					"../Build/Mac/CrashReportClient/Inc/MessageLog",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog",
-				);
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				USE_HEADERMAP = NO;
-			};
-			name = "Development";
-		};
-		CE9AB7BAA5D4B23051FFDFC9 /* "Shipping" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"USE_CHECKS_IN_SHIPPING=1",
-					"IS_PROGRAM=1",
-					"UNICODE",
-					"_UNICODE",
-					"__UNREAL__",
-					"IS_MONOLITHIC=1",
-					"WITH_ENGINE=0",
-					"WITH_UNREAL_DEVELOPER_TOOLS=0",
-					"WITH_COREUOBJECT=1",
-					"USE_STATS_WITHOUT_ENGINE=0",
-					"WITH_PLUGIN_SUPPORT=0",
-					"USE_LOGGING_IN_SHIPPING=1",
-					"UE_BUILD_MINIMAL=0",
-					"WITH_EDITOR=0",
-					"WITH_SERVER_CODE=1",
-					"UBT_COMPILED_PLATFORM=Mac",
-					"PLATFORM_MAC=1",
-					"PLATFORM_APPLE=1",
-					"WITH_TTS=0",
-					"WITH_SPEECH_RECOGNITION=0",
-					"WITH_DATABASE_SUPPORT=0",
-					"NDEBUG=1",
-					"UE_BUILD_DEVELOPMENT=1",
-					"UE_PROJECT_NAME=Network",
-					"ORIGINAL_FILE_NAME=CrashReportClient-Mac-Development",
-					"CRASHREPORTCLIENT_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_STEAMWORKS=0",
-					"WITH_DIRECTXMATH=0",
-					"CORE_API=",
-					"COREUOBJECT_API=",
-					"CRASHDEBUGHELPER_API=",
-					"SOURCECONTROL_API=",
-					"INPUTCORE_API=",
-					"HTTP_PACKAGE=1",
-					"HTTP_API=",
-					"JSON_API=",
-					"PROJECTS_API=",
-					"XMLPARSER_API=",
-					"ANALYTICS_API=",
-					"ANALYTICSET_API=",
-					"WITH_FREETYPE=1",
-					"SLATE_API=",
-					"SLATECORE_API=",
-					"SLATEREFLECTOR_API=",
-					"STANDALONERENDERER_API=",
-					"MESSAGELOG_API=",
-					"MONOLITHIC_BUILD=1",
-				);
-				HEADER_SEARCH_PATHS = (
-				);
-				USER_HEADER_SEARCH_PATHS = (
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Private",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Launch/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Private",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient/Public",
-					"../Build/Mac/CrashReportClient/Inc/CrashReportClient",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Programs/CrashReporter/CrashReportClient",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Internationalization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Async",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Concurrency",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Containers",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Delegates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/GenericPlatform",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/HAL",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Math",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/UObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Apple",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core/Public/Mac",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Core",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Misc",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/Templates",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject/Public/UObject",
-					"../Build/Mac/CrashReportClient/Inc/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/CoreUObject",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper/Public",
-					"../Build/Mac/CrashReportClient/Inc/CrashDebugHelper",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl/Public/Tests",
-					"../Build/Mac/CrashReportClient/Inc/SourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Classes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore/Public",
-					"../Build/Mac/CrashReportClient/Inc/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/InputCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SourceControl",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/CrashDebugHelper",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP/Public/Interfaces",
-					"../Build/Mac/CrashReportClient/Inc/HTTP",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Online/HTTP",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Dom",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Policies",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json/Public/Serialization",
-					"../Build/Mac/CrashReportClient/Inc/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Json",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects/Public/Interfaces",
-					"../Build/Mac/CrashReportClient/Inc/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Projects",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/XmlParser/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser/Public",
-					"../Build/Mac/CrashReportClient/Inc/XmlParser",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/XmlParser",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics/Public/Interfaces",
-					"../Build/Mac/CrashReportClient/Inc/Analytics",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/Analytics",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/AnalyticsET/Public",
-					"../Build/Mac/CrashReportClient/Inc/AnalyticsET",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Analytics/AnalyticsET",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Application",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Views",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views",
-					"../Build/Mac/CrashReportClient/Inc/Slate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Animation",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Application",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Brushes",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Fonts",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Input",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Layout",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Logging",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Rendering",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Sound",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Stats",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Styling",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Textures",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Types",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore/Public/Widgets",
-					"../Build/Mac/CrashReportClient/Inc/SlateCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/SlateCore",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Runtime/Slate",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector/Public",
-					"../Build/Mac/CrashReportClient/Inc/SlateReflector",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/SlateReflector",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer/Public/IOS",
-					"../Build/Mac/CrashReportClient/Inc/StandaloneRenderer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/StandaloneRenderer",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog/Public",
-					"../Build/Mac/CrashReportClient/Inc/MessageLog",
-					"/Users/Shared/UnrealEngine-4.10/Engine/Source/Developer/MessageLog",
-				);
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				USE_HEADERMAP = NO;
-			};
-			name = "Shipping";
-		};
-		A4FC38C90D1D06A6047E825D /* "Debug" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "CrashReportClient-Mac-Debug";
 				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Debug";
-		};
-		3049386F85F299BC1580AD02 /* "Development" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "CrashReportClient-Mac-Development";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = CrashReportClient;
 				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
 			};
-			name = "Development";
-		};
-		FB60F3256C03B2A62DE72F1D /* "Shipping" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "CrashReportClient";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Shipping";
-		};
-		916951CC4F4197FC21E7E6B8 /* "Debug" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				UE_BUILD_TARGET_NAME = "CrashReportClient";
-				UE_BUILD_TARGET_CONFIG = "Debug";
-			};
-			name = "Debug";
-		};
-		507E42FD7445AF53D78A1B50 /* "Development" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				UE_BUILD_TARGET_NAME = "CrashReportClient";
-				UE_BUILD_TARGET_CONFIG = "Development";
-			};
-			name = "Development";
-		};
-		3EB6329632AD4F0C26272ED9 /* "Shipping" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				UE_BUILD_TARGET_NAME = "CrashReportClient";
-				UE_BUILD_TARGET_CONFIG = "Shipping";
-			};
-			name = "Shipping";
-		};
-		1B0ACD886407093CAD3E91C7 /* "Debug" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "CrashReportClient-Mac-Debug";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Debug";
-		};
-		3F67B4E38A7F4DFFB343571A /* "Development" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "CrashReportClient-Mac-Development";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Development";
-		};
-		8EF4AD03D7EBFF4088EAE729 /* "Shipping" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				VALID_ARCHS = "x86_64";
-				SUPPORTED_PLATFORMS = "macosx";
-				PRODUCT_NAME = "CrashReportClient";
-				CONFIGURATION_BUILD_DIR = "/Users/Shared/UnrealEngine-4.10/Engine/Binaries/Mac";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Shared/UnrealEngine-4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
-			};
-			name = "Shipping";
+			name = Shipping;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9E020139C0EEC8DF5D00DE10 /* Build configuration list for PBXProject "CrashReportClient" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E5ED78E8F3821587B01CEEBA /* "Debug" */,
-				B0FE022F483D5D676B1B5689 /* "Development" */,
-				CE9AB7BAA5D4B23051FFDFC9 /* "Shipping" */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
-		};
 		4E646731B467BEF536CF45C3 /* Build configuration list for PBXLegacyTarget "CrashReportClient_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916951CC4F4197FC21E7E6B8 /* "Debug" */,
-				507E42FD7445AF53D78A1B50 /* "Development" */,
-				3EB6329632AD4F0C26272ED9 /* "Shipping" */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
-		};
-		7F9F441CB1BDAC88DB91F6C6 /* Build configuration list for PBXNativeTarget "CrashReportClient" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4FC38C90D1D06A6047E825D /* "Debug" */,
-				3049386F85F299BC1580AD02 /* "Development" */,
-				FB60F3256C03B2A62DE72F1D /* "Shipping" */,
+				916951CC4F4197FC21E7E6B8 /* Debug */,
+				507E42FD7445AF53D78A1B50 /* Development */,
+				3EB6329632AD4F0C26272ED9 /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -1059,9 +621,29 @@
 		53A3462CBC5BD5B9248CC825 /* Build configuration list for PBXNativeTarget "CrashReportClient_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B0ACD886407093CAD3E91C7 /* "Debug" */,
-				3F67B4E38A7F4DFFB343571A /* "Development" */,
-				8EF4AD03D7EBFF4088EAE729 /* "Shipping" */,
+				1B0ACD886407093CAD3E91C7 /* Debug */,
+				3F67B4E38A7F4DFFB343571A /* Development */,
+				8EF4AD03D7EBFF4088EAE729 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		7F9F441CB1BDAC88DB91F6C6 /* Build configuration list for PBXNativeTarget "CrashReportClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FC38C90D1D06A6047E825D /* Debug */,
+				3049386F85F299BC1580AD02 /* Development */,
+				FB60F3256C03B2A62DE72F1D /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		9E020139C0EEC8DF5D00DE10 /* Build configuration list for PBXProject "CrashReportClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5ED78E8F3821587B01CEEBA /* Debug */,
+				B0FE022F483D5D676B1B5689 /* Development */,
+				CE9AB7BAA5D4B23051FFDFC9 /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;

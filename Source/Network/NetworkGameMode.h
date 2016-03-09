@@ -13,5 +13,7 @@ public:
 public:
     ANetworkGameMode(const FObjectInitializer& ObjectInitializer);
     //Function to add score.
-    void AddScore(int32 Amount);
+    void AddMana(int32 Amount);
+		// void ANetworkGameMode::AddHealth(int32 Amount, int32 Player);
+		void SaveGame();
 };

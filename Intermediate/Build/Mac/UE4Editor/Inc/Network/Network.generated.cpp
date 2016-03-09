@@ -9,22 +9,22 @@
 #include "Network.generated.dep.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeNetwork() {}
-	void AFlag::UpdateScore(int32 Amount)
+	void AFlag::UpdateMana(int32 Amount)
 	{
-		Flag_eventUpdateScore_Parms Parms;
+		Flag_eventUpdateMana_Parms Parms;
 		Parms.Amount=Amount;
-		ProcessEvent(FindFunctionChecked(NETWORK_UpdateScore),&Parms);
+		ProcessEvent(FindFunctionChecked(NETWORK_UpdateMana),&Parms);
 	}
 	void AFlag::StaticRegisterNativesAFlag()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(AFlag::StaticClass(),"OnOverlapBegin",(Native)&AFlag::execOnOverlapBegin);
-		FNativeFunctionRegistrar::RegisterFunction(AFlag::StaticClass(),"UpdateScore",(Native)&AFlag::execUpdateScore);
+		FNativeFunctionRegistrar::RegisterFunction(AFlag::StaticClass(),"UpdateMana",(Native)&AFlag::execUpdateMana);
 	}
-	IMPLEMENT_CLASS(AFlag, 2746198741);
+	IMPLEMENT_CLASS(AFlag, 2448422052);
 	void AMyGameState::StaticRegisterNativesAMyGameState()
 	{
 	}
-	IMPLEMENT_CLASS(AMyGameState, 189420842);
+	IMPLEMENT_CLASS(AMyGameState, 1182975431);
 	void ANetworkCharacter::MyServerFunc()
 	{
 		ProcessEvent(FindFunctionChecked(NETWORK_MyServerFunc),NULL);
@@ -38,12 +38,19 @@ void EmptyLinkFunctionForGeneratedCodeNetwork() {}
 	{
 	}
 	IMPLEMENT_CLASS(ANetworkGameMode, 13074942);
+	void ASaveFlag::SaveGame()
+	{
+		ProcessEvent(FindFunctionChecked(NETWORK_SaveGame),NULL);
+	}
 	void ASaveFlag::StaticRegisterNativesASaveFlag()
 	{
+		FNativeFunctionRegistrar::RegisterFunction(ASaveFlag::StaticClass(),"OnOverlapBegin",(Native)&ASaveFlag::execOnOverlapBegin);
+		FNativeFunctionRegistrar::RegisterFunction(ASaveFlag::StaticClass(),"SaveGame",(Native)&ASaveFlag::execSaveGame);
 	}
-	IMPLEMENT_CLASS(ASaveFlag, 631653107);
+	IMPLEMENT_CLASS(ASaveFlag, 3223051942);
 FName NETWORK_MyServerFunc = FName(TEXT("MyServerFunc"));
-FName NETWORK_UpdateScore = FName(TEXT("UpdateScore"));
+FName NETWORK_SaveGame = FName(TEXT("SaveGame"));
+FName NETWORK_UpdateMana = FName(TEXT("UpdateMana"));
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
@@ -57,7 +64,7 @@ FName NETWORK_UpdateScore = FName(TEXT("UpdateScore"));
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
 
 	NETWORK_API class UFunction* Z_Construct_UFunction_AFlag_OnOverlapBegin();
-	NETWORK_API class UFunction* Z_Construct_UFunction_AFlag_UpdateScore();
+	NETWORK_API class UFunction* Z_Construct_UFunction_AFlag_UpdateMana();
 	NETWORK_API class UClass* Z_Construct_UClass_AFlag_NoRegister();
 	NETWORK_API class UClass* Z_Construct_UClass_AFlag();
 	NETWORK_API class UClass* Z_Construct_UClass_AMyGameState_NoRegister();
@@ -67,6 +74,8 @@ FName NETWORK_UpdateScore = FName(TEXT("UpdateScore"));
 	NETWORK_API class UClass* Z_Construct_UClass_ANetworkCharacter();
 	NETWORK_API class UClass* Z_Construct_UClass_ANetworkGameMode_NoRegister();
 	NETWORK_API class UClass* Z_Construct_UClass_ANetworkGameMode();
+	NETWORK_API class UFunction* Z_Construct_UFunction_ASaveFlag_OnOverlapBegin();
+	NETWORK_API class UFunction* Z_Construct_UFunction_ASaveFlag_SaveGame();
 	NETWORK_API class UClass* Z_Construct_UClass_ASaveFlag_NoRegister();
 	NETWORK_API class UClass* Z_Construct_UClass_ASaveFlag();
 	NETWORK_API class UPackage* Z_Construct_UPackage_Network();
@@ -101,14 +110,14 @@ FName NETWORK_UpdateScore = FName(TEXT("UpdateScore"));
 		}
 		return ReturnFunction;
 	}
-	UFunction* Z_Construct_UFunction_AFlag_UpdateScore()
+	UFunction* Z_Construct_UFunction_AFlag_UpdateMana()
 	{
 		UObject* Outer=Z_Construct_UClass_AFlag();
 		static UFunction* ReturnFunction = NULL;
 		if (!ReturnFunction)
 		{
-			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("UpdateScore"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x80220CC0, 65535, sizeof(Flag_eventUpdateScore_Parms));
-			UProperty* NewProp_Amount = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("Amount"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(Amount, Flag_eventUpdateScore_Parms), 0x0000000000000080);
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("UpdateMana"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x80220CC0, 65535, sizeof(Flag_eventUpdateMana_Parms));
+			UProperty* NewProp_Amount = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("Amount"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(Amount, Flag_eventUpdateMana_Parms), 0x0000000000000080);
 			ReturnFunction->Bind();
 			ReturnFunction->StaticLink();
 #if WITH_METADATA
@@ -137,10 +146,10 @@ FName NETWORK_UpdateScore = FName(TEXT("UpdateScore"));
 				OuterClass->ClassFlags |= 0x20900080;
 
 				OuterClass->LinkChild(Z_Construct_UFunction_AFlag_OnOverlapBegin());
-				OuterClass->LinkChild(Z_Construct_UFunction_AFlag_UpdateScore());
+				OuterClass->LinkChild(Z_Construct_UFunction_AFlag_UpdateMana());
 
 				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_AFlag_OnOverlapBegin()); // 1379055141
-				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_AFlag_UpdateScore()); // 3605366787
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_AFlag_UpdateMana()); // 3894727337
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
@@ -173,7 +182,7 @@ FName NETWORK_UpdateScore = FName(TEXT("UpdateScore"));
 
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-				UProperty* NewProp_Score = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Score"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(Score, AMyGameState), 0x0000000000000020);
+				UProperty* NewProp_Mana = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Mana"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(Mana, AMyGameState), 0x0000000000000020);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->StaticLink();
 #if WITH_METADATA
@@ -182,8 +191,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("MyGameState.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("MyGameState.h"));
 				MetaData->SetValue(OuterClass, TEXT("ShowCategories"), TEXT("Input|MouseInput Input|TouchInput"));
-				MetaData->SetValue(NewProp_Score, TEXT("ModuleRelativePath"), TEXT("MyGameState.h"));
-				MetaData->SetValue(NewProp_Score, TEXT("ToolTip"), TEXT("Score replicated var."));
+				MetaData->SetValue(NewProp_Mana, TEXT("ModuleRelativePath"), TEXT("MyGameState.h"));
+				MetaData->SetValue(NewProp_Mana, TEXT("ToolTip"), TEXT("Score replicated var."));
 #endif
 			}
 		}
@@ -299,6 +308,54 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ANetworkGameMode(Z_Construct_UClass_ANetworkGameMode, TEXT("ANetworkGameMode"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ANetworkGameMode);
+	UFunction* Z_Construct_UFunction_ASaveFlag_OnOverlapBegin()
+	{
+		struct SaveFlag_eventOnOverlapBegin_Parms
+		{
+			AActor* OtherActor;
+			UPrimitiveComponent* OtherComp;
+			int32 OtherBodyIndex;
+			bool bFromSweep;
+			FHitResult SweepResult;
+		};
+		UObject* Outer=Z_Construct_UClass_ASaveFlag();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("OnOverlapBegin"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x00420401, 65535, sizeof(SaveFlag_eventOnOverlapBegin_Parms));
+			UProperty* NewProp_SweepResult = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("SweepResult"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(SweepResult, SaveFlag_eventOnOverlapBegin_Parms), 0x0000008008000182, Z_Construct_UScriptStruct_FHitResult());
+			CPP_BOOL_PROPERTY_BITMASK_STRUCT(bFromSweep, SaveFlag_eventOnOverlapBegin_Parms, bool);
+			UProperty* NewProp_bFromSweep = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("bFromSweep"), RF_Public|RF_Transient|RF_Native) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(bFromSweep, SaveFlag_eventOnOverlapBegin_Parms), 0x0000000000000080, CPP_BOOL_PROPERTY_BITMASK(bFromSweep, SaveFlag_eventOnOverlapBegin_Parms), sizeof(bool), true);
+			UProperty* NewProp_OtherBodyIndex = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherBodyIndex"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(OtherBodyIndex, SaveFlag_eventOnOverlapBegin_Parms), 0x0000000000000080);
+			UProperty* NewProp_OtherComp = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherComp"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherComp, SaveFlag_eventOnOverlapBegin_Parms), 0x0000000000080080, Z_Construct_UClass_UPrimitiveComponent_NoRegister());
+			UProperty* NewProp_OtherActor = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherActor"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherActor, SaveFlag_eventOnOverlapBegin_Parms), 0x0000000000000080, Z_Construct_UClass_AActor_NoRegister());
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("SaveFlag.h"));
+			MetaData->SetValue(NewProp_OtherComp, TEXT("EditInline"), TEXT("true"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_ASaveFlag_SaveGame()
+	{
+		UObject* Outer=Z_Construct_UClass_ASaveFlag();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("SaveGame"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x80220CC0, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("SaveFlag.h"));
+			MetaData->SetValue(ReturnFunction, TEXT("ToolTip"), TEXT("Our server function to update the score."));
+#endif
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ASaveFlag_NoRegister()
 	{
 		return ASaveFlag::StaticClass();
@@ -316,7 +373,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= 0x20900080;
 
+				OuterClass->LinkChild(Z_Construct_UFunction_ASaveFlag_OnOverlapBegin());
+				OuterClass->LinkChild(Z_Construct_UFunction_ASaveFlag_SaveGame());
 
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_ASaveFlag_OnOverlapBegin()); // 584089765
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_ASaveFlag_SaveGame()); // 1743239137
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
@@ -338,8 +399,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Network")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x667BC67C;
-			Guid.B = 0xB27065D0;
+			Guid.A = 0x755EFC16;
+			Guid.B = 0xE3A1FDDA;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

@@ -20,24 +20,24 @@ AFlag::AFlag(const FObjectInitializer& ObjectInitializer)
 
 void AFlag::OnOverlapBegin(class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-    
+
     if (Role == ROLE_Authority)
     {
-        UpdateScore(5);
+        UpdateMana(5);
         Destroy();
-        
+
     }
 }
 
-void AFlag::UpdateScore_Implementation(int32 Amount)
+void AFlag::UpdateMana_Implementation(int32 Amount)
 {
     // Get the game mode and cast it to our game mode.
     ANetworkGameMode* TheGameMode = Cast<ANetworkGameMode>(GetWorld()->GetAuthGameMode());
     //Add Score!
-    TheGameMode->AddScore(Amount);
+    TheGameMode->AddMana(Amount);
 }
 
-bool AFlag::UpdateScore_Validate(int32 Amount)
+bool AFlag::UpdateMana_Validate(int32 Amount)
 {
     return true;
 }
